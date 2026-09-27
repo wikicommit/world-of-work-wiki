@@ -41,3 +41,8 @@ comments: false
 - [[DefinedTerm/reasonable-work-accommodation]]
 - [[DefinedTerm/reasonably-practicable]]
 - [[DefinedTerm/regular-rate-of-pay]]
+- [[DefinedTerm/rest-breaks-at-work]]
+- [[DefinedTerm/right-to-disconnect]]
+- [[DefinedTerm/right-to-request-flexible-working-arrangements]]
+- [[DefinedTerm/statutory-annual-leave]]
+- [[DefinedTerm/statutory-sick-pay]]
