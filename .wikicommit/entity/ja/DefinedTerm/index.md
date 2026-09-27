@@ -46,3 +46,8 @@ comments: false
 - [[DefinedTerm/right-to-request-flexible-working-arrangements]]
 - [[DefinedTerm/statutory-annual-leave]]
 - [[DefinedTerm/statutory-sick-pay]]
+- [[DefinedTerm/supervisory-care-of-children]]
+- [[DefinedTerm/systemically-relevant-occupations]]
+- [[DefinedTerm/technostress]]
+- [[DefinedTerm/teleworkability]]
+- [[DefinedTerm/time-stress]]
