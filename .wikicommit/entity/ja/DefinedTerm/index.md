@@ -31,3 +31,8 @@ comments: false
 - [[DefinedTerm/long-working-hours]]
 - [[DefinedTerm/management-standards-for-work-related-stress]]
 - [[DefinedTerm/maximum-weekly-working-hours]]
+- [[DefinedTerm/minijob]]
+- [[DefinedTerm/night-work]]
+- [[DefinedTerm/overtime]]
+- [[DefinedTerm/part-time-employment]]
+- [[DefinedTerm/passive-care]]
