@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "skills": {
+    "wikicommit-ask": {
+      "source": "wikicommit/wikicommit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/wikicommit-ask/SKILL.md",
+      "computedHash": "5e6a82d608d60b6a4894d06757ea36a11d30359a4edad39047e604d9e8952457"
+    },
+    "wikicommit-collect": {
+      "source": "wikicommit/wikicommit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/wikicommit-collect/SKILL.md",
+      "computedHash": "6f9caf259f40b6f8cccee273e3b17ed31bb46b771f218f43bb40029fdc928118"
+    },
+    "wikicommit-fix": {
+      "source": "wikicommit/wikicommit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/wikicommit-fix/SKILL.md",
+      "computedHash": "c3332f2dbd9c8596849745c4d293d8ea5ce38a531456a25e60b37e61a8f3ae2e"
+    },
+    "wikicommit-generate": {
+      "source": "wikicommit/wikicommit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/wikicommit-generate/SKILL.md",
+      "computedHash": "1529dfb2926fb29ef3961b99a79a3d38d4402e5bfaf6d4fa3413a218858ac3a0"
+    },
+    "wikicommit-init": {
+      "source": "wikicommit/wikicommit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/wikicommit-init/SKILL.md",
+      "computedHash": "f162456ca9324ad5768d51943df7bd626a45358c13263d06254306faaa1afc9b"
+    },
+    "wikicommit-merge": {
+      "source": "wikicommit/wikicommit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/wikicommit-merge/SKILL.md",
+      "computedHash": "d5eb5dc11c4cea0127a204f033e4b9c77766b17bf95b58c37e0c1826df9593de"
+    },
+    "wikicommit-quiz": {
+      "source": "wikicommit/wikicommit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/wikicommit-quiz/SKILL.md",
+      "computedHash": "29b9965356a0033461753f64ae6c639d82f12d0182e757c1937b9c4a279883d9"
+    },
+    "wikicommit-reconcile": {
+      "source": "wikicommit/wikicommit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/wikicommit-reconcile/SKILL.md",
+      "computedHash": "9af9e3a3a204336a874ef194824124aca8a89e8c2c93127ba83354c0462dc284"
+    },
+    "wikicommit-remove": {
+      "source": "wikicommit/wikicommit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/wikicommit-remove/SKILL.md",
+      "computedHash": "0e27b462b638c38021c9ddf5e0cbba33fb941637db4d9b5a57b511cd37352bb9"
+    },
+    "wikicommit-review": {
+      "source": "wikicommit/wikicommit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/wikicommit-review/SKILL.md",
+      "computedHash": "0ebb57b8e88e0e14a775f6cbc8512056055935e0d5267a91702d6508d85e4cfe"
+    },
+    "wikicommit-schema-propose": {
+      "source": "wikicommit/wikicommit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/wikicommit-schema-propose/SKILL.md",
+      "computedHash": "ed60f3db90e423164a6100c513dce9cc7dd5fece3abfab389c547ef4801eb643"
+    },
+    "wikicommit-search": {
+      "source": "wikicommit/wikicommit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/wikicommit-search/SKILL.md",
+      "computedHash": "ca588b927e488e3c82a8b2dadab764aa19ec6df052e56d8304699a7d38519269"
+    },
+    "wikicommit-serve": {
+      "source": "wikicommit/wikicommit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/wikicommit-serve/SKILL.md",
+      "computedHash": "637c239347e2205dee9472dabfaa73cb5ec68376b9164a51048b8a952e677e52"
+    },
+    "wikicommit-status": {
+      "source": "wikicommit/wikicommit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/wikicommit-status/SKILL.md",
+      "computedHash": "4e5d6a45474f0d2ceb7861063b4a0c8d9605cf39548f57309d91eee86c2611bd"
+    },
+    "wikicommit-synthesize": {
+      "source": "wikicommit/wikicommit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/wikicommit-synthesize/SKILL.md",
+      "computedHash": "05df6ee33c8f271cda35beb592fd47cc7ca560e621c73bd02d4eb6aab37fe05a"
+    },
+    "wikicommit-translate": {
+      "source": "wikicommit/wikicommit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/wikicommit-translate/SKILL.md",
+      "computedHash": "8efefaafb095b78077c33a028ec92415f742c77a18bb0843a925d87cba02d1de"
+    },
+    "wikicommit-update": {
+      "source": "wikicommit/wikicommit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/wikicommit-update/SKILL.md",
+      "computedHash": "2fe6c3e7784b49cd379c0de948980f8638a5c95806fb8785d8100a9306a902c1"
+    }
+  }
+}
