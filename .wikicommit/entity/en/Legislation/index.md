@@ -6,5 +6,6 @@ review_status: reviewed
 comments: false
 ---
 
+- [[Legislation/canada-labour-code]]
 - [[Legislation/workers-statute]]
 - [[Legislation/working-time-directive]]
