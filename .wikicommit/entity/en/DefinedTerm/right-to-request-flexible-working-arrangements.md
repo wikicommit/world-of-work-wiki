@@ -3,12 +3,16 @@ title: "Right to request flexible working arrangements"
 type: "schema:DefinedTerm"
 lang: en
 aliases: ["Right to request"]
-tags: [employment-arrangements, labour-law, telework, australia]
+tags: [employment-arrangements, labour-law, telework, australia, united-kingdom]
 sources:
   - type: url
     url: 'https://assets.pc.gov.au/research/completed/working-from-home/working-from-home.pdf'
     hash: sha256:83d642ab6a175d6918f56073a9fd32863537b5676be265af04025901a5131b42
     license: 'CC-BY-4.0'
+  - type: url
+    url: 'https://www.gov.uk/flexible-working'
+    hash: sha256:55546a4e6c971f4e1617a18174dfb4c6dc65b0bf1e98896bc4690ec14772c5e1
+    license: 'OGL-UK-3.0'
 review_status: pending
 generated_at: "2026-09-27"
 generated_by: "claude-opus-5-5"
@@ -31,6 +35,8 @@ Other instruments build on this minimum:
 - **Workplace policies.** Firm and public-sector policies, which are not enforceable rights, often go further — for example, flexible-by-default policies under which, if a role cannot have one type of flexibility, managers and employees must look for a type that will work.
 
 During the COVID-19 pandemic, the Fair Work Commission temporarily varied some awards to ease remote working (for example, a variation to the Clerks — Private Sector Award that, among other things, extended the span of ordinary hours for employees working remotely and expired on 30 June 2021), and in 2020 it released a draft Award Flexibility Schedule under which employees could request, among other things, a compressed working week or changed hours when working from home. None of these changes created an entitlement to work from home.
+
+In the United Kingdom, the government's GOV.UK guidance describes a broader version of the right. All employees have the legal right to request flexible working — defined there as a way of working that suits an employee's needs, such as flexible start and finish times or working from home — and can do so from their first day in a job; a request of this kind is known as a "statutory application". An employee can ask to change the number of hours they work, when they start or finish, the days they work, or where they work. Employers must deal with requests in a "reasonable manner", for example by assessing the advantages and disadvantages of the application, discussing possible alternatives and offering an appeal process, with further guidance in the Advisory, Conciliation and Arbitration Service (Acas) code of practice on flexible working requests. An employer can refuse an application if it has a good business reason, and an employee whose request is not handled in a reasonable manner can take the employer to an employment tribunal. Northern Ireland has different rules.
 
 ## When It Applies
 

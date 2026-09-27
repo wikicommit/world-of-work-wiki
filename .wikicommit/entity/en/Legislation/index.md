@@ -7,5 +7,6 @@ comments: false
 ---
 
 - [[Legislation/canada-labour-code]]
+- [[Legislation/fair-labor-standards-act]]
 - [[Legislation/workers-statute]]
 - [[Legislation/working-time-directive]]
