@@ -6,6 +6,7 @@ review_status: reviewed
 comments: false
 ---
 
+- [[Report/decent-work-in-the-platform-economy]]
 - [[Report/ecetss-2018]]
 - [[Report/employment-and-living-situations-of-over-60s]]
 - [[Report/employment-and-social-trends-2026]]
@@ -13,6 +14,8 @@ comments: false
 - [[Report/first-findings-of-esener-2024]]
 - [[Report/first-phase-consultation-on-telework-and-the-right-to-disconnect]]
 - [[Report/fundamentals-of-total-worker-health-approaches]]
+- [[Report/guidance-on-managing-ergonomic-and-psychosocial-aspects-of-telework]]
+- [[Report/health-and-safety-at-work-summary-statistics-2025]]
 - [[Report/healthy-and-safe-telework]]
 - [[Report/how-australians-use-their-time-2024]]
 - [[Report/how-to-tackle-work-related-stress]]
