@@ -21,3 +21,8 @@ comments: false
 - [[DefinedTerm/effort-reward-imbalance]]
 - [[DefinedTerm/eldercare]]
 - [[DefinedTerm/fire-and-rehire]]
+- [[DefinedTerm/flextime-system]]
+- [[DefinedTerm/four-day-week]]
+- [[DefinedTerm/grandparents-raising-grandchildren]]
+- [[DefinedTerm/hours-worked]]
+- [[DefinedTerm/hybrid-work]]
