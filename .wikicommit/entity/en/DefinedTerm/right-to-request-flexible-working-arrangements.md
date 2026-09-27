@@ -13,6 +13,10 @@ sources:
     url: 'https://www.gov.uk/flexible-working'
     hash: sha256:55546a4e6c971f4e1617a18174dfb4c6dc65b0bf1e98896bc4690ec14772c5e1
     license: 'OGL-UK-3.0'
+  - type: url
+    url: 'https://www.legislation.gov.uk/ukpga/2025/36/notes/division/3/index.htm'
+    hash: sha256:4c36fc31f45dbaede234f4df3f95494701926d9d416360852bb8767089f23fc6
+    license: 'OGL-UK-3.0'
 review_status: pending
 generated_at: "2026-09-27"
 generated_by: "claude-opus-5-5"
@@ -25,7 +29,7 @@ The right to request flexible working arrangements is a procedural entitlement u
 
 ## Usage
 
-In Australia, as described by the Productivity Commission in [[Report/working-from-home-research-paper]], the minimum right sits in section 65 of the Fair Work Act 2009 (Cth) as part of the National Employment Standards. It applies to employees with at least 12 months' service (or casual employees engaged on a long-term, regular and systematic basis) who are parents of school-age or younger children or carers, have a disability, are aged 55 or older, or are experiencing, or caring for someone experiencing, family violence, and the request must arise from those circumstances. Reasonable business grounds for refusal include that the arrangement would be too costly, that other employees' arrangements cannot practicably be changed to accommodate it, or that it would cause a significant loss of efficiency or productivity or a significant negative impact on customer service.
+In Australia, as described by the Productivity Commission in [[Report/working-from-home-research-paper]], the minimum right sits in section 65 of the Fair Work Act 2009 (Cth), whose provisions are minimum standards. It applies to employees with at least 12 months' service (or casual employees engaged on a long-term, regular and systematic basis) who are parents of school-age or younger children or carers, have a disability, are aged 55 or older, or are experiencing, or caring for someone experiencing, family violence, and the request must arise from those circumstances. Reasonable business grounds for refusal include that the arrangement would be too costly, that other employees' arrangements cannot practicably be changed to accommodate it, or that it would cause a significant loss of efficiency or productivity or a significant negative impact on customer service.
 
 Other instruments build on this minimum:
 
@@ -37,6 +41,8 @@ Other instruments build on this minimum:
 During the COVID-19 pandemic, the Fair Work Commission temporarily varied some awards to ease remote working (for example, a variation to the Clerks — Private Sector Award that, among other things, extended the span of ordinary hours for employees working remotely and expired on 30 June 2021), and in 2020 it released a draft Award Flexibility Schedule under which employees could request, among other things, a compressed working week or changed hours when working from home. None of these changes created an entitlement to work from home.
 
 In the United Kingdom, the government's GOV.UK guidance describes a broader version of the right. All employees have the legal right to request flexible working — defined there as a way of working that suits an employee's needs, such as flexible start and finish times or working from home — and can do so from their first day in a job; a request of this kind is known as a "statutory application". An employee can ask to change the number of hours they work, when they start or finish, the days they work, or where they work. Employers must deal with requests in a "reasonable manner", for example by assessing the advantages and disadvantages of the application, discussing possible alternatives and offering an appeal process, with further guidance in the Advisory, Conciliation and Arbitration Service (Acas) code of practice on flexible working requests. An employer can refuse an application if it has a good business reason, and an employee whose request is not handled in a reasonable manner can take the employer to an employment tribunal. Northern Ireland has different rules.
+
+The [[Legislation/employment-rights-act-2025]] raises the burden of justification on employers. Its Explanatory Notes describe the pre-existing position as a day-one right to request that employers could reject for several reasons, and state that under the Act employers must accept a request except where it is not reasonably feasible.
 
 ## When It Applies
 

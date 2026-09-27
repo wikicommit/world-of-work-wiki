@@ -24,6 +24,7 @@ comments: false
 - [[Report/right-to-disconnect-implementation-and-impact-at-company-level]]
 - [[Report/second-phase-consultation-quality-jobs-act]]
 - [[Report/the-future-of-telework-and-hybrid-work]]
+- [[Report/who-are-the-hybrid-workers]]
 - [[Report/who-guidelines-on-mental-health-at-work]]
 - [[Report/who-ilo-joint-estimates-2000-2016]]
 - [[Report/working-arrangements-august-2024]]

@@ -13,6 +13,10 @@ sources:
     url: 'https://assets.eurofound.europa.eu/f/279033/0e1e84b3e0/ef22028en.pdf'
     hash: sha256:cc5698bd7fb105e391dfdef158d98c36b66f36cd1ab2b615718e8c3eadf2253e
     license: 'Eurofound: reproduction authorised provided the source is acknowledged'
+  - type: url
+    url: 'https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/whoarethehybridworkers/2024-11-11'
+    hash: sha256:59736c574a2838becef5bd0aa7a88728af0e2d55cefbba827ab19fc9f87a1c00
+    license: 'OGL-UK-3.0'
 review_status: pending
 generated_at: "2026-09-27"
 generated_by: "claude-opus-5-5"
@@ -30,6 +34,8 @@ The Commission's research paper [[Report/working-from-home-research-paper]] uses
 According to the paper, hybrid arrangements are likely where some work can be done effectively from home but collaboration still matters, where there is limited scope for savings on office space, and where tight labour markets push firms to offer some remote work to recruit and retain staff. It notes that jobs are made up of tasks, some better done face-to-face and others well done remotely, which helps explain the model's broad appeal. Surveys cited in the paper found that a significant share of Australian employees (27% to 39%) would prefer to work two or three days a week at home.
 
 Eurofound's report [[Report/the-future-of-telework-and-hybrid-work]] notes that terms such as remote work, hybrid work and telework are often used differently or interchangeably, and that data and agreed definitions on hybrid work were not yet readily available. Synthesising recent literature and definitions reported by its Network of Correspondents, it suggests hybrid work can be interpreted as a form of work organisation resulting from the interplay of four main elements — physical, temporal, virtual and social — each made up of sub-elements that can be combined in many forms. It argues that hybrid work is becoming more distinctive in terms of changing work processes, redefinition of tasks, team collaboration practices, autonomy, and the use of technology and space, and that it involves not only physical and virtual presence but also a more flexible approach to time, with work done synchronously or asynchronously. In Eurofound's Living, working and COVID-19 e-survey, the share of EU employees in hybrid work rose from 14% in summer 2020 to 18% in summer 2022; it was highest among employees in finance (36%) and public administration (32%), among those aged 30–44 (23%), and among employees with children under 12 (23%).
+
+In Great Britain, the Office for National Statistics describes hybrid working as part travelling to work and part working at home. Its article [[Report/who-are-the-hybrid-workers]] reports that 28% of working adults were hybrid working in autumn 2024 and that, while working only from home had fallen since 2021, the hybrid model had become the "new normal" for around a quarter of workers. In April to June 2024 it was more common among workers aged 30 and over (29%, against 19% of those aged 16 to 29), working parents (35%, against 24% of non-parents), managers, directors and senior officials (45%) and workers with a degree or equivalent (42%, against 4% of those with no qualifications); among businesses surveyed in December 2023 it was most common in information and communication (49%) and least common in accommodation and food services (4%).
 
 ## When It Applies
 
