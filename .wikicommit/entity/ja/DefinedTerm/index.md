@@ -16,3 +16,8 @@ comments: false
 - [[DefinedTerm/deemed-working-hours-system]]
 - [[DefinedTerm/defining-elements-of-total-worker-health]]
 - [[DefinedTerm/digital-labour-platform]]
+- [[DefinedTerm/digital-platform-worker]]
+- [[DefinedTerm/double-presence]]
+- [[DefinedTerm/effort-reward-imbalance]]
+- [[DefinedTerm/eldercare]]
+- [[DefinedTerm/fire-and-rehire]]
