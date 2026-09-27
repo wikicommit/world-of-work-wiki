@@ -8,6 +8,10 @@ sources:
     url: 'https://iris.who.int/server/api/core/bitstreams/6152a556-6893-4c4e-9ed8-094478bb25eb/content'
     hash: sha256:24603c69c9fd9eecfaee6b7fa7592b67f4536834a62e3b989f483849f8fe27de
     license: 'CC-BY-NC-SA-3.0-IGO'
+  - type: url
+    url: 'https://www.worksafe.govt.nz/dmsdocument/70098-managing-psychosocial-risks-at-work/latest/'
+    hash: sha256:c88beeb989ed8207401811b1632272fa0af8d39c2fc972dbd3afc757ef8ef863
+    license: 'CC-BY-NC-3.0-NZ'
 review_status: pending
 generated_at: "2026-09-27"
 generated_by: "claude-opus-5-5"
@@ -25,8 +29,12 @@ WHO's categories, adapted from earlier work, give examples for each: short work 
 
 The guidelines summarise evidence linking these risks to mental health outcomes: high workload increases the risk of symptoms of mental health conditions; long working hours are associated with depressive symptoms and with the onset of risky alcohol use; job strain (low decision latitude with high demands) is associated with depression; workplace bullying and violence, role ambiguity and conflict, job insecurity and [[DefinedTerm/effort-reward-imbalance]] are associated with depression or depressive symptoms. On this basis WHO conditionally recommends organizational interventions that assess, mitigate or remove psychosocial risks, with an assessment of such risks built into regular occupational health risk assessment — including whenever changes in work or its organization may harm health.
 
+WorkSafe New Zealand's guidelines [[Report/managing-psychosocial-risks-at-work]] (2025) draw a distinction that WHO's grouping leaves implicit: a psychosocial hazard is an aspect of the design and management of work, or of its social and organisational context, that may cause psychological or physical harm, while a psychosocial risk is the likelihood that such a hazard will cause harm. The guidelines group common hazards into three overlapping areas — work design (for example long hours, heavy workloads, low job control, lack of role clarity, shift work without enough rest, and constant digital monitoring), social factors at work (poor leadership, poorly managed change, bullying or harassment, discrimination, job insecurity and low pay, and difficulty balancing work and home life) and the work environment (poor physical conditions, inadequate tools or training, remote or isolated work, exposure to traumatic events and high pressure to meet targets). They list mental illness, anxiety, depression, fatigue, burnout, cardiovascular disease and musculoskeletal disorders among the possible harms, together with social harms such as substance use and work–family conflict, and set against the hazards a set of protective factors — supportive leadership, psychological safety, clear communication, sustainable workloads, positive relationships, opportunities for growth and access to mental health resources. Because New Zealand's [[Legislation/health-and-safety-at-work-act-2015]] defines health as physical and mental health, the guidelines treat managing these risks — identifying hazards, assessing the likelihood and consequences of harm, and eliminating or otherwise minimising the risks so far as is [[DefinedTerm/reasonably-practicable]] — as a legal duty of every business rather than a matter of general wellbeing.
+
 ## Related Terms
 
 - [[DefinedTerm/work-related-stress]]
 - [[DefinedTerm/effort-reward-imbalance]]
 - [[DefinedTerm/reasonable-work-accommodation]]
+- [[DefinedTerm/reasonably-practicable]]
+- [[DefinedTerm/long-working-hours]]
