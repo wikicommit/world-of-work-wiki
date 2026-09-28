@@ -12,8 +12,12 @@ sources:
     url: 'https://www.worksafe.govt.nz/dmsdocument/70098-managing-psychosocial-risks-at-work/latest/'
     hash: sha256:c88beeb989ed8207401811b1632272fa0af8d39c2fc972dbd3afc757ef8ef863
     license: 'CC-BY-NC-3.0-NZ'
+  - type: url
+    url: 'https://osha.europa.eu/sites/default/files/Work-related_MSDs_prevalence_costs_and_demographics_in_the_EU_report.pdf'
+    hash: sha256:b4f3e0c34d2676d5faf1dc1978eee4af89e9043c83f0947f82d37a0dcf21131a
+    license: 'CC-BY-3.0-IGO'
 review_status: pending
-generated_at: "2026-09-27"
+generated_at: "2026-09-28"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 
@@ -31,6 +35,8 @@ The guidelines summarise evidence linking these risks to mental health outcomes:
 
 WorkSafe New Zealand's guidelines [[Report/managing-psychosocial-risks-at-work]] (2025) draw a distinction that WHO's grouping leaves implicit: a psychosocial hazard is an aspect of the design and management of work, or of its social and organisational context, that may cause psychological or physical harm, while a psychosocial risk is the likelihood that such a hazard will cause harm. The guidelines group common hazards into three overlapping areas — work design (for example long hours, heavy workloads, low job control, lack of role clarity, shift work without enough rest, and constant digital monitoring), social factors at work (poor leadership, poorly managed change, bullying or harassment, discrimination, job insecurity and low pay, and difficulty balancing work and home life) and the work environment (poor physical conditions, inadequate tools or training, remote or isolated work, exposure to traumatic events and high pressure to meet targets). They list mental illness, anxiety, depression, fatigue, burnout, cardiovascular disease and musculoskeletal disorders among the possible harms, together with social harms such as substance use and work–family conflict, and set against the hazards a set of protective factors — supportive leadership, psychological safety, clear communication, sustainable workloads, positive relationships, opportunities for growth and access to mental health resources. Because New Zealand's [[Legislation/health-and-safety-at-work-act-2015]] defines health as physical and mental health, the guidelines treat managing these risks — identifying hazards, assessing the likelihood and consequences of harm, and eliminating or otherwise minimising the risks so far as is [[DefinedTerm/reasonably-practicable]] — as a legal duty of every business rather than a matter of general wellbeing.
 
+**Link with musculoskeletal disorders.** EU-OSHA describes psychosocial risks as risks that "are related to the way the work is designed, organised and managed, as well as to the economic and social context of work", and its report [[Report/work-related-msds-prevalence-costs-and-demographics-in-the-eu]] examines them as risk factors for [[DefinedTerm/work-related-musculoskeletal-disorders]]. Research on this is more limited than on physical risk factors, and there are no globally accepted definitions of psychosocial factors at work. One process described in the literature is stress: psychosocial factors such as low social support, high job demands and low job control raise stress, which can increase muscle tension and sensitivity to pain. In the report's exploratory analysis of the 2015 [[Dataset/european-working-conditions-survey]], 21 organisational and psychosocial factors were significantly related to at least one type of MSD, and anxiety, overall fatigue, sleeping problems, low mental well-being and verbal abuse at work to all three (back, upper limbs and lower limbs); the direction of causality could not be established. The report argues that psychosocial factors play an especially important role in MSDs becoming chronic, that psychosocial risks are too often assessed in isolation with a focus on the mental health consequences of stress, and that guidance and tools integrating MSD and psychosocial risk assessment are needed. In [[Dataset/esener]] data, fewer than 40 % of employees in micro and small establishments worked where training on preventing psychosocial risks was provided.
+
 ## Related Terms
 
 - [[DefinedTerm/work-related-stress]]
@@ -38,3 +44,5 @@ WorkSafe New Zealand's guidelines [[Report/managing-psychosocial-risks-at-work]]
 - [[DefinedTerm/reasonable-work-accommodation]]
 - [[DefinedTerm/reasonably-practicable]]
 - [[DefinedTerm/long-working-hours]]
+- [[DefinedTerm/work-related-musculoskeletal-disorders]]
+- [[DefinedTerm/employee-voice]]
