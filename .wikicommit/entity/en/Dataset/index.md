@@ -12,6 +12,8 @@ comments: false
 - [[Dataset/ecetss]]
 - [[Dataset/esener]]
 - [[Dataset/eu-labour-force-survey]]
+- [[Dataset/european-health-interview-survey]]
+- [[Dataset/european-statistics-on-accidents-at-work]]
 - [[Dataset/european-working-conditions-survey]]
 - [[Dataset/hilda-survey]]
 - [[Dataset/mexico-national-time-use-survey]]

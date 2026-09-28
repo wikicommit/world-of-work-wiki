@@ -8,8 +8,12 @@ sources:
     url: 'https://osha.europa.eu/sites/default/files/documents/first-findings-esener-2024_EN.pdf'
     hash: sha256:c2453800f2fa7a67595e8804167eeeaeb04cd263c0733bfca333b97b17749bca
     license: 'EU-OSHA: reproduction authorised provided the source is acknowledged'
+  - type: url
+    url: 'https://osha.europa.eu/sites/default/files/Work-related_MSDs_prevalence_costs_and_demographics_in_the_EU_report.pdf'
+    hash: sha256:b4f3e0c34d2676d5faf1dc1978eee4af89e9043c83f0947f82d37a0dcf21131a
+    license: 'CC-BY-3.0-IGO'
 review_status: pending
-generated_at: "2026-09-27"
+generated_at: "2026-09-28"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 
@@ -31,6 +35,10 @@ The European Survey of Enterprises on New and Emerging Risks (ESENER) is the est
 
 ESENER explores four areas: the establishment's general approach to managing OSH; how psychosocial risks, including digitalisation, are addressed; the main drivers of and barriers to OSH management; and how worker participation in OSH management works in practice. Waves were carried out in 2009, 2014, 2019 and 2024. The questionnaire has been kept largely the same across the 2014, 2019 and 2024 waves to allow comparisons over time; the 2019 wave added a section on the impact of digitalisation, and the 2024 wave updated its questions on digitalisation and on the impact of the COVID-19 pandemic on OSH management, and added a question on risk factors linked to digital technologies.
 
+The survey's coverage has widened over time. The first wave covered establishments with 10 or more employees in all sectors except agriculture, forestry and fishing (and private households and extraterritorial organisations); the second wave extended it to establishments with 5 to 9 employees and to agriculture, forestry and fishing.
+
 The 2024 wave covered 30 countries — the 27 EU Member States, Iceland, Norway and Switzerland — and surveyed 41,458 establishments with five or more employees, private and public, in all sectors except private households and extraterritorial organisations. Interviews ran from May to October 2024 and were conducted by Ipsos NV and its fieldwork network, mainly by telephone with an option to answer online. National reference samples ranged from about 450 in Malta to 2,250 in France, Germany, Italy, Poland and Spain, and four countries — Austria, Germany, Italy and Slovenia — funded boosted samples. The sample design was disproportional and redressed by weighting. As for earlier waves, EU-OSHA stated that the 2024 dataset would be made accessible via GESIS.
 
 The first findings of the 2024 wave are presented in [[Report/first-findings-of-esener-2024]].
+
+The EU-OSHA report [[Report/work-related-msds-prevalence-costs-and-demographics-in-the-eu]] used the 2014 and 2019 waves to examine how establishments prevent [[DefinedTerm/work-related-musculoskeletal-disorders]]. It weighted the data by employees rather than by establishments, so its figures describe the share of employees working in establishments with a given measure and can differ from EU-OSHA's establishment-weighted first findings. By this measure, equipment to help with lifting or moving was the most widespread preventive measure and rotation of tasks to reduce repetitive movements the least, preventive measures were more common in larger establishments, and on average 73 % of EU-28 employees worked in establishments with support for returning to work after long-term sickness. Combining ESENER indicators with worker survey data, the report found that workers in countries and sectors with more preventive measures in place were less likely to report MSD complaints.

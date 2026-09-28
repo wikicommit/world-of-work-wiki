@@ -1,0 +1,42 @@
+---
+title: "Work-related musculoskeletal disorders: prevalence, costs and demographics in the EU"
+type: "schema:Report"
+lang: en
+tags: [eu-osha, occupational-safety-and-health, ergonomics, surveys]
+sources:
+  - type: url
+    url: 'https://osha.europa.eu/sites/default/files/Work-related_MSDs_prevalence_costs_and_demographics_in_the_EU_report.pdf'
+    hash: sha256:b4f3e0c34d2676d5faf1dc1978eee4af89e9043c83f0947f82d37a0dcf21131a
+    license: 'CC-BY-3.0-IGO'
+review_status: pending
+generated_at: "2026-09-28"
+generated_by: "claude-opus-5-5"
+generated_with: "0.8.0"
+
+properties:
+  datePublished: "2019"
+  publisher: "European Agency for Safety and Health at Work (EU-OSHA)"
+  about:
+    - "[[DefinedTerm/work-related-musculoskeletal-disorders]]"
+  abstract: "A European Risk Observatory report that pulls together EU-wide survey and administrative data, complemented by national sources, to describe how common musculoskeletal disorders are among EU workers, what they cost, which risk factors they are associated with and how enterprises prevent them."
+---
+
+This European Risk Observatory report, commissioned by EU-OSHA and published in 2019, gives a quantitative overview of [[DefinedTerm/work-related-musculoskeletal-disorders]] (MSDs) across the 28 EU Member States. It was produced within a four-year research activity on work-related MSDs that EU-OSHA started in 2017, and in the context of the Healthy Workplaces Campaign 2020-22 on the prevention of work-related MSDs. The report was written by researchers from Panteia, vhp human performance and IKEI; its contents are the authors' own and do not necessarily reflect EU-OSHA's views.
+
+Its aims are to provide quantitative information on the prevalence and costs of MSDs, to improve understanding of their underlying causes through targeted analysis of data, and to help identify emerging trends and risks earlier. It combines descriptive statistics with exploratory multivariate analyses — logistic regressions and cluster analyses — of the [[Dataset/european-working-conditions-survey]] (2005, 2010 and 2015 waves), the [[Dataset/european-health-interview-survey]] (2014), the 2013 ad hoc module of the [[Dataset/eu-labour-force-survey]], the [[Dataset/esener]] and the [[Dataset/european-statistics-on-accidents-at-work]], together with WHO hospital-discharge and mortality data. These are complemented by national data from Austria, Denmark, Finland, France, Germany, Hungary, Italy, the Netherlands, Spain and Sweden. The analysis is organised around a multidimensional framework, adapted from a model of occupational health by Roquelaure, in which the social, political and economic environment, the organisation of work (physical, organisational and psychosocial factors) and sociodemographic and individual factors jointly shape MSDs and their consequences.
+
+## Details
+
+**Prevalence.** In 2015 roughly three out of every five workers in the EU-28 reported MSD complaints in the past 12 months: backache (43 %) and muscular pains in the upper limbs (41 %) were the most common, pains in the lower limbs less so (29 %). The share reporting one or more MSDs fell slightly, from 60 % in 2010 to 58 % in 2015. In the 2013 Labour Force Survey module, 60 % of workers with a work-related health problem named MSDs as their most serious one, ahead of stress, depression and anxiety (16 %). In 2014 one in five workers had a chronic back or neck disorder. Prevalence varied widely between countries — from 40 % in Hungary to 79 % in Finland in 2015 — and additional analyses could not explain these differences by the sectoral or occupational structure of the workforce or its age, gender, education or country of birth.
+
+**Who is affected.** MSDs were reported most often in construction, water supply, and agriculture, forestry and fishing, and above average in human health and social work; least often in financial and insurance activities, professional, scientific and technical activities, education, and arts, entertainment and recreation. By occupation, prevalence was highest among skilled agricultural, forestry and fishery workers (69 %) and other blue-collar groups, and relatively low among professionals (52 %). Women and older workers were more likely to report MSDs, and these differences persisted after controlling for country, sector, occupation and exposure to risk factors. Workers with only pre-primary or primary education were also more likely to report MSDs; the report suggests that less educated workers may be segregated into jobs with higher MSD risks. In 2015 prevalence was not related to employment status (self-employed or employee). Second-generation immigrants reported more MSDs than native workers, but the difference disappeared once their working conditions were taken into account.
+
+**Accidents and occupational diseases.** Dislocations, sprains and strains (27 %) and bone fractures (11 %) — injuries that may be interpreted as acute MSDs — accounted for 38 % of serious accidents at work in 2016. Nationally recognised occupational diseases showed MSDs to be the most common recognised occupational disease in France, Italy and Spain, but recognition lists and practices differ so much between countries that the figures cannot be compared, and the report concludes that the pattern of recognised and compensated cases is far from reflecting the actual health impairment caused by work.
+
+**Impact.** MSDs accounted for about 15 % of the [[DefinedTerm/disability-adjusted-life-year]]s lost to work-related injuries and illness in the EU-28. In 2015, 53 % of workers with MSDs (including those with other health problems) had been absent from work in the past year, against 32 % of workers without health problems, and workers with MSDs and other health problems also reported more [[DefinedTerm/presenteeism]]. More than a third (36 %) of workers with MSDs and another health problem believed they would not be able to do their current job until the age of 60. Comparable EU-level cost data do not exist; as a national example, the report cites German estimates of EUR 17.2 billion in lost production and EUR 30.4 billion in lost gross value added in 2016 from musculoskeletal and connective tissue diseases (0.5 % and 1.0 % of GDP).
+
+**Risk factors.** Working in tiring or painful positions, carrying or moving heavy loads and repetitive hand or arm movements were associated with all three MSD types, as was exposure to vibrations from hand tools; low temperatures were associated with MSDs in the upper and lower limbs. No relationship was found with computer work or with lifting or moving people, and more time spent sitting was associated with fewer lower-limb complaints — a result the authors treat with caution (see [[DefinedTerm/sedentary-work]]). Twenty-one organisational and [[DefinedTerm/psychosocial-risks]] were related to at least one MSD type; anxiety, overall fatigue, sleeping problems, low mental well-being and verbal abuse at work were related to all three, though the analyses cannot establish the direction of causality.
+
+**Prevention.** ESENER data show that preventive measures such as ergonomic equipment, encouraging regular breaks and task rotation are more widespread in larger establishments. Workers in countries and sectors with more preventive measures were less likely to report MSDs: backache fell from 51 % where one to three measures were in place on average to 31 % where five or six were. On average 73 % of EU-28 employees worked in establishments with support for returning to work after long-term sickness; the share was more than 90 % in the United Kingdom (97 %), Sweden, Finland and the Netherlands, and lowest in Lithuania (19 %) and Estonia (27 %).
+
+**Policy pointers.** The report argues for an integrated, combined and participatory approach to prevention that starts from simple, practical risk assessment tools — especially for micro and small enterprises — and that bridges the separate assessment of MSD risks and psychosocial risks. It calls for prevention tailored to national circumstances, sector-specific approaches, diversity-sensitive approaches that take gender, age and education into account, targeted interventions for back, upper-limb and lower-limb MSDs, early intervention and return-to-work measures, and closer links with health promotion and public health. On data, it recommends collecting information on both MSDs in general and work-related MSDs every 3 to 5 years with instruments that stay consistent over time.
