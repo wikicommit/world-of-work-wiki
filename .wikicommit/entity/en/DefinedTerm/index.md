@@ -6,6 +6,7 @@ review_status: reviewed
 comments: false
 ---
 
+- [[DefinedTerm/account-deactivation]]
 - [[DefinedTerm/actual-hours-of-work]]
 - [[DefinedTerm/algorithmic-management]]
 - [[DefinedTerm/article-36-agreement]]
@@ -38,11 +39,13 @@ comments: false
 - [[DefinedTerm/maximum-weekly-working-hours]]
 - [[DefinedTerm/minijob]]
 - [[DefinedTerm/night-work]]
+- [[DefinedTerm/on-call-and-stand-by-time]]
 - [[DefinedTerm/overtime]]
 - [[DefinedTerm/part-time-employment]]
 - [[DefinedTerm/passive-care]]
 - [[DefinedTerm/potential-to-work-from-home]]
 - [[DefinedTerm/presenteeism]]
+- [[DefinedTerm/presumption-of-employment-relationship]]
 - [[DefinedTerm/progressive-universalism]]
 - [[DefinedTerm/psychosocial-risks]]
 - [[DefinedTerm/reasonable-work-accommodation]]
@@ -55,6 +58,7 @@ comments: false
 - [[DefinedTerm/right-to-request-flexible-working-arrangements]]
 - [[DefinedTerm/sedentary-work]]
 - [[DefinedTerm/severance-pay]]
+- [[DefinedTerm/shift-work]]
 - [[DefinedTerm/statutory-annual-leave]]
 - [[DefinedTerm/statutory-sick-pay]]
 - [[DefinedTerm/supervisory-care-of-children]]
@@ -75,5 +79,8 @@ comments: false
 - [[DefinedTerm/work-related-fatigue]]
 - [[DefinedTerm/work-related-musculoskeletal-disorders]]
 - [[DefinedTerm/work-related-stress]]
+- [[DefinedTerm/worker-eu-law]]
 - [[DefinedTerm/working-from-home]]
+- [[DefinedTerm/working-time-and-rest-period]]
+- [[DefinedTerm/working-time-opt-out]]
 - [[DefinedTerm/working-time-recording]]

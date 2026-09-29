@@ -2,7 +2,7 @@
 title: "Working from home"
 type: "schema:DefinedTerm"
 lang: en
-aliases: ["Remote working", "Teleworking", "Telecommuting"]
+aliases: ["Remote working", "Telework", "Teleworking", "Telecommuting"]
 tags: [telework, employment-arrangements]
 sources:
   - type: url
@@ -13,8 +13,12 @@ sources:
     url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F13851'
     hash: sha256:9f6b5ee3188fb83964a950a13441bea9d2a9a01154d1d688ce947fd6eb56a0bf
     license: 'Etalab-2.0 (Licence Ouverte)'
+  - type: url
+    url: 'https://assets.eurofound.europa.eu/f/279033/9913f4fc7b/ef22032en.pdf'
+    hash: sha256:f5f82bcc4430bedab38f58378ac4579c0eab8f5bd78ef4f677cf1765621bac9b
+    license: 'Eurofound: reproduction authorised provided the source is acknowledged'
 review_status: pending
-generated_at: "2026-09-27"
+generated_at: "2026-09-28"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 properties:
@@ -37,6 +41,10 @@ Telework is set up by a collective agreement or an employer charter, which must 
 
 The teleworker has the same rights and obligations as other employees. The employer must provide, install and maintain the equipment needed for telework at home, protect the data teleworkers use, set workload and deadlines on the same basis as for work on the premises so that rules on maximum working time and rest can be respected, hold an annual interview on the teleworker's working conditions and workload, give the teleworker priority for any job without telework matching their skills, and cover the costs arising from telework, either on the basis of receipts or through a flat-rate allowance. Telework may be included in the employer's occupational risk assessment, which can cover risks linked to distance from the work community and the use of digital tools, and an accident at the place of telework during working activity is presumed to be a work accident.
 
+At EU level, the usual term is telework. Eurofound's report [[Report/telework-in-the-eu-regulatory-frameworks-and-recent-updates]] notes that "telework" is the most prevalent term in European empirical research, in European regulation and in national legislation for work arrangements outside the employer's premises enabled by ICT, and that the main normative reference is the definition in the [[Legislation/eu-framework-agreement-on-telework]]: work that could also be performed at the employer's premises, carried out away from those premises on a regular basis using information technology, in the context of an employment relationship. This concept is broader than working at home, since it may include several alternative workplaces to the employer's premises, though only for stationary jobs that could also be done there; it excludes jobs in which mobility is required by the labour process. The same report lists related terms that often emphasise one dimension of the same arrangement rather than a different one: remote work, which the ILO uses for any work carried out outside the employer's premises regardless of the technology used; telework and ICT-based mobile work (TICTM), which Eurofound and the ILO used to distinguish working from home or another fixed place from mobile work; smart work or, in Italy, agile work; and [[DefinedTerm/hybrid-work]]. For that report, Eurofound treats telework as equivalent to TICTM.
+
+National statutory definitions, found in 22 of the countries Eurofound examined, differ on several points. They use different terms — "home office" in Austria, "remote work" in Bulgaria, Czechia, Latvia and Lithuania, "location-independent work" in the Netherlands, and distance work, with telework as one type of it, in Spain. Eleven countries cover only telework carried out on a regular or predominant basis, measured in different ways: at least 30% of working time in Spain, and on average at least one day a week over at least three months under the Netherlands' framework agreement, while Luxembourg's definition also covers occasional telework, amounting on average to less than 10% of the teleworker's normal annual working time. Portugal removed its regularity requirement (*habitualidade*) in 2021, whereas Slovakia added one in the same year. The definitions of Austria, Czechia, Estonia and the Netherlands make no reference to ICT, and Germany's covers only home-based telework, while in the other countries telework may take place in several locations other than the employer's premises.
+
 ## Related Terms
 
-[[DefinedTerm/hybrid-work]], [[DefinedTerm/potential-to-work-from-home]], [[DefinedTerm/right-to-request-flexible-working-arrangements]], [[DefinedTerm/right-to-disconnect]], [[DefinedTerm/work-life-balance]]
+[[DefinedTerm/hybrid-work]], [[DefinedTerm/potential-to-work-from-home]], [[Legislation/eu-framework-agreement-on-telework]], [[DefinedTerm/right-to-request-flexible-working-arrangements]], [[DefinedTerm/right-to-disconnect]], [[DefinedTerm/work-life-balance]]
