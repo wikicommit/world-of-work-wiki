@@ -20,8 +20,12 @@ sources:
     url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F2391'
     hash: sha256:96f7bb0e1500d171eecbd08dce94b4d79fe77b0b9ed174686ff3f63b26b5dc98
     license: 'Etalab-2.0 (Licence Ouverte)'
+  - type: url
+    url: 'https://publications.europa.eu/resource/cellar/6281f139-e3cc-11ed-a05c-01aa75ed71a1.0006.01/DOC_1'
+    hash: sha256:18422532c27825f9c6c79600fcae590637fec4955ca2164de73c60eedf08db85
+    license: 'CC-BY-4.0'
 review_status: pending
-generated_at: "2026-09-27"
+generated_at: "2026-09-29"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 
@@ -41,8 +45,10 @@ In France, according to the Service Public information page on overtime for priv
 
 Across Europe, Eurofound's comparative report [[Report/overtime-in-europe-regulation-and-practice]] finds that overtime is regulated in all EU Member States, but in different ways. The EU Working Time Directive does not define overtime; it limits it indirectly through a maximum average working week of 48 hours including overtime and a minimum daily rest of 11 consecutive hours. Some countries treat overtime as a normal part of an employee's duties and others as an exceptional measure, and the right to refuse it is seldom absolute. Default annual limits range from 80 hours in Spain to 250 hours in Hungary and can often be extended by agreement. The most common premium is 50% of regular pay, with time off in lieu usually attracting the same premium, although premiums range from 10% to 150% in specific circumstances, and Germany, Ireland, the Netherlands and the UK give no statutory entitlement to a premium. Managers are often exempt from the rules, while some countries preclude groups such as pregnant workers, parents of young children and young workers from working overtime.
 
+The European Commission's [[Report/interpretative-communication-on-the-working-time-directive]] explains how the [[Legislation/working-time-directive]] treats overtime. The Directive does not govern the "statutory" working time above which employers often have to pay overtime, nor pay rates, which are left to Member States; but because its definition of working time does not distinguish statutory hours from overtime, all overtime counts towards the 48-hour limit on average weekly working time, and the Commission considers that it also counts towards the average eight-hour limit on the working time of night workers. For paid annual leave, the Court of Justice has held that overtime pay is in principle not part of the normal remuneration a worker must receive during leave, given its exceptional and unforeseeable nature, but must be included where the contract requires overtime on a broadly regular and predictable basis and the pay for it forms a significant part of total remuneration; and where overtime pay depends on reaching a threshold of hours worked, hours of paid annual leave must be counted as hours worked.
+
 Eurofound notes that there are no harmonised regular EU data on overtime and that national figures are not comparable, but that in most countries with data the share of employees working overtime with some regularity reaches two digits, with men, prime-age workers and those with higher education more likely to report it. For employers, overtime is a flexible way to adjust capacity; for workers it can mean extra income but also less free time and rest, poorer work–life balance and greater fatigue. The report summarises research showing that overtime and long working days harm physical and mental health with dose–response effects, and notes that compensation does not undo that harm. It also highlights unpaid overtime, which it finds pervasive where data exist and generally the result of pressure on workers; structural overtime, where employers continuously rely on extra hours instead of recruiting staff; and "grey overtime", extra hours that are not recorded, which the report links to the blurring of boundaries between working life and private life as remote working grows.
 
 ## Related Terms
 
-[[DefinedTerm/hours-worked]], [[DefinedTerm/regular-rate-of-pay]], [[DefinedTerm/actual-hours-of-work]], [[DefinedTerm/usual-hours-of-work]], [[DefinedTerm/working-time-recording]], [[DefinedTerm/right-to-disconnect]], [[DefinedTerm/complementary-hours]], [[DefinedTerm/maximum-weekly-working-hours]]
+[[DefinedTerm/hours-worked]], [[DefinedTerm/regular-rate-of-pay]], [[DefinedTerm/actual-hours-of-work]], [[DefinedTerm/usual-hours-of-work]], [[DefinedTerm/working-time-recording]], [[DefinedTerm/right-to-disconnect]], [[DefinedTerm/complementary-hours]], [[DefinedTerm/maximum-weekly-working-hours]], [[DefinedTerm/statutory-annual-leave]]
