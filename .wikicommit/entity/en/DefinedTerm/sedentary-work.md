@@ -9,8 +9,12 @@ sources:
     url: 'https://osha.europa.eu/sites/default/files/Work-related_MSDs_prevalence_costs_and_demographics_in_the_EU_report.pdf'
     hash: sha256:b4f3e0c34d2676d5faf1dc1978eee4af89e9043c83f0947f82d37a0dcf21131a
     license: 'CC-BY-3.0-IGO'
+  - type: url
+    url: 'https://www.cbs.nl/nl-nl/longread/statistische-trends/2025/zitgedrag-op-werkdagen'
+    hash: sha256:82889e9a046ccc6104cc4bcf262e9ba23992740031c8f9126e501034244f5ece
+    license: 'CC-BY-4.0'
 review_status: pending
-generated_at: "2026-09-28"
+generated_at: "2026-10-01"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 
@@ -23,6 +27,8 @@ Sedentary work is work that involves prolonged sitting — sitting without movin
 ## Usage
 
 In the 2015 [[Dataset/european-working-conditions-survey]], 60 % of workers said their job involved sitting at least a quarter of the time, and the share working with computers, laptops or smartphones for at least a quarter of the working day rose from 47 % in 2000 to 53 % in 2010 and 58 % in 2015; the two are positively correlated. In the [[Dataset/esener]], 74 % of employees worked in establishments where prolonged sitting was present in 2019.
+
+In the Netherlands, the CBS article [[Report/sitting-behaviour-on-working-days]] found that in 2024 employees sat on average 4.5 hours per working day while working, 1.1 hours while commuting and 3.3 hours in their free time; only free-time sitting had risen in recent years, slightly and mainly between 2017 and 2022. Sitting at work differed between occupations and was associated with working from home, screen work and working part-time or full-time, while free-time sitting on working days was associated with age. CBS found no pronounced link between sitting at work and sitting in free time on a working day. It frames sitting a lot and moving little as going together with health risks that can bring societal costs.
 
 Its link with [[DefinedTerm/work-related-musculoskeletal-disorders]] is unclear. The EU-OSHA report notes that previous research indicates self-reported time spent sitting is positively related to chronic diseases and mortality, but that the evidence linking sitting at work to MSDs is less clear, and that the amount of time spent sitting is very difficult to measure reliably with self-report questionnaires. Short periods of sitting can also be beneficial, relieving the load on the hips and legs after long standing, which suggests a threshold beyond which sitting raises health risks — a threshold that has not yet been established.
 
