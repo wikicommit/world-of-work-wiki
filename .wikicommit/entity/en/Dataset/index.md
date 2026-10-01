@@ -17,3 +17,4 @@ comments: false
 - [[Dataset/european-working-conditions-survey]]
 - [[Dataset/hilda-survey]]
 - [[Dataset/mexico-national-time-use-survey]]
+- [[Dataset/socio-economic-panel]]

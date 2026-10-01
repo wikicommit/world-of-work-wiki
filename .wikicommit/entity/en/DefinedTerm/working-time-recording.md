@@ -3,7 +3,7 @@ title: "Working time recording"
 type: "schema:DefinedTerm"
 lang: en
 aliases: ["Recording of working time", "Time recording"]
-tags: [working-time, labour-law, european-union]
+tags: [working-time, labour-law, european-union, labour-statistics]
 sources:
   - type: url
     url: 'https://assets.eurofound.europa.eu/f/279033/356ff40090/ef23007en.pdf'
@@ -17,8 +17,12 @@ sources:
     url: 'https://publications.europa.eu/resource/cellar/6281f139-e3cc-11ed-a05c-01aa75ed71a1.0006.01/DOC_1'
     hash: sha256:18422532c27825f9c6c79600fcae590637fec4955ca2164de73c60eedf08db85
     license: 'CC-BY-4.0'
+  - type: url
+    url: 'https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Job_autonomy_and_pressure_at_work_-_statistics'
+    hash: sha256:68c3332ccd8eabbf3df62851cc1cf5bda8ac61a6f03c3874cb5138749e4ef935
+    license: 'CC-BY-4.0'
 review_status: pending
-generated_at: "2026-09-29"
+generated_at: "2026-10-01"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 
@@ -36,6 +40,8 @@ Eurofound's comparative report [[Report/overtime-in-europe-regulation-and-practi
 
 Eurofound's review [[Report/working-time-in-2021-2022]] identifies Germany, Greece and Slovenia as the countries with important developments in the recording of working time in 2021–2022. In September 2022 the German Federal Labour Court ruled that employers must introduce a system for recording working time regardless of the company's size; in December 2022 it described what a legally secure system must look like, able to record the start and end of working time, break times and overtime, with in principle all employees recording their time and only executive employees with a high degree of freedom to make decisions exempt. Greece introduced a digital job card in July 2022 under Law 4808/2021, obliging employers to operate an electronic working-time system connected in real time to the Ministry of Labour's ERGANI II system; the Labour Inspectorate uses it to check compliance with working hours and to combat undeclared work, unpaid overtime and evasion of social contributions, and it is being extended in phases from large banks and supermarkets to all enterprises. In Slovenia, reports of the exploitation of foreign workers led to amended legislation obliging employers to keep detailed evidence of working time, including the exact start and end of shifts, rest periods, overtime, unevenly distributed working time and total hours over weeks and months.
 
+**How hours are recorded in practice.** Eurostat's article on job autonomy and pressure at work, based on the 2019 ad hoc module of the [[Dataset/eu-labour-force-survey]] on work organisation and working time arrangements, reports how employees' working hours or presence were actually recorded. It treats the method as an indication of the degree of control over, and trust in, the employee: recording by an automatic system or by a supervisor or colleague implies a high level of control, recording by employees themselves a lower one, and registering presence alone even more trust and autonomy. In 2019, 33.1% of EU-27 employees had their hours recorded automatically — when entering the building, logging into a computer or device, or starting a machine or vehicle — and 8.0% had them recorded manually by a supervisor or colleague, so that 41.1% faced a high level of working-time monitoring. A further 15.3% recorded their hours themselves, 20.4% only registered their presence, 21.2% recorded nothing and 2.0% used another method. Automatic recording ranged from 54.6% of employees in Slovenia to 6.8% in Denmark; almost two in five employees in the Netherlands (38.2%) and Finland (36.6%) recorded their own hours; and more than half of employees in Latvia (62.9%) and Cyprus (53.4%) recorded neither hours nor presence. Automatic recording was more common in large firms (45.6% of employees) than in medium-sized (29.2%) or small ones (13.7%), while recording by a supervisor or colleague was more common in small (9.2%) and medium-sized firms (9.8%) than in large ones (6.0%).
+
 ## Related Terms
 
-[[DefinedTerm/actual-hours-of-work]], [[DefinedTerm/usual-hours-of-work]], [[DefinedTerm/overtime]], [[DefinedTerm/maximum-weekly-working-hours]], [[DefinedTerm/rest-breaks-at-work]]
+[[DefinedTerm/actual-hours-of-work]], [[DefinedTerm/usual-hours-of-work]], [[DefinedTerm/overtime]], [[DefinedTerm/maximum-weekly-working-hours]], [[DefinedTerm/rest-breaks-at-work]], [[DefinedTerm/job-autonomy]]
