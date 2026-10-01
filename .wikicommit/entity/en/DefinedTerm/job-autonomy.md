@@ -8,6 +8,10 @@ sources:
     url: 'https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Job_autonomy_and_pressure_at_work_-_statistics'
     hash: sha256:68c3332ccd8eabbf3df62851cc1cf5bda8ac61a6f03c3874cb5138749e4ef935
     license: 'CC-BY-4.0'
+  - type: url
+    url: 'https://www.sjweh.fi/article/4234'
+    hash: sha256:7eafb0d36f9120871e93f755bf33ec23fb1698c8846da883da3a462760ecfcaf
+    license: 'CC-BY-4.0'
 review_status: pending
 generated_at: "2026-10-01"
 generated_by: "claude-opus-5-5"
@@ -26,6 +30,8 @@ In 2019, 49.6% of employed people in the EU had some or a large influence on the
 According to Eurostat, age, educational attainment and professional status affect job autonomy most. More than half of employed people aged 50–74 (53.9%) had a high degree of autonomy, against 42.1% of those aged 15–34, and the share rose with education, from 42.9% of workers with a low level to 60.7% of those with a high level. Professional status made the largest difference: 43.7% of employees had some or a large influence on their tasks, against 83.0% of the self-employed (84.0% of those with employees and 82.6% of those without). By activity, people in industry had the least autonomy, with 42.8% having little or no influence, and people in agriculture, forestry and fishing the most, with 69.5% having some or a large influence. By occupation, plant and machine operators and assemblers were the least autonomous — 62.5% had little or no influence — and managers the most, at 78.6% with some or a large influence.
 
 The same Eurostat article treats the way working hours are recorded as a related indicator of the control and trust given to employees, with self-recording or registering presence only standing for more autonomy than automatic recording or recording by a supervisor (see [[DefinedTerm/working-time-recording]]).
+
+In a study of Swedish white-collar workers during the COVID-19 pandemic, [[ScholarlyArticle/impact-of-telework-allowance-and-utilization-on-stress]], employees with a high allowance to telework — a high degree of freedom to decide whether to telework — showed lower physiological stress, measured by heart rate variability, and the association with higher RMSSD, one of the heart rate variability measures used, remained after adjustment for age, sex, body mass index and physical activity. The authors interpret this as allowing employees more autonomy in telework decisions being associated with reduced physiological stress (see [[DefinedTerm/working-from-home]]).
 
 ## Related Terms
 

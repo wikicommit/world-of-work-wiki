@@ -3,7 +3,7 @@ title: "Shift work"
 type: "schema:DefinedTerm"
 lang: en
 aliases: ["Shift worker"]
-tags: [working-time, labour-law, european-union, work-organisation]
+tags: [working-time, labour-law, european-union, work-organisation, fatigue, new-zealand, occupational-health, canada]
 sources:
   - type: url
     url: 'https://publications.europa.eu/resource/cellar/6281f139-e3cc-11ed-a05c-01aa75ed71a1.0006.01/DOC_1'
@@ -13,6 +13,13 @@ sources:
     url: 'https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm'
     hash: sha256:08bf834bfed0324cac51c377c727887f59d9998626b3a73aa4d269628376718a
     license: 'OGL-UK-3.0'
+  - type: url
+    url: 'https://www.worksafe.govt.nz/topic-and-industry/fatigue/managing-the-risks-of-shift-work/'
+    hash: sha256:7b8c9f51d838ecdc16c4ee46eef07c55eab07c99f1d1723b53ef27135e6015c7
+    license: 'WorkSafe NZ copyright: free reproduction with source and copyright status acknowledged'
+  - type: url
+    url: 'https://www150.statcan.gc.ca/n1/pub/82-003-x/2001004/article/6315-eng.pdf'
+    hash: sha256:69c5d3cc3726a4c8c77ecaa02fb404f7976c44eea432364b9fb90686f91844b2
 review_status: pending
 generated_at: "2026-10-01"
 generated_by: "claude-opus-5-5"
@@ -23,6 +30,8 @@ properties:
 ---
 
 Shift work is a method of organising work in which workers take turns at the same work stations. The EU [[Legislation/working-time-directive]] defines it (Article 2(5)) as any method of organising work in shifts whereby workers succeed each other at the same work stations according to a certain pattern, including a rotating pattern, which may be continuous or discontinuous, entailing the need for workers to work at different times over a given period of days or weeks; a shift worker is any worker whose work schedule is part of shift work (Article 2(6)).
+
+Occupational health and safety guidance can use a broader, effect-based definition. WorkSafe New Zealand's guidance [[Report/managing-the-risks-of-shift-work]] defines shift work as any type of work that requires a worker to be awake when they would normally be asleep — permanent, rotating, changeable, non-standard, irregular or unpredictable hours, early starts, late finishes and night work — and counts long hours spanning the traditional working day as shift work when they include early starts or late finishes of that kind.
 
 ## Usage
 
@@ -43,7 +52,20 @@ While inbuilt characteristics cannot be changed, HSE's hints and tips for shift 
 - **Fitness and social life**: regular physical activity, sharing the shift schedule with family and friends and planning time off together.
 - **Travel and alertness**: considering public transport or taxis rather than driving and stopping to nap when sleepy; at work, keeping the light bright, taking regular short breaks, moving around and scheduling more stimulating tasks for the times of greatest drowsiness.
 
+## Risks and their management
+
+WorkSafe New Zealand's guidance states that shift work causes fatigue, which arises from sleep loss, long periods awake, working and sleeping at the wrong times of the circadian body clock ([[DefinedTerm/circadian-disruption]]) and workload ([[DefinedTerm/work-related-fatigue]]). It lists short-term effects such as gastrointestinal problems, more colds and flu and shorter or poorer sleep, and longer-term increases in the likelihood of peptic ulcers, insomnia, obesity, colorectal, lung and breast cancer, cardiovascular disease, type 2 diabetes, stroke and early death, as well as of depression and psychological distress. Fatigue lowers performance, slows information processing and weakens memory, decision-making and communication; incident rates are higher on evening and night shifts than on morning shifts and rise with hours at work, and shift workers who drive at night or start early are more prone to drowsy driving. Consistently working more than 40 hours a week, regularly having short recovery periods between shifts, or regularly working more than two consecutive night shifts can increase sick leave. The guidance identifies groups more likely to be harmed, including younger and older workers, pregnant workers and new parents, workers with chronic illnesses or time-dependent medication, casual workers unfamiliar with the business's schedules, and workers who remain on call after a standard day's work.
+
+The guidance treats roster design ("smart rostering") as an important control but insists that there is no perfect schedule and that rostering alone will not prevent fatigue. It rates daytime shifts as the best, afternoon starts as better than night or early-morning work, and night shifts as extremely disruptive ([[DefinedTerm/night-work]]). It advises offering a choice between permanent and rotating shifts where practicable, rostering rotating shifts forward (morning to afternoon to night), avoiding starts before 7 am where not essential, avoiding shifts longer than 8 hours for monotonous, demanding or isolated work, limiting 12-hour night shifts to two or three consecutive nights, avoiding shifts of more than 12 hours and split shifts, and generally limiting standard shifts to five to seven consecutive working days, with enough rest between shifts and rest days to recover from the [[DefinedTerm/sleep-debt]] a pattern creates ([[DefinedTerm/rest-breaks-at-work]]). Further measures include scheduling demanding or dangerous work away from low-alertness times, rotating tasks, monitoring overtime and shift swapping, [[DefinedTerm/workplace-napping]], fatigue reporting, policies, communication and training.
+
+## Measurement and health effects in Canada
+
+Survey research uses a broader, schedule-based definition than the Directive. In Statistics Canada's [[ScholarlyArticle/shift-work-and-health]] (2002), shift work is anything other than a regular daytime schedule (work beginning after 6:00 a.m. and ending before 7:00 p.m.). It distinguishes a regular evening shift (beginning after 3:00 p.m. and ending before midnight), a regular night shift (beginning after 11:00 p.m. and ending before 11:00 a.m.), a rotating shift that changes periodically from days to evenings or nights, and an irregular shift, a residual category covering split shifts (two or more distinct work periods a day), on-call work, irregular schedules and other arrangements.
+
+On this definition, about 3 in 10 Canadian workers had non-standard hours: in 2000/01, 30% of men and 26% of women aged 18 to 54 who had worked all year, according to the [[Dataset/canadian-community-health-survey]], a share that had stayed roughly stable since the 1991 [[Dataset/survey-of-work-arrangements]]. Shift work was more common in blue-collar and sales and service jobs and among younger, unmarried, less-educated and less affluent workers, and for most it was not a choice: the main reason given was that the job required it, while women more often than men cited caring for family.
+
+The article sets its analysis in three pathways that researchers have proposed to link shift work and health problems: disruption of circadian rhythms ([[DefinedTerm/circadian-disruption]]), adoption or worsening of unhealthy behaviour (most often smoking), and stress. Using the [[Dataset/national-population-health-survey]], it found that workers on evening or rotating shifts more often reported [[DefinedTerm/job-strain]], and that their prevalence of chronic conditions and psychological distress did not differ from daytime workers' at a single point in time once other factors were controlled for. Followed over four years, however, men on evening, rotating or irregular shifts had higher odds of being diagnosed with a new chronic condition, and an evening shift was associated with a rise in distress for both sexes over two years. Sleep problems were not confined to night work: evening, rotating and irregular shift workers also more often reported trouble sleeping, less than six hours of sleep and unrefreshing sleep. Most shift workers changed schedule or left the workforce within a few years, which the article reads as consistent with a "healthy survivor effect" in which those who remain are the ones best able to tolerate it ([[DefinedTerm/shift-work-intolerance]]).
 
 ## Related Terms
 
-[[DefinedTerm/night-work]], [[DefinedTerm/rest-breaks-at-work]], [[DefinedTerm/maximum-weekly-working-hours]], [[DefinedTerm/on-call-and-stand-by-time]], [[DefinedTerm/work-related-fatigue]], [[DefinedTerm/short-sleep-duration]]
+[[DefinedTerm/night-work]], [[DefinedTerm/rest-breaks-at-work]], [[DefinedTerm/maximum-weekly-working-hours]], [[DefinedTerm/on-call-and-stand-by-time]], [[DefinedTerm/work-related-fatigue]], [[DefinedTerm/short-sleep-duration]], [[DefinedTerm/circadian-disruption]], [[DefinedTerm/sleep-debt]], [[DefinedTerm/workplace-napping]], [[DefinedTerm/shift-work-intolerance]], [[DefinedTerm/job-strain]]

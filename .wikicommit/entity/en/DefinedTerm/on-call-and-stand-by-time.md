@@ -3,7 +3,7 @@ title: "On-call and stand-by time"
 type: "schema:DefinedTerm"
 lang: en
 aliases: ["On-call time", "Stand-by time", "Standby duty"]
-tags: [working-time, rest-periods, labour-law, european-union]
+tags: [working-time, rest-periods, labour-law, european-union, fatigue]
 sources:
   - type: url
     url: 'https://publications.europa.eu/resource/cellar/6281f139-e3cc-11ed-a05c-01aa75ed71a1.0006.01/DOC_1'
@@ -13,8 +13,12 @@ sources:
     url: 'https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@ed_norm/@relconf/documents/meetingdocument/wcms_909906.pdf'
     hash: sha256:67120e2784c0631a9c709b8e7876bd5a2d1db36a9361000a6174058992b760c3
     license: 'CC-BY-4.0'
+  - type: url
+    url: 'https://www.worksafe.govt.nz/topic-and-industry/fatigue/managing-the-risks-of-shift-work/'
+    hash: sha256:7b8c9f51d838ecdc16c4ee46eef07c55eab07c99f1d1723b53ef27135e6015c7
+    license: 'WorkSafe NZ copyright: free reproduction with source and copyright status acknowledged'
 review_status: pending
-generated_at: "2026-09-29"
+generated_at: "2026-10-01"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 
@@ -36,6 +40,8 @@ Only constraints and facilities that come from the employer, legislation or coll
 
 **In ILO standards and platform work.** Outside EU law, the International Labour Office's report [[Report/realizing-decent-work-in-the-platform-economy-2024]] (2024) recalls that the Hours of Work (Commerce and Offices) Convention, 1930 (No. 30), defines "hours of work" as "the time during which the persons employed are at the disposal of the employer". The ILO's Committee of Experts on the Application of Conventions and Recommendations (CEACR) has not addressed "waiting time" in platform work specifically, but it has discussed time spent "on call" or "on standby" and concluded that it may or may not be regarded as hours of work under the Convention, depending on the extent to which the worker is restricted from engaging in personal activities during that time; where it is not regarded as hours of work, the employee should still be entitled to some payment in recognition of the time spent on call. Because Convention No. 30 applies to employees only, the report treats waiting periods on platforms, and their remuneration, as a normative gap. Such unpaid time can be substantial: ILO surveys found that workers on microtask platforms spend about 20 minutes on unpaid work for every hour worked or task paid for, and on location-based delivery platforms unpaid time includes waiting between assignments. Few regulations address it. In Chile, working time for platform workers classified as employees is defined as the time during which the worker is at the disposal of the platform company, from access to the digital infrastructure until they voluntarily disconnect; recording it is mandatory and must distinguish "passive" working time — at the platform's disposal without performing work, for reasons not attributable to the worker — from "active" working time, and the law provides that the hourly remuneration of active working time "must not be less than 120 per cent of the minimum monthly income", to account for waiting time. The report's questionnaire asked governments whether a new standard should define hours of work for platform workers as the time they are at the disposal of a platform, "including when they are waiting for work assignments", and whether Members should establish a method to determine their remuneration for such periods.
 
+**In fatigue risk management.** Health and safety guidance also looks at on-call duty through its effect on rest. WorkSafe New Zealand's guidance [[Report/managing-the-risks-of-shift-work]] states that workers on on-call or standby duties experience disrupted sleep and poor sleep quality whether or not they are actually called in to work, so employers should schedule enough rest time for them and provide recovery opportunities after periods of on-call work. It lists workers who remain on call through the night or weekend after a standard day's work among those more likely to be harmed by [[DefinedTerm/shift-work]] ([[DefinedTerm/work-related-fatigue]]).
+
 ## Related Terms
 
-[[DefinedTerm/working-time-and-rest-period]], [[DefinedTerm/rest-breaks-at-work]], [[DefinedTerm/right-to-disconnect]], [[DefinedTerm/psychosocial-risks]], [[DefinedTerm/maximum-weekly-working-hours]]
+[[DefinedTerm/working-time-and-rest-period]], [[DefinedTerm/rest-breaks-at-work]], [[DefinedTerm/right-to-disconnect]], [[DefinedTerm/psychosocial-risks]], [[DefinedTerm/maximum-weekly-working-hours]], [[DefinedTerm/work-related-fatigue]]
