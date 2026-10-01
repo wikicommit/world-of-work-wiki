@@ -60,6 +60,7 @@ comments: false
 - [[DefinedTerm/sedentary-work]]
 - [[DefinedTerm/severance-pay]]
 - [[DefinedTerm/shift-work]]
+- [[DefinedTerm/short-sleep-duration]]
 - [[DefinedTerm/statutory-annual-leave]]
 - [[DefinedTerm/statutory-sick-pay]]
 - [[DefinedTerm/supervisory-care-of-children]]

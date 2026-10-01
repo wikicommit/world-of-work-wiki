@@ -6,6 +6,7 @@ review_status: reviewed
 comments: false
 ---
 
+- [[Report/can-telework-improve-managers-working-conditions]]
 - [[Report/decent-work-in-the-platform-economy]]
 - [[Report/ecetss-2018]]
 - [[Report/employment-and-living-situations-of-over-60s]]
@@ -29,6 +30,7 @@ comments: false
 - [[Report/realizing-decent-work-in-the-platform-economy-2026]]
 - [[Report/right-to-disconnect-implementation-and-impact-at-company-level]]
 - [[Report/second-phase-consultation-quality-jobs-act]]
+- [[Report/sitting-behaviour-on-working-days]]
 - [[Report/telework-in-the-eu-regulatory-frameworks-and-recent-updates]]
 - [[Report/the-future-of-telework-and-hybrid-work]]
 - [[Report/time-use-and-teleworkers-2022-time-use-survey]]
@@ -36,6 +38,7 @@ comments: false
 - [[Report/who-are-the-hybrid-workers]]
 - [[Report/who-guidelines-on-mental-health-at-work]]
 - [[Report/who-ilo-joint-estimates-2000-2016]]
+- [[Report/who-works-more-or-fewer-hours]]
 - [[Report/work-related-msds-prevalence-costs-and-demographics-in-the-eu]]
 - [[Report/working-arrangements-august-2024]]
 - [[Report/working-conditions-before-during-and-after-the-covid-19-pandemic]]
