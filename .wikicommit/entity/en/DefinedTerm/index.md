@@ -6,10 +6,12 @@ review_status: reviewed
 comments: false
 ---
 
+- [[DefinedTerm/accident-at-work]]
 - [[DefinedTerm/account-deactivation]]
 - [[DefinedTerm/actual-hours-of-work]]
 - [[DefinedTerm/algorithmic-management]]
 - [[DefinedTerm/article-36-agreement]]
+- [[DefinedTerm/atypical-working-hours]]
 - [[DefinedTerm/caregiving-penalty]]
 - [[DefinedTerm/casual-employment]]
 - [[DefinedTerm/complementary-hours]]
@@ -40,6 +42,7 @@ comments: false
 - [[DefinedTerm/maximum-weekly-working-hours]]
 - [[DefinedTerm/minijob]]
 - [[DefinedTerm/night-work]]
+- [[DefinedTerm/occupational-disease]]
 - [[DefinedTerm/on-call-and-stand-by-time]]
 - [[DefinedTerm/overtime]]
 - [[DefinedTerm/part-time-employment]]
