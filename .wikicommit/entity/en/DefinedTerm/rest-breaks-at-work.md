@@ -3,7 +3,7 @@ title: "Rest breaks at work"
 type: "schema:DefinedTerm"
 lang: en
 aliases: ["Rest break", "Daily rest", "Weekly rest"]
-tags: [working-time, rest-periods, labour-law, united-kingdom, japan, european-union]
+tags: [working-time, rest-periods, labour-law, united-kingdom, japan, european-union, new-zealand, fatigue]
 sources:
   - type: url
     url: 'https://www.gov.uk/rest-breaks-work'
@@ -17,8 +17,12 @@ sources:
     url: 'https://publications.europa.eu/resource/cellar/6281f139-e3cc-11ed-a05c-01aa75ed71a1.0006.01/DOC_1'
     hash: sha256:18422532c27825f9c6c79600fcae590637fec4955ca2164de73c60eedf08db85
     license: 'CC-BY-4.0'
+  - type: url
+    url: 'https://www.worksafe.govt.nz/topic-and-industry/fatigue/managing-the-risks-of-shift-work/'
+    hash: sha256:7b8c9f51d838ecdc16c4ee46eef07c55eab07c99f1d1723b53ef27135e6015c7
+    license: 'WorkSafe NZ copyright: free reproduction with source and copyright status acknowledged'
 review_status: pending
-generated_at: "2026-09-29"
+generated_at: "2026-10-01"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 
@@ -44,6 +48,8 @@ Where work is monotonous, such as work on a production line, and so puts health 
 
 **In Japan.** According to the Ministry of Health, Labour and Welfare, an employer must give a break of at least 45 minutes when working hours exceed 6 hours, and of at least 1 hour when they exceed 8 hours. Employers must also give at least one day off every week, or at least four days off over a four-week period.
 
+**In fatigue risk management.** Beyond legal minimums, occupational health and safety guidance treats breaks and rest as fatigue controls. WorkSafe New Zealand's guidance [[Report/managing-the-risks-of-shift-work]], which notes that New Zealand has minimum legal break requirements of its own, says that frequent short breaks can reduce fatigue, improve productivity and may reduce errors and accidents, that breaks are better taken away from the workstation, and that the time needed to reach the break area, toilets or facilities should be added to the break rather than counted in it; businesses must provide rest facilities, including somewhere to prepare food. Breaks between consecutive shifts should leave enough time to recover, commute, eat well, sleep and take part in social and domestic life. Rest days are treated as opportunities for unrestricted night-time sleep: the number needed after a run of shifts depends mostly on the [[DefinedTerm/sleep-debt]] built up, the guidance suggests a general limit of five to seven consecutive working days for standard shifts, and it advises allowing at least two nights of full unrestricted sleep when switching between day and night shifts and building regular weekend breaks into schedules where reasonably practicable ([[DefinedTerm/shift-work]]).
+
 ## Related Terms
 
-[[DefinedTerm/maximum-weekly-working-hours]], [[DefinedTerm/night-work]], [[DefinedTerm/statutory-annual-leave]], [[DefinedTerm/working-time-and-rest-period]], [[DefinedTerm/on-call-and-stand-by-time]]
+[[DefinedTerm/maximum-weekly-working-hours]], [[DefinedTerm/night-work]], [[DefinedTerm/statutory-annual-leave]], [[DefinedTerm/working-time-and-rest-period]], [[DefinedTerm/on-call-and-stand-by-time]], [[DefinedTerm/shift-work]], [[DefinedTerm/work-related-fatigue]], [[DefinedTerm/workplace-napping]]

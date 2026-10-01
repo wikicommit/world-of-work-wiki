@@ -17,8 +17,12 @@ sources:
     url: 'https://assets.eurofound.europa.eu/f/279033/9913f4fc7b/ef22032en.pdf'
     hash: sha256:f5f82bcc4430bedab38f58378ac4579c0eab8f5bd78ef4f677cf1765621bac9b
     license: 'Eurofound: reproduction authorised provided the source is acknowledged'
+  - type: url
+    url: 'https://www.sjweh.fi/article/4234'
+    hash: sha256:7eafb0d36f9120871e93f755bf33ec23fb1698c8846da883da3a462760ecfcaf
+    license: 'CC-BY-4.0'
 review_status: pending
-generated_at: "2026-09-28"
+generated_at: "2026-10-01"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 properties:
@@ -44,6 +48,8 @@ The teleworker has the same rights and obligations as other employees. The emplo
 At EU level, the usual term is telework. Eurofound's report [[Report/telework-in-the-eu-regulatory-frameworks-and-recent-updates]] notes that "telework" is the most prevalent term in European empirical research, in European regulation and in national legislation for work arrangements outside the employer's premises enabled by ICT, and that the main normative reference is the definition in the [[Legislation/eu-framework-agreement-on-telework]]: work that could also be performed at the employer's premises, carried out away from those premises on a regular basis using information technology, in the context of an employment relationship. This concept is broader than working at home, since it may include several alternative workplaces to the employer's premises, though only for stationary jobs that could also be done there; it excludes jobs in which mobility is required by the labour process. The same report lists related terms that often emphasise one dimension of the same arrangement rather than a different one: remote work, which the ILO uses for any work carried out outside the employer's premises regardless of the technology used; telework and ICT-based mobile work (TICTM), which Eurofound and the ILO used to distinguish working from home or another fixed place from mobile work; smart work or, in Italy, agile work; and [[DefinedTerm/hybrid-work]]. For that report, Eurofound treats telework as equivalent to TICTM.
 
 National statutory definitions, found in 22 of the countries Eurofound examined, differ on several points. They use different terms — "home office" in Austria, "remote work" in Bulgaria, Czechia, Latvia and Lithuania, "location-independent work" in the Netherlands, and distance work, with telework as one type of it, in Spain. Eleven countries cover only telework carried out on a regular or predominant basis, measured in different ways: at least 30% of working time in Spain, and on average at least one day a week over at least three months under the Netherlands' framework agreement, while Luxembourg's definition also covers occasional telework, amounting on average to less than 10% of the teleworker's normal annual working time. Portugal removed its regularity requirement (*habitualidade*) in 2021, whereas Slovakia added one in the same year. The definitions of Austria, Czechia, Estonia and the Netherlands make no reference to ICT, and Germany's covers only home-based telework, while in the other countries telework may take place in several locations other than the employer's premises.
+
+A study of 294 Swedish white-collar workers during the COVID-19 pandemic, [[ScholarlyArticle/impact-of-telework-allowance-and-utilization-on-stress]], separated the allowance to telework (how far employees could decide whether to telework) from the utilization of that allowance. A high allowance was associated with lower physiological stress, measured by heart rate variability, while high utilization was associated with higher perceived and physiological stress; after adjustment for age, sex, body mass index and physical activity, these associations became smaller or non-significant, except that high allowance remained associated with higher RMSSD, one of the heart rate variability measures used. The authors suggest organizations give employees autonomy over how, where and how much they telework, while watching that this autonomy is not used to work extensively and for long hours outside work.
 
 ## Related Terms
 
