@@ -7,6 +7,7 @@ comments: false
 ---
 
 - [[ScholarlyArticle/effects-of-flexible-working-hours-on-employee-health]]
+- [[ScholarlyArticle/health-and-employment]]
 - [[ScholarlyArticle/how-to-schedule-night-shift-work-to-reduce-health-and-safety-risks]]
 - [[ScholarlyArticle/impact-of-telework-allowance-and-utilization-on-stress]]
 - [[ScholarlyArticle/importance-of-extended-working-hours-for-work-related-injuries]]
@@ -21,5 +22,6 @@ comments: false
 - [[ScholarlyArticle/remote-work-the-new-normal-needs-more-research]]
 - [[ScholarlyArticle/shift-work-and-health]]
 - [[ScholarlyArticle/short-sleep-duration-by-occupation-group-29-states-2013-2014]]
+- [[ScholarlyArticle/work-injuries]]
 - [[ScholarlyArticle/working-hours-and-cardiovascular-disease]]
 - [[ScholarlyArticle/working-hours-and-health-key-research-topics]]
