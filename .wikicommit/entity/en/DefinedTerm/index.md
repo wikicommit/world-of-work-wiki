@@ -53,6 +53,7 @@ comments: false
 - [[DefinedTerm/long-working-hours]]
 - [[DefinedTerm/management-standards-for-work-related-stress]]
 - [[DefinedTerm/maximum-weekly-working-hours]]
+- [[DefinedTerm/micro-entrepreneur]]
 - [[DefinedTerm/minijob]]
 - [[DefinedTerm/national-standard-for-psychological-health-and-safety-in-the-workplace]]
 - [[DefinedTerm/night-work]]

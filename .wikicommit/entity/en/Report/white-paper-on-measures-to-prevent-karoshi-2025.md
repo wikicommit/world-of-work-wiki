@@ -1,0 +1,36 @@
+---
+title: "The 2025 White Paper on Measures to Prevent Karoshi, etc. [Summary]"
+type: "schema:Report"
+lang: en
+tags: [japan, long-working-hours, mental-health, occupational-health]
+sources:
+  - type: url
+    url: 'https://www.mhlw.go.jp/content/11200000/2025Summary.pdf'
+    hash: sha256:a59ebf433b853f96892ddea7df230f140d1c479a93afd97d72c49c7d97c7640f
+review_status: pending
+generated_at: "2026-10-02"
+generated_by: "claude-opus-5-5"
+generated_with: "0.8.0"
+
+properties:
+  publisher: "Ministry of Health, Labour and Welfare (Japan), Labour Standards Bureau, Office for Policy on Karoshi Prevention"
+  about:
+    - "[[DefinedTerm/karoshi]]"
+    - "[[DefinedTerm/long-working-hours]]"
+    - "[[Legislation/act-promoting-measures-to-prevent-death-and-injury-from-overwork]]"
+  abstract: "The English summary of Japan's 2025 statutory white paper on karoshi, reporting FY2024 data on working hours, paid leave, workplace mental health measures and workers' compensation cases for overwork-related diseases and mental disorders, and the measures the government has taken to prevent them."
+---
+
+The 2025 White Paper on Measures to Prevent Karoshi, etc. is the English summary of the annual report Japan's government submits to the Diet on death and injury from overwork ([[DefinedTerm/karoshi]]) and on the measures it has taken to prevent them. Its subtitle describes it as an FY2024 summary of death and injury from overwork in Japan and the implementation of the government's measures; it was prepared by the Office for Policy on Karoshi Prevention in the Labour Standards Bureau of the Ministry of Health, Labour and Welfare. The white paper is required by the [[Legislation/act-promoting-measures-to-prevent-death-and-injury-from-overwork]], and the 2025 edition is the tenth in the series.
+
+The 2025 edition highlights three subjects: an analysis of the workers' compensation claims and approvals related to karoshi, which have increased in recent years; trends in the industries and sectors designated as priority targets for survey and research in the Outline of Measures to Prevent Death and Injury from Overwork (Cabinet decision of 2 August 2024) — motor vehicle driving, education, the IT industry, food service, healthcare, construction, media, and arts and entertainment; and the results of a questionnaire survey of the food service industry. Its first chapter gives an overview of karoshi, and its second the status of the government's preventive measures, illustrated with columns including case studies of efforts by companies and organisations.
+
+## Details
+
+**Working hours, leave and mental health measures.** Among employees working more than 40 hours a week, the share working more than 60 hours a week fell by 0.4 percentage points to 8.0% in 2024 ([[DefinedTerm/long-working-hours]]); most industries were stable or declining, and only real estate and goods rental and leasing rose by 0.5 points or more. On the work-interval system — a minimum number of hours of rest between the end of one working day and the start of the next ([[DefinedTerm/working-time-and-rest-period]]) — 14.7% of companies had never heard of it and 5.7% had introduced it, both lower than the year before. The rate of annual paid leave taken had risen for nine consecutive years to a record 65.3% in 2023 ([[DefinedTerm/statutory-annual-leave]]). The share of establishments working on mental health measures was 63.2%, down 0.6 points; 33.5% of small establishments with fewer than 50 workers had carried out stress checks in 2024 ([[DefinedTerm/stress-check-program]]); and 68.3% of workers reported strong anxiety, worries or stress related to their work or working life.
+
+**Workers' compensation cases.** For private-sector workers, approved compensation cases for cerebrovascular and cardiovascular diseases have trended upward since FY2022, reaching 241 in FY2024, with fatal cases rising to 67. Approved cases for mental disorders have increased since 2019, reaching 1,055 in FY2024, with suicide cases (including attempts) rising to 88. Per million employees, FY2024 approvals for cerebrovascular and cardiovascular diseases were 4.2 for private-sector workers, 2.2 for national public employees and 2.8 for local public employees, and for mental disorders 18.2, 15.3 and 24.9 respectively. Claims for mental disorders have grown every year, with a particularly large increase in FY2023: non-suicide claims reached about 3.5 times their FY2010 level while suicide claims stayed broadly flat or rose slightly, women's non-suicide claims have recently exceeded men's, and the industries with the most claims were medical, health care and welfare, manufacturing, and wholesale and retail. "Interpersonal relationships" was by far the most common type of triggering event in approved mental-disorder cases, rising sharply in FY2023 and FY2024; within it, "had problems with supervisors" accounted for over 60% and rose by 354 cases in FY2024, while "power harassment", a separate category since FY2020, accounted for 389 cases in FY2024.
+
+**Priority industries and surveys.** An analysis of approved cases in the priority industries, based on data from the National Institute of Occupational Safety and Health, found that cerebrovascular and cardiovascular cases in motor vehicle driving fell in FY2020–FY2022 but remain relatively high compared with other sectors, while mental-disorder cases rose substantially in healthcare and motor vehicle driving and stayed high in construction, with the events involved differing across industries. A November 2024 survey of workers found that dissatisfaction with working conditions generally increased with weekly working hours, and 61.7% of those working 60 hours or more a week reported not being well rested by their sleep. In the December 2024 food service survey, store managers were the job category most often working 60 hours or more a week, and area managers and supervisors most often reported power or sexual harassment and customer harassment. The white paper concludes that efforts to prevent long and excessive working hours, ensure days off and encourage leave will continue, alongside efforts to create better workplace environments and measures tailored to each priority industry.
+
+**Government measures.** The measures described include strict enforcement of the caps on overtime that were extended to construction, motor vehicle driving services and doctors from April 2024 ([[DefinedTerm/overtime]]); inspection and guidance for workplaces with long working hours or karoshi cases, including requiring companies with multiple karoshi cases within a set period to draw up a company-wide improvement plan; promotion of the work-interval system, with grants for small and medium-sized enterprises; awareness campaigns, including an Enlightenment Month every November; mental health and anti-harassment measures, including a manual on customer harassment; consultation services such as a labour standards advice hotline and the "Kokoro-no-mimi" mental health portal; research on the relationship between working hours, work stress and health; and support for private organisations, including symposiums in every prefecture and programmes for children bereaved by karoshi.
