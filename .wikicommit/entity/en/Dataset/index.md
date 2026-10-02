@@ -12,6 +12,7 @@ comments: false
 - [[Dataset/behavioral-risk-factor-surveillance-system]]
 - [[Dataset/canadian-community-health-survey]]
 - [[Dataset/canadian-labour-force-survey]]
+- [[Dataset/canadian-survey-on-working-conditions]]
 - [[Dataset/canadian-time-use-survey]]
 - [[Dataset/dutch-labour-accounts]]
 - [[Dataset/dutch-labour-force-survey]]
