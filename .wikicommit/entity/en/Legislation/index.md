@@ -13,4 +13,5 @@ comments: false
 - [[Legislation/health-and-safety-at-work-act-2015]]
 - [[Legislation/spain-remote-work-act]]
 - [[Legislation/workers-statute]]
+- [[Legislation/working-hours-act-germany]]
 - [[Legislation/working-time-directive]]
