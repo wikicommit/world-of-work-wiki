@@ -28,6 +28,7 @@ comments: false
 - [[DefinedTerm/employee-voice]]
 - [[DefinedTerm/evening-work]]
 - [[DefinedTerm/fire-and-rehire]]
+- [[DefinedTerm/flexible-working-hours]]
 - [[DefinedTerm/flexicurity]]
 - [[DefinedTerm/flextime-system]]
 - [[DefinedTerm/four-day-week]]
