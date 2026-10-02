@@ -6,6 +6,7 @@ review_status: reviewed
 comments: false
 ---
 
+- [[Legislation/act-promoting-measures-to-prevent-death-and-injury-from-overwork]]
 - [[Legislation/canada-labour-code]]
 - [[Legislation/employment-rights-act-2025]]
 - [[Legislation/eu-framework-agreement-on-telework]]
