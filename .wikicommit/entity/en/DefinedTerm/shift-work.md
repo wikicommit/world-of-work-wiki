@@ -3,7 +3,7 @@ title: "Shift work"
 type: "schema:DefinedTerm"
 lang: en
 aliases: ["Shift worker"]
-tags: [working-time, labour-law, european-union, work-organisation, fatigue, new-zealand, occupational-health, canada]
+tags: [working-time, labour-law, european-union, work-organisation, fatigue, new-zealand, occupational-health, canada, united-states]
 sources:
   - type: url
     url: 'https://publications.europa.eu/resource/cellar/6281f139-e3cc-11ed-a05c-01aa75ed71a1.0006.01/DOC_1'
@@ -20,8 +20,11 @@ sources:
   - type: url
     url: 'https://www150.statcan.gc.ca/n1/pub/82-003-x/2001004/article/6315-eng.pdf'
     hash: sha256:69c5d3cc3726a4c8c77ecaa02fb404f7976c44eea432364b9fb90686f91844b2
+  - type: url
+    url: 'https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod2/01.html'
+    hash: sha256:3f84104181e3ffeeed4682892008e825e0b2186a6729153aefc02148f5465018
 review_status: pending
-generated_at: "2026-10-01"
+generated_at: "2026-10-02"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 
@@ -57,6 +60,10 @@ While inbuilt characteristics cannot be changed, HSE's hints and tips for shift 
 WorkSafe New Zealand's guidance states that shift work causes fatigue, which arises from sleep loss, long periods awake, working and sleeping at the wrong times of the circadian body clock ([[DefinedTerm/circadian-disruption]]) and workload ([[DefinedTerm/work-related-fatigue]]). It lists short-term effects such as gastrointestinal problems, more colds and flu and shorter or poorer sleep, and longer-term increases in the likelihood of peptic ulcers, insomnia, obesity, colorectal, lung and breast cancer, cardiovascular disease, type 2 diabetes, stroke and early death, as well as of depression and psychological distress. Fatigue lowers performance, slows information processing and weakens memory, decision-making and communication; incident rates are higher on evening and night shifts than on morning shifts and rise with hours at work, and shift workers who drive at night or start early are more prone to drowsy driving. Consistently working more than 40 hours a week, regularly having short recovery periods between shifts, or regularly working more than two consecutive night shifts can increase sick leave. The guidance identifies groups more likely to be harmed, including younger and older workers, pregnant workers and new parents, workers with chronic illnesses or time-dependent medication, casual workers unfamiliar with the business's schedules, and workers who remain on call after a standard day's work.
 
 The guidance treats roster design ("smart rostering") as an important control but insists that there is no perfect schedule and that rostering alone will not prevent fatigue. It rates daytime shifts as the best, afternoon starts as better than night or early-morning work, and night shifts as extremely disruptive ([[DefinedTerm/night-work]]). It advises offering a choice between permanent and rotating shifts where practicable, rostering rotating shifts forward (morning to afternoon to night), avoiding starts before 7 am where not essential, avoiding shifts longer than 8 hours for monotonous, demanding or isolated work, limiting 12-hour night shifts to two or three consecutive nights, avoiding shifts of more than 12 hours and split shifts, and generally limiting standard shifts to five to seven consecutive working days, with enough rest between shifts and rest days to recover from the [[DefinedTerm/sleep-debt]] a pattern creates ([[DefinedTerm/rest-breaks-at-work]]). Further measures include scheduling demanding or dangerous work away from low-alertness times, rotating tasks, monitoring overtime and shift swapping, [[DefinedTerm/workplace-napping]], fatigue reporting, policies, communication and training.
+
+## How the risks arise
+
+NIOSH's online training for nurses on shift work and long work hours explains that research links these schedules to health and safety risks by way of disturbed sleep and circadian rhythms ([[DefinedTerm/circadian-disruption]]) and reduced time for family and other non-work responsibilities. These immediate effects promote stress, fatigue ([[DefinedTerm/work-related-fatigue]]), negative mood, discomfort, physiological dysfunction and poor health behaviours such as overeating, smoking and lack of exercise, which in turn could lead to illness and injury. The training notes that the risks can extend to workers' families, through conflicting demands of work and family, and to employers, through reduced productivity and more nursing care errors that harm patients; mistakes by fatigued nurses can affect the wider community, from care errors to motor vehicle crashes during the commute. It adds that scientific evidence indicates that the characteristics of the worker and the demands of the job influence whether these negative outcomes occur.
 
 ## Measurement and health effects in Canada
 

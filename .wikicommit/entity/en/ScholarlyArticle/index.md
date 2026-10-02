@@ -14,6 +14,7 @@ comments: false
 - [[ScholarlyArticle/measuring-workplace-psychosocial-factors-in-the-federal-government]]
 - [[ScholarlyArticle/night-shift-work-and-cardiovascular-diseases-gutenberg-health-study]]
 - [[ScholarlyArticle/office-design-telework-from-home-and-self-certified-sickness-absence]]
+- [[ScholarlyArticle/realised-employment-of-mothers-and-fathers]]
 - [[ScholarlyArticle/remote-work-the-new-normal-needs-more-research]]
 - [[ScholarlyArticle/shift-work-and-health]]
 - [[ScholarlyArticle/short-sleep-duration-by-occupation-group-29-states-2013-2014]]

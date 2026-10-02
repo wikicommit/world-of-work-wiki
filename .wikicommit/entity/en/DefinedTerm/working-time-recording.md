@@ -3,7 +3,7 @@ title: "Working time recording"
 type: "schema:DefinedTerm"
 lang: en
 aliases: ["Recording of working time", "Time recording"]
-tags: [working-time, labour-law, european-union, labour-statistics]
+tags: [working-time, labour-law, european-union, labour-statistics, japan]
 sources:
   - type: url
     url: 'https://assets.eurofound.europa.eu/f/279033/356ff40090/ef23007en.pdf'
@@ -21,8 +21,11 @@ sources:
     url: 'https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Job_autonomy_and_pressure_at_work_-_statistics'
     hash: sha256:68c3332ccd8eabbf3df62851cc1cf5bda8ac61a6f03c3874cb5138749e4ef935
     license: 'CC-BY-4.0'
+  - type: url
+    url: 'https://www.check-roudou.mhlw.go.jp/pdf/kajuroudou.pdf'
+    hash: sha256:91a2f0648ede0ee77f145ed36ba4634da9f994ea7c8c6b6fdf85542398cda8ba
 review_status: pending
-generated_at: "2026-10-01"
+generated_at: "2026-10-02"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 
@@ -42,6 +45,8 @@ Eurofound's review [[Report/working-time-in-2021-2022]] identifies Germany, Gree
 
 **How hours are recorded in practice.** Eurostat's article on job autonomy and pressure at work, based on the 2019 ad hoc module of the [[Dataset/eu-labour-force-survey]] on work organisation and working time arrangements, reports how employees' working hours or presence were actually recorded. It treats the method as an indication of the degree of control over, and trust in, the employee: recording by an automatic system or by a supervisor or colleague implies a high level of control, recording by employees themselves a lower one, and registering presence alone even more trust and autonomy. In 2019, 33.1% of EU-27 employees had their hours recorded automatically — when entering the building, logging into a computer or device, or starting a machine or vehicle — and 8.0% had them recorded manually by a supervisor or colleague, so that 41.1% faced a high level of working-time monitoring. A further 15.3% recorded their hours themselves, 20.4% only registered their presence, 21.2% recorded nothing and 2.0% used another method. Automatic recording ranged from 54.6% of employees in Slovenia to 6.8% in Denmark; almost two in five employees in the Netherlands (38.2%) and Finland (36.6%) recorded their own hours; and more than half of employees in Latvia (62.9%) and Cyprus (53.4%) recorded neither hours nor presence. Automatic recording was more common in large firms (45.6% of employees) than in medium-sized (29.2%) or small ones (13.7%), while recording by a supervisor or colleague was more common in small (9.2%) and medium-sized firms (9.8%) than in large ones (6.0%).
 
+**Japan.** A fiscal year 2015 seminar pamphlet on preventing overwork, produced under a commission from the Ministry of Health, Labour and Welfare, sets out the Japanese standard on the measures employers should take to ascertain working hours properly. It was issued because improper use of self-reporting had led to unpaid premium wages and excessively long working hours. It covers every workplace to which the working-time provisions of the Labour Standards Act apply, and all workers except managers and supervisors and workers under deemed working-hours systems (for the hours deemed) — though the employer remains responsible for managing working time appropriately for those excluded workers too, to protect their health. Employers must confirm and record each worker's start and finish times on each working day, in principle either by observing them directly or on the basis of objective records such as time cards or IC cards. Where self-reporting cannot be avoided, the employer must explain to the workers concerned that they should record and report their actual hours correctly, check as necessary whether the reported hours match the hours actually worked, and refrain from measures that hinder accurate reporting, such as setting a cap on reportable overtime; it must also check whether internal notices on reducing overtime or fixed-amount overtime allowances are discouraging accurate reports and correct them if so. Records of working time must be kept for three years (Article 109 of the Labour Standards Act); the head of the department responsible for labour management must oversee proper time management and resolve problems; and labour–management bodies such as committees on improving working-hours arrangements should be used where necessary. The pamphlet adds that, according to a national survey, many workplaces track hours with time cards or other automatic systems, self-reporting or confirmation by supervisors, and recommends that employers also track irregular schedules, business trips, shift work and late-night work, since recording working hours is the starting point for preventing ill health from overwork ([[DefinedTerm/physician-interview-guidance-for-long-working-hours]]).
+
 ## Related Terms
 
-[[DefinedTerm/actual-hours-of-work]], [[DefinedTerm/usual-hours-of-work]], [[DefinedTerm/overtime]], [[DefinedTerm/maximum-weekly-working-hours]], [[DefinedTerm/rest-breaks-at-work]], [[DefinedTerm/job-autonomy]]
+[[DefinedTerm/actual-hours-of-work]], [[DefinedTerm/usual-hours-of-work]], [[DefinedTerm/overtime]], [[DefinedTerm/maximum-weekly-working-hours]], [[DefinedTerm/rest-breaks-at-work]], [[DefinedTerm/job-autonomy]], [[DefinedTerm/article-36-agreement]]
