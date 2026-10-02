@@ -2,7 +2,7 @@
 title: "Long working hours"
 type: "schema:DefinedTerm"
 lang: en
-tags: [working-time, occupational-health, burden-of-disease, germany]
+tags: [working-time, occupational-health, occupational-safety, burden-of-disease, germany]
 sources:
   - type: url
     url: 'https://iris.who.int/server/api/core/bitstreams/9261bd6a-5397-421f-a862-ab476a43b02c/content'
@@ -14,6 +14,9 @@ sources:
   - type: url
     url: 'https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Qualitaet-Arbeit/Dimension-3/ueberlange-arbeitszeiten.html'
     hash: sha256:0d75d3ee0f18bc937d5e677aab247fd469dbda8424aa3a3540316d28bb765822
+  - type: url
+    url: 'https://www.sjweh.fi/article/3981'
+    hash: sha256:37cc7691be17a5c2d637df89259a2f3e77ebafd7a1386ac1bea796640ba04fe5
 review_status: pending
 generated_at: "2026-10-02"
 generated_by: "claude-opus-5-5"
@@ -33,6 +36,8 @@ In the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury,
 
 **A different threshold in Germany.** Not every measure uses the 55-hour line. Germany's Federal Statistical Office (Destatis), in its indicators on the quality of work, counts as working excessively long hours (*überlange Arbeitszeiten*) full-time workers aged 15 and over who usually work 49 hours or more a week, by their own assessment in the Labour Force Survey; it says the definition follows international conventions. It notes that hours far above the average can be physically or mentally stressful and leave less time for private life. In 2025, 7.1% of full-time workers usually worked 49 hours or more — 8.4% of men and 4.5% of women. The share rises with age, from 1.4% of those aged 15 to 24 to 9.6% of those aged 55 to 64, which Destatis links partly to the high share among managers, who are more often in the older age groups: almost a quarter of full-time workers in management positions worked such hours, against 6.1% of those without managerial duties. Skilled agricultural workers (25.3%) and academic professionals (9.9%) also often worked longer, clerical workers (1.8%), elementary workers (2.1%) and craft workers (3.7%) least often. The self-employed stand out: 35.6% of them worked 49 hours or more — 44.5% of those with employees and 23.0% of solo self-employed — compared with 4.1% of full-time employees ([[DefinedTerm/self-employment]]). During the COVID-19 crisis the share fell only slightly among employees but more markedly among the self-employed compared with 2019, which Destatis attributes in part to business declines from restrictions and disrupted supply chains; it cautions that, after the redesign of the Microcensus and its integrated Labour Force Survey in 2020, results are only partly comparable with earlier years, and recommends looking at the self-employed, employees and managers separately.
 
+**Safety and injuries.** An editorial in the *Scandinavian Journal of Work, Environment & Health* ([[ScholarlyArticle/importance-of-extended-working-hours-for-work-related-injuries]]) presents extended working hours as a promising candidate risk factor for work-related injuries: they leave less time for sleep and restitution, and the resulting sleepiness can impair cognitive performance, which may also put others such as patients and road users at risk. It reports that a systematic review and meta-analysis in the same issue found long daily (more than 12 hours) and long weekly (more than 55 hours) working hours associated with an increased risk of safety incidents. The editorial also points to methodological difficulties: long hours are intertwined with quick returns and evening or night work, long days do not necessarily mean long weeks ([[DefinedTerm/compressed-work-week]]), long weekly hours, especially overtime, may be due to high workload, which offers an alternative explanation for health effects, and in countries with high social security and a minimum wage long hours are likely to be more of a voluntary choice than where they are a financial necessity. It describes payroll data as the gold standard for measuring working hours.
+
 **Prevention.** WHO and the ILO point to ILO Conventions No. 1 and No. 30, which set maximum limits on working hours in industry and in commerce and offices, with a weekly average that should not exceed 48 hours apart from specific exceptions, and to other ILO standards on working time, holidays and weekly rest. They also point to human resources and work organization management, an adequate balance between working and personal life — particularly in teleworking, self-employment and freelancing — occupational health assessments that consider working hours alongside other cardiovascular risk factors, and social protection floors that provide income so that workers can stop working unhealthy long hours.
 
 ## Related Terms
@@ -41,3 +46,4 @@ In the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury,
 - [[DefinedTerm/usual-hours-of-work]]
 - [[DefinedTerm/psychosocial-risks]]
 - [[DefinedTerm/self-employment]]
+- [[DefinedTerm/compressed-work-week]]

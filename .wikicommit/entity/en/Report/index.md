@@ -7,9 +7,12 @@ comments: false
 ---
 
 - [[Report/average-hours-worked-and-economic-growth-uk-1998-to-2022]]
+- [[Report/average-weekly-working-hours-1976-to-2022]]
 - [[Report/being-a-parent-greater-consequences-for-womens-employment]]
 - [[Report/can-telework-improve-managers-working-conditions]]
+- [[Report/canadian-survey-on-working-conditions-2024-2025]]
 - [[Report/decent-work-in-the-platform-economy]]
+- [[Report/distribution-of-weekly-working-hours-1976-to-2022]]
 - [[Report/ecetss-2018]]
 - [[Report/employment-and-living-situations-of-over-60s]]
 - [[Report/employment-and-social-trends-2026]]

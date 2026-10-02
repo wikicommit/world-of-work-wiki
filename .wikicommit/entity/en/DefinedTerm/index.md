@@ -18,6 +18,7 @@ comments: false
 - [[DefinedTerm/child-penalty]]
 - [[DefinedTerm/circadian-disruption]]
 - [[DefinedTerm/complementary-hours]]
+- [[DefinedTerm/compressed-work-week]]
 - [[DefinedTerm/contractual-hours]]
 - [[DefinedTerm/cross-border-telework]]
 - [[DefinedTerm/deemed-working-hours-system]]

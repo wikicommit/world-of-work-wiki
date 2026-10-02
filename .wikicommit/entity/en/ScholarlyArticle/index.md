@@ -9,6 +9,8 @@ comments: false
 - [[ScholarlyArticle/effects-of-flexible-working-hours-on-employee-health]]
 - [[ScholarlyArticle/how-to-schedule-night-shift-work-to-reduce-health-and-safety-risks]]
 - [[ScholarlyArticle/impact-of-telework-allowance-and-utilization-on-stress]]
+- [[ScholarlyArticle/importance-of-extended-working-hours-for-work-related-injuries]]
+- [[ScholarlyArticle/long-working-hours-and-all-cause-mortality-in-china]]
 - [[ScholarlyArticle/long-working-hours-and-depressive-symptoms]]
 - [[ScholarlyArticle/long-working-hours-safety-and-health-toward-a-national-research-agenda]]
 - [[ScholarlyArticle/long-working-hours-shift-work-and-suicidal-ideation]]
