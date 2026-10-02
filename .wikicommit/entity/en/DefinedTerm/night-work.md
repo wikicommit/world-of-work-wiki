@@ -3,7 +3,7 @@ title: "Night work"
 type: "schema:DefinedTerm"
 lang: en
 aliases: ["Night worker", "Night period", "Night time"]
-tags: [working-time, labour-law, united-kingdom, european-union, fatigue, new-zealand, canada]
+tags: [working-time, labour-law, united-kingdom, european-union, fatigue, new-zealand, canada, denmark]
 sources:
   - type: url
     url: 'https://www.gov.uk/night-working-hours'
@@ -21,8 +21,11 @@ sources:
     url: 'https://www150.statcan.gc.ca/n1/pub/14-28-0001/2023001/article/00008-eng.htm'
     hash: sha256:b83a75f6687807147d927a2c04ff1fb50be6e39c60a33b5c986081bfe4613709
     license: 'Statistics Canada Open Licence'
+  - type: url
+    url: 'https://nfa.dk/psykisk-arbejdsmiljoe/arbejdstid-og-nattevagter'
+    hash: sha256:40a95ea5d62340c8be125be4d39cbd9c97cedd71425c76dc5f44f45d94785015
 review_status: pending
-generated_at: "2026-10-01"
+generated_at: "2026-10-02"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 
@@ -50,6 +53,8 @@ Employers must keep records of night workers' working hours to show that the lim
 
 **In health and safety guidance.** WorkSafe New Zealand's guidance [[Report/managing-the-risks-of-shift-work]] approaches night work through its effects rather than a legal definition. It describes night shifts as extremely disruptive: they cause sleep loss and lighter daytime sleep and mean people work at less functional times of their circadian body clock ([[DefinedTerm/circadian-disruption]]), raising the likelihood of error, accident, injury and poor health and wellbeing, and they can significantly disrupt family and social life, limit training opportunities and reduce communication with other workers. Time-on-task fatigue builds up faster at night, and periods of low alertness can occur throughout the night, peaking in the early hours of the morning. Under New Zealand's [[Legislation/health-and-safety-at-work-act-2015]], businesses must give night workers training and information about the risks of shift work and provide and maintain facilities whatever the time of day. The guidance advises avoiding permanent night shifts where reasonably practicable, finding alternatives for workers who cannot cope with night work, transporting workers or providing a place to sleep before driving home, ensuring enough supervision during periods of low alertness, covering absences with relief staff rather than overtime, and monitoring shift swapping so that night workers do not work excessive hours; 12-hour night shifts should be limited to two or three consecutive nights.
 **In statistics.** Labour statistics can measure night work by a worker's usual schedule rather than by a legal threshold. Statistics Canada's night work indicator, published in its Quality of Employment in Canada series, is the number of workers whose usual schedule in their main job is a regular night shift or night hours, as a percentage of all employed persons, and it does not limit the definition to seven consecutive hours. Measured this way, night work is uncommon: 1.7% of Canadian workers aged 15 to 69 (323,000 people) in April 2022, a share that earlier surveys suggest has been relatively stable (2.0% in 2016, 1.8% in March 2020), as reported in [[Report/night-work-2022]]. It was more common among men, workers with less formal education, landed immigrants and Filipino and Black workers, and in transportation and warehousing, support services, retail and manufacturing, and in production and health-support occupations such as nurses' aides and orderlies, though it did not exceed 10% of workers in any industry or major occupational group. Statistics Canada observes that night work can be a voluntary adaptation of work hours but is often driven by operational needs in settings such as hospitals and factories, that it may make it harder to combine work with care and family responsibilities, and that night shifts are associated with a higher risk of depression, metabolic syndrome and other health conditions. Canadian night workers also had less schedule flexibility than daytime workers (13.5% could choose their start and finish times, against 37.2%) and 97.2% of them usually worked exclusively at locations other than their home, against 72.2% of daytime workers.
+
+**In occupational health research.** The Danish National Research Centre for the Working Environment (NFA) researches how long working days and evening and night work relate to accident risk and health. According to an NFA survey from 2018, the sectors with the most employees on fixed or alternating night shifts in Denmark are passenger transport, hospitals, and police, emergency services and prisons, and night work is typically most widespread in younger age groups and among men. NFA describes night shifts as able to affect employees' circadian rhythms negatively and increase their need for rest and recovery. It reports that research, including its own, shows an association between night work and an increased risk of certain forms of miscarriage and of accidents; that the risk of reporting sick after a night shift is 22% higher than after a day shift, and the risk after the third consecutive night shift 44% higher than after the first; and that employees with permanent night work are less inclined to stop smoking and find it harder to become more physically active in their leisure time. To reduce the risks of, among other things, accidents and cancer, NFA's researchers recommend at most three consecutive night shifts, at least 11 hours between two shifts and shifts lasting at most 9 hours, and that pregnant women should normally work at most one night shift a week to reduce the risk of involuntary miscarriage and other pregnancy complications.
 
 ## Related Terms
 

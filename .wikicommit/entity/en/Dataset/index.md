@@ -19,6 +19,7 @@ comments: false
 - [[Dataset/european-health-interview-survey]]
 - [[Dataset/european-statistics-on-accidents-at-work]]
 - [[Dataset/european-working-conditions-survey]]
+- [[Dataset/geda-study]]
 - [[Dataset/general-social-survey-on-caregiving-and-care-receiving]]
 - [[Dataset/hilda-survey]]
 - [[Dataset/iab-establishment-panel]]
