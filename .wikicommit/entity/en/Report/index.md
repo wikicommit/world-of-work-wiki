@@ -6,6 +6,7 @@ review_status: reviewed
 comments: false
 ---
 
+- [[Report/average-hours-worked-and-economic-growth-uk-1998-to-2022]]
 - [[Report/being-a-parent-greater-consequences-for-womens-employment]]
 - [[Report/can-telework-improve-managers-working-conditions]]
 - [[Report/decent-work-in-the-platform-economy]]
@@ -25,6 +26,8 @@ comments: false
 - [[Report/how-australians-use-their-time-2024]]
 - [[Report/how-to-tackle-work-related-stress]]
 - [[Report/interpretative-communication-on-the-working-time-directive]]
+- [[Report/is-hybrid-working-here-to-stay]]
+- [[Report/job-quality-indicators-in-the-uk-hours-pay-and-contracts-2018]]
 - [[Report/long-term-consequences-of-the-covid-19-pandemic-for-the-economy-sectors-and-occupations]]
 - [[Report/managing-psychosocial-risks-at-work]]
 - [[Report/managing-the-risks-of-shift-work]]
