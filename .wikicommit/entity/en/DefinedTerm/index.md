@@ -68,6 +68,7 @@ comments: false
 - [[DefinedTerm/night-work]]
 - [[DefinedTerm/occupational-disease]]
 - [[DefinedTerm/occupational-exposure-to-generative-ai]]
+- [[DefinedTerm/occupational-segregation]]
 - [[DefinedTerm/on-call-and-stand-by-time]]
 - [[DefinedTerm/one-and-a-half-earner-model]]
 - [[DefinedTerm/overtime]]

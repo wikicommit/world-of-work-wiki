@@ -8,8 +8,12 @@ sources:
     url: 'https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Part-time_and_full-time_employment_-_statistics'
     hash: sha256:940f334679202fd329966076eaa93da017ceee1ff6112736fcc588f798060b16
     license: 'CC-BY-4.0'
+  - type: url
+    url: 'https://www.cbs.nl/nl-nl/nieuws/2023/15/vrouwen-werken-meteen-na-afstuderen-al-vaker-in-deeltijd-dan-mannen'
+    hash: sha256:90019649df6e5e4e8af5d841a64fef5cf3ea4fe96b987671806cb01cb2b7aaef
+    license: 'CC-BY-4.0'
 review_status: pending
-generated_at: "2026-09-27"
+generated_at: "2026-10-03"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 properties:
@@ -25,6 +29,8 @@ Because the classification rests on respondents' spontaneous answers, a few coun
 Eurostat's statistics show part-time work as a stable but strongly gendered feature of EU labour markets. In 2024, 17.1% of employed people aged 20–64 in the EU worked part-time, slightly down from 17.8% in 2015; the share for men stayed within 7.5–7.7% over the decade, while that for women fell from 29.7% to 27.8%. In 2023 part-time employment rose sharply (+2.0%), outpacing full-time growth (+0.8%) for the first time in the decade, and in 2024 it again grew marginally faster (+1.0% against +0.9%). It varies greatly between countries — from more than 1 in 5 employed people in the Netherlands, Austria, Germany, Denmark and Belgium to under 4% in Bulgaria, Romania, Croatia and Slovakia — and it is more common among young people still in education, people with a low level of education, older women, workers in elementary and service and sales occupations, and people on temporary contracts.
 
 Parenthood widens the gap between women and men. Among employed 25- to 54-year-olds in 2024, 31.7% of women with children worked part-time against 19.1% of women without children, while for men the shares were 5.1% and 7.4%; in Austria, the Netherlands and Germany more than 65% of employed women with children worked part-time. The reasons people give also differ by sex: among part-time workers aged 25–64, caring for children or adults with disabilities was cited by 29.6% of women and 8.7% of men, whereas men more often cited not finding a full-time job (25.7% against 17.1% of women), their own illness or disability, or education and training. Eurostat notes that the higher share of part-time work among women may reflect both personal preferences and external circumstances, and underlines the share of people who work part-time because no full-time job was available.
+
+The gender gap opens early in working life. Statistics Netherlands (CBS), using its own threshold of fewer than 35 hours a week, followed people who left education in the Netherlands with a diploma in 2007–2009 ([[Report/women-work-part-time-more-often-than-men-right-after-graduation]]): one year after graduating, 30% of female employees worked part-time against 14% of male employees, and nine years later fewer than 10% of men did, against 40% of women with a university diploma and 67% of women with an mbo (secondary vocational) diploma. Women who began full time moved to part-time more often than men, most often when they lived with a partner and especially in the year after the birth of a first child; CBS found that women's more frequent choice of courses leading to sectors where part-time work is common, such as education and health care, explains only part of the difference.
 
 ## Related Terms
 
