@@ -64,6 +64,7 @@ comments: false
 - [[Report/time-spent-with-family-during-a-typical-workday-1986-to-2005]]
 - [[Report/time-use-and-teleworkers-2022-time-use-survey]]
 - [[Report/time-use-total-work-burden-unpaid-work-and-leisure]]
+- [[Report/trends-in-self-employment-in-the-uk]]
 - [[Report/underemployed-part-time-workers-from-wanting-to-work-more-to-working-more]]
 - [[Report/using-total-worker-health-concepts-to-reduce-fatigue-among-retail-workers]]
 - [[Report/white-paper-on-measures-to-prevent-karoshi-2025]]
