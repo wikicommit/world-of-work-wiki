@@ -17,8 +17,11 @@ sources:
     url: 'https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/whoarethehybridworkers/2024-11-11'
     hash: sha256:59736c574a2838becef5bd0aa7a88728af0e2d55cefbba827ab19fc9f87a1c00
     license: 'OGL-UK-3.0'
+  - type: url
+    url: 'https://healthy-workplaces.osha.europa.eu/sites/hwc/files/hwc/publication/Hybrid_work_OSH_en.pdf'
+    hash: sha256:56158558cbac95e7d6bccc31f267ca809d3e0120b5660dcd9b3b843835f1373c
 review_status: pending
-generated_at: "2026-09-27"
+generated_at: "2026-10-03"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 properties:
@@ -37,12 +40,16 @@ Eurofound's report [[Report/the-future-of-telework-and-hybrid-work]] notes that 
 
 In Great Britain, the Office for National Statistics describes hybrid working as part travelling to work and part working at home. Its article [[Report/who-are-the-hybrid-workers]] reports that 28% of working adults were hybrid working in autumn 2024 and that, while working only from home had fallen since 2021, the hybrid model had become the "new normal" for around a quarter of workers. In April to June 2024 it was more common among workers aged 30 and over (29%, against 19% of those aged 16 to 29), working parents (35%, against 24% of non-parents), managers, directors and senior officials (45%) and workers with a degree or equivalent (42%, against 4% of those with no qualifications); among businesses surveyed in December 2023 it was most common in information and communication (49%) and least common in accommodation and food services (4%).
 
+The EU-OSHA discussion paper [[Report/hybrid-work-new-opportunities-and-challenges-for-occupational-safety-and-health]] (2023) defines hybrid work as a combination of telework and work at the employer's premises, and — following the classification of the European Working Conditions Telephone Survey — counts as hybrid any arrangement in which telework accounts for between 10% and 90% of working time, as against full-time telework (more than 90%) and work at the employer's premises (less than 10%). It distinguishes "office-first" and "remote-first" models of alternating home and on-site work, hybrid work combining the employer's premises with third spaces such as coworking spaces or satellite offices, and nomadic hybrid work combined with mobile work, and notes that arrangements can be flexible, with employees choosing their location and hours, or fixed by the organisation.
+
 ## When It Applies
 
 The Commission expects hybrid work to be widely adopted after the pandemic, but cautions that it may be harder to execute well than it appears: managers must co-ordinate which days workers are in the office and may need either separate practices for office-based and home-based staff or practices that work for both, which adds to management and co-ordination costs. The paper also notes that businesses which allow working from home but still reward physical presence risk disadvantaging home-based workers in training and promotion. It describes one possible future in which hybrid work becomes the accepted norm as firms and workers get better at splitting jobs into tasks, and another in which its difficulty pushes firms back toward fully remote or fully centralised models; it presents these as scenarios, not predictions. The assessment rests on survey evidence and economic reasoning from the early period after the COVID-19 pandemic rather than on long-run observation.
 
 Eurofound likewise treats the future of hybrid work as open, setting out four scenarios for the EU to 2035 that range from wide and equitable adoption to a return to pre-pandemic levels, again as a tool for dialogue rather than a forecast. It reports European Working Conditions Telephone Survey 2021 findings that hybrid workers were the least likely (29%) of all workers with some form of telework to report long working hours, compared with more than 35% of those working full time from home, while also reporting the highest share working in their free time. Eurofound stresses that a transition to hybrid work requires reviewing which tasks can be done remotely, giving hybrid teams autonomy, training line managers to manage dispersed teams, and consulting employees, and it warns that without careful planning hybrid arrangements may disrupt workplace dynamics and accentuate gender imbalances.
 
+From an occupational safety and health perspective, the EU-OSHA paper argues that hybrid work exposes workers to the risks of two very different workplaces and changes working conditions on site as well, since only part of a team is present at any one time. It links the telework periods to longer computer time, [[DefinedTerm/sedentary-work]] and musculoskeletal pain, and describes risks of work intensification, [[DefinedTerm/technostress]], isolation and weakened teamwork, while noting that reintroducing on-site days may moderate the technostress seen in full-time teleworkers. Its effects on job satisfaction, work–life balance and mental health are described as mixed and dependent on context, with the voluntary nature of the arrangement and the predictability of hybrid schedules playing a moderating role. The paper concludes that well-designed hybrid work is likely to retain many advantages of full-time telework while reducing some of its disadvantages, but that evidence on its medium- and long-term effects is still lacking, much of it being extrapolated from research on telework before and during the COVID-19 pandemic.
+
 ## Related Terms
 
-[[DefinedTerm/working-from-home]], [[DefinedTerm/potential-to-work-from-home]], [[DefinedTerm/work-life-balance]], [[DefinedTerm/virtual-presenteeism]], [[DefinedTerm/right-to-disconnect]]
+[[DefinedTerm/working-from-home]], [[DefinedTerm/potential-to-work-from-home]], [[DefinedTerm/work-life-balance]], [[DefinedTerm/virtual-presenteeism]], [[DefinedTerm/right-to-disconnect]], [[DefinedTerm/technostress]], [[DefinedTerm/sedentary-work]]
