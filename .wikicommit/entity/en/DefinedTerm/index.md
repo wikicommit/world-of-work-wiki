@@ -112,6 +112,7 @@ comments: false
 - [[DefinedTerm/shift-work]]
 - [[DefinedTerm/shift-work-intolerance]]
 - [[DefinedTerm/short-sleep-duration]]
+- [[DefinedTerm/sickness-absence]]
 - [[DefinedTerm/simultaneous-activity]]
 - [[DefinedTerm/sleep-debt]]
 - [[DefinedTerm/split-working-hours]]
