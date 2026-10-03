@@ -6,8 +6,10 @@ review_status: reviewed
 comments: false
 ---
 
+- [[DefinedTerm/accident-at-work]]
 - [[DefinedTerm/account-deactivation]]
 - [[DefinedTerm/actual-hours-of-work]]
+- [[DefinedTerm/ai-based-worker-management]]
 - [[DefinedTerm/algorithmic-management]]
 - [[DefinedTerm/article-36-agreement]]
 - [[DefinedTerm/caregiving-penalty]]
