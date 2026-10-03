@@ -1,5 +1,5 @@
 ---
-title: "Durée et conditions de travail"
+title: "Durée et conditions de travail (2025)"
 type: "schema:Report"
 lang: en
 tags: [working-time, labour-statistics, france, occupational-safety-and-health]
