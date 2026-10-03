@@ -145,6 +145,7 @@ comments: false
 - [[DefinedTerm/working-time-mismatch]]
 - [[DefinedTerm/working-time-opt-out]]
 - [[DefinedTerm/working-time-recording]]
+- [[DefinedTerm/workplace-discrimination]]
 - [[DefinedTerm/workplace-harassment]]
 - [[DefinedTerm/workplace-napping]]
 - [[DefinedTerm/zero-hours-contract]]
