@@ -143,6 +143,7 @@ comments: false
 - [[DefinedTerm/weekend-work]]
 - [[DefinedTerm/work-family-conflict]]
 - [[DefinedTerm/work-life-balance]]
+- [[DefinedTerm/work-potential]]
 - [[DefinedTerm/work-related-fatigue]]
 - [[DefinedTerm/work-related-health-problem]]
 - [[DefinedTerm/work-related-musculoskeletal-disorders]]

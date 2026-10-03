@@ -13,6 +13,7 @@ comments: false
 - [[Dataset/canadian-community-health-survey]]
 - [[Dataset/canadian-employer-employee-dynamics-database]]
 - [[Dataset/canadian-labour-force-survey]]
+- [[Dataset/canadian-survey-on-disability]]
 - [[Dataset/canadian-survey-on-working-conditions]]
 - [[Dataset/canadian-time-use-survey]]
 - [[Dataset/characteristics-of-employment-survey]]

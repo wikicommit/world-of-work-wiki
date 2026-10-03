@@ -3,21 +3,26 @@ title: "Over-qualification"
 type: "schema:DefinedTerm"
 lang: en
 aliases: ["Over-qualification rate", "Vertical skills mismatch"]
-tags: [migration, labour-statistics, skills-mismatch]
+tags: [migration, labour-statistics, skills-mismatch, disability]
 sources:
   - type: url
     url: 'https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Migrant_integration_statistics_-_over-qualification'
     hash: sha256:deb150ef9a69347832152d8718beda629970646a7f3f3c75433d59b2c959e004
+  - type: url
+    url: 'https://www150.statcan.gc.ca/n1/pub/89-654-x/89-654-x2026002-eng.htm'
+    hash: sha256:1e8690bec0939b7a6e0d742c9d339115b7c85b2ae8eab586c83bd108f5202f7b
 review_status: pending
 generated_at: "2026-10-03"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 
 properties:
-  description: "The situation of employed people with a tertiary level of education who work in low- or medium-skilled occupations, also referred to as a 'vertical' skills mismatch. Eurostat measures it with the over-qualification rate and uses it to compare foreign citizens and foreign-born people with nationals and the native-born."
+  description: "The situation of employed people whose education is above what their job typically requires. Definitions vary: Eurostat counts tertiary-educated people in low- or medium-skilled occupations (a 'vertical' skills mismatch), while Statistics Canada compares a person's education with the requirements of their occupation's TEER category."
 ---
 
-Over-qualification describes employed people who have a tertiary level of educational attainment but work in a low- or medium-skilled occupation; Eurostat notes that it may also be referred to as a "vertical" skills mismatch. In Eurostat's statistics the over-qualification rate is the share of employed persons with tertiary education (ISCED 2011 levels 5–8: short-cycle tertiary, bachelor's, master's and doctoral or equivalent) who are employed in ISCO-08 major groups 4–9 — clerical support workers, services and sales workers, skilled agricultural, forestry and fishery workers, craft and related trades workers, plant and machine operators and assemblers, and elementary occupations. Managers, professionals, technicians and associate professionals, and armed forces occupations are not counted as low- or medium-skilled.
+Over-qualification describes employed people whose education is above what their job typically requires. Statistics Canada notes that it can be defined in multiple ways and that results can vary with the approach used; two statistical definitions are set out here side by side. In Eurostat's usage it describes employed people who have a tertiary level of educational attainment but work in a low- or medium-skilled occupation, which Eurostat notes may also be referred to as a "vertical" skills mismatch. In Eurostat's statistics the over-qualification rate is the share of employed persons with tertiary education (ISCED 2011 levels 5–8: short-cycle tertiary, bachelor's, master's and doctoral or equivalent) who are employed in ISCO-08 major groups 4–9 — clerical support workers, services and sales workers, skilled agricultural, forestry and fishery workers, craft and related trades workers, plant and machine operators and assemblers, and elementary occupations. Managers, professionals, technicians and associate professionals, and armed forces occupations are not counted as low- or medium-skilled.
+
+Statistics Canada's objective measure, used in [[Report/examining-work-potential-and-overqualification-among-persons-with-disabilities]], instead compares a person's highest level of education with the level typically required for their occupation's TEER (training, education, experience and responsibilities) category in the National Occupational Classification, which runs from TEER 1 (occupations requiring the highest levels of formal education or credentials) to TEER 5 (no formal education or credentials); management occupations (TEER 0) are left out because they have no standardised educational requirements. People are overqualified if they hold a bachelor's degree or above in a TEER 2–5 job, a university certificate, college diploma or apprenticeship certificate in a TEER 3–5 job, or a high school or trades education in a TEER 5 job; people with less than high school are never overqualified. The same scheme classifies everyone else as well matched or underqualified. The report notes that this measure applies a method used in earlier Statistics Canada publications but defines over-qualification more broadly than they did, and sets beside it a subjective measure based on how qualified respondents feel for their job.
 
 ## Usage
 
@@ -31,8 +36,11 @@ Rates differ widely between EU countries. Greece recorded the highest rates for 
 
 Eurostat places the indicator in the context of skills matching: some mismatches are inevitable, but high and persistent ones may be costly for employers, workers and society, and they are considered especially relevant for vulnerable groups such as older workers, young people moving from education into work, and migrants. One issue affecting non-EU citizens is lower recognition of their professional qualifications, and Eurostat suggests that easier recognition procedures and opportunities for adult migrants to upgrade or equalise their qualifications, including access to lifelong learning, may help enhance their employability. The indicator relates to the wider picture of [[DefinedTerm/labour-market-integration-of-migrants]].
 
+In Canada, the 2022 [[Dataset/canadian-survey-on-disability]] put the objectively measured rate at 34.0% among employed persons with disabilities aged 25 to 64 and 32.7% among those without disabilities; by the subjective measure, 19.6% of employed persons with disabilities felt overqualified. Among persons with disabilities the rate was higher for immigrants (42.5% against 31.9%) and racialized persons (41.8% against 32.4%), for those with very severe disabilities or four or more disability types, and for those in non-permanent jobs, working under 30 hours a week or with recent periods of unemployment. Statistics Canada treats such overqualification, together with [[DefinedTerm/work-potential]] among non-working persons with disabilities, as a form of labour market underutilization through skill mismatch.
+
 ## Related Terms
 
 - [[DefinedTerm/labour-market-integration-of-migrants]]
 - [[DefinedTerm/migration-status]]
 - [[DefinedTerm/job-quality]]
+- [[DefinedTerm/work-potential]]
