@@ -12,8 +12,11 @@ sources:
     url: 'https://www150.statcan.gc.ca/n1/pub/89-503-x/2015001/article/54931-eng.htm'
     hash: sha256:bebbaba88b87a244c7de4fbe38fdc5c6c14fd6265c7249fa537a83ae2c280628
     license: 'Statistics Canada Open Licence'
+  - type: url
+    url: 'https://www.gender.go.jp/about_danjo/whitepaper/r05/zentai/html/column/clm_01.html'
+    hash: sha256:73ada082e6a7de94790af6876dfdec50614fd74e025155679870683d972e8b1f
 review_status: pending
-generated_at: "2026-10-01"
+generated_at: "2026-10-03"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 properties:
@@ -27,6 +30,8 @@ Total work time is the sum of the time a person devotes to paid work and [[Defin
 According to [[Report/enut-2024-results-report]], total work time in Mexico averaged 59.6 hours a week in 2024 — 61.1 hours for women and 58.0 for men — even though men did more paid work: women spent 66.8% of their total work time on unpaid work and men 33.2%. The measure is also reported by state, locality size and population group, and as a gender gap in hours. Comparing it across survey editions requires a consistent definition: because emotional care was first measured in 2024, INEGI excludes it when comparing 2024 with 2014 and 2019, and on that basis total work time fell from 60.2 hours a week in 2019 to 55.8 in 2024.
 
 Statistics Canada's report uses the measure to weigh competing claims from earlier research about gender equality: some studies found the total work burden of women and men in Canada and the United States to be equal, while others hold that women still perform a "second shift" of unpaid work after their paid work. The result depends on whether unpaid work done alongside other activities is counted. Counting primary activities only, Canadian women and men aged 25 to 54 had an equivalent total work burden in 2015 (7.8 and 7.6 hours a day), women doing more unpaid work and men more paid work; counting unpaid work done as a [[DefinedTerm/simultaneous-activity]], women's was 1.2 hours a day greater than men's in 2010 (9.1 versus 7.9 hours). Among the G7 countries and Sweden, Canadians aged 15 to 64 had the highest total work burden, and Italian men, followed by French men and women, the lowest.
+
+A column in Japan's White Paper on Gender Equality, [[Report/international-comparison-of-time-use-gender-equality-white-paper-2023]], uses the same combined measure — which it calls working time (労働時間), the sum of paid and unpaid working time — to compare 11 countries in North America, Europe, the Nordic countries and Asia with OECD time-use data. Japan's was the second longest after the United States, for women and men alike. Because Japan's unpaid working time was the second shortest of the 11 while its paid working time was the longest, the column attributes the length of Japanese women's and men's combined working time to long paid work.
 
 ## Related Terms
 
