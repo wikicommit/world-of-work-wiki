@@ -50,6 +50,7 @@ comments: false
 - [[DefinedTerm/in-work-poverty]]
 - [[DefinedTerm/informal-employment]]
 - [[DefinedTerm/involuntary-part-time-work]]
+- [[DefinedTerm/involuntary-temporary-employment]]
 - [[DefinedTerm/job-autonomy]]
 - [[DefinedTerm/job-demands-resources-model]]
 - [[DefinedTerm/job-insecurity]]
