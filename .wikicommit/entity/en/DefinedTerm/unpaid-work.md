@@ -17,8 +17,11 @@ sources:
     url: 'https://www150.statcan.gc.ca/n1/pub/89-503-x/2015001/article/54931-eng.htm'
     hash: sha256:bebbaba88b87a244c7de4fbe38fdc5c6c14fd6265c7249fa537a83ae2c280628
     license: 'Statistics Canada Open Licence'
+  - type: url
+    url: 'https://www.gender.go.jp/about_danjo/whitepaper/r05/zentai/html/column/clm_01.html'
+    hash: sha256:73ada082e6a7de94790af6876dfdec50614fd74e025155679870683d972e8b1f
 review_status: pending
-generated_at: "2026-10-01"
+generated_at: "2026-10-03"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 properties:
@@ -36,6 +39,8 @@ In Mexico, according to [[Report/enut-2024-results-report]], unpaid work made up
 In the United States, unpaid care given by women aged 55 or older is the subject of [[Report/older-women-and-unpaid-caregiving-in-the-us]], which draws on the [[Dataset/american-time-use-survey]]. On an average day 23.5% of these women provide unpaid care to a child or an adult, for about 2 hours 11 minutes, and over a year the average woman in this age group gives 182 hours of unpaid care to family and friends. They account for 35.3% of all people providing unpaid [[DefinedTerm/eldercare]] on a given day. The brief argues that this care allows others to stay in paid work, but that the reduced hours, earnings and retirement benefits that come with it weigh on the caregivers themselves; see [[DefinedTerm/caregiving-penalty]].
 
 In Canada, women aged 25 to 54 spent an average of 3.9 hours a day on unpaid work as a primary activity in 2015 and men 2.4 hours, according to [[Report/time-use-total-work-burden-unpaid-work-and-leisure]]. The gap is larger when unpaid work done at the same time as other activities is counted: 60.8% of women and 40.2% of men did unpaid work as a simultaneous activity in 2015, and in 2010 women spent 5.4 hours a day on all unpaid work against men's 2.9. The report notes that the unpaid work women disproportionately do for their families facilitates men's higher labour force participation and longer paid-work hours, and that the mental and emotional work of coordinating children's lives and the household goes unmeasured in time-use surveys.
+
+In Japan, unpaid work falls disproportionately on women and paid work on men, according to [[Report/international-comparison-of-time-use-gender-equality-white-paper-2023]], a column in Japan's White Paper on Gender Equality that compares 11 countries using OECD time-use data. Japan's unpaid working time was the second shortest of the 11 after South Korea's, mainly because Japanese men's was exceptionally short; Japanese women's was not necessarily long by international standards. Paid work leaned towards men and unpaid work towards women in every country compared, but women accounted for 84.6% of unpaid working time in Japan, the largest share of the 11, while in Sweden, Finland and Norway women's shares of paid and unpaid work were close to half. The column argues that unless Japanese men's long paid working hours are reduced it will be difficult for them to do more unpaid work.
 
 ## Related Terms
 
