@@ -16,8 +16,11 @@ sources:
     url: 'https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@ed_norm/@relconf/documents/meetingdocument/wcms_909906.pdf'
     hash: sha256:67120e2784c0631a9c709b8e7876bd5a2d1db36a9361000a6174058992b760c3
     license: 'CC-BY-4.0'
+  - type: url
+    url: 'https://www.ilo.org/publications/strategy-promotion-formalization-latin-america-and-caribbean-2024-2030'
+    hash: sha256:f34cc7cf36054330693189d77fd5581c49f37b24b6115d93bf51c879da579128
 review_status: pending
-generated_at: "2026-09-29"
+generated_at: "2026-10-03"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 
@@ -48,6 +51,10 @@ The International Labour Office's report [[Report/realizing-decent-work-in-the-p
 The report acknowledges that quantified evidence is limited, but finds that results, especially from countries with relatively low overall informality, tend to point to high levels among platform workers. In France, just 15 per cent of platform workers said they planned to report the previous year's income from platform work; in the United Kingdom, only 35 per cent had notified or intended to notify the tax authority, and 54 per cent did not intend to report their earnings. Some 76 per cent of platform workers in Ukraine and two thirds in Serbia reported working informally, without registering as self-employed or paying social security contributions. In Italy, where between 11 and 13 per cent of all workers were estimated to be in informal employment in recent years, almost 40 per cent of platform workers had no formal agreement, and 44 per cent of digital platforms operating in the country were not registered with the national social security institute. All 138 passenger transport platform workers surveyed in Lagos, Nigeria were informal self-employed workers, and in Chile, National Labour Survey data show informal employment among workers on digital platforms falling from 93.5 per cent in the first quarter of 2020 to around 75 per cent in September 2023.
 
 At the same time, the report sees the traceability of platform activity — digital contracts and digitized transactions — as an opportunity to formalize activities that are frequently hidden from the authorities, using data held by platforms, complaint-reporting tools and banks, provided platforms and the competent national authorities collaborate and share information. It also records that some participants in the 2022 Meeting of Experts on Decent Work in the Platform Economy noted the potential for well-regulated platform work to provide pathways to formalization, and the relevance in this respect of the Transition from the Informal to the Formal Economy Recommendation, 2015 (No. 204), which applies to all workers and economic units in the informal economy, including own-account workers.
+
+### In Latin America and the Caribbean
+
+The ILO's regional formalisation strategy for 2024–2030, [[Report/strategy-for-the-promotion-of-formalization-in-latin-america-and-the-caribbean-2024-2030]] (FORLAC 2.0), starts from the fact that half of all working people in Latin America and the Caribbean work in the informal economy. It describes the problem as structural, multidimensional and persistent, mainly affecting women, youth, people belonging to certain ethnic groups and migrants, and falling more heavily on the less educated, low value-added agriculture, the working poor, smaller enterprises, the self-employed and people in new forms of employment; informality increased during the recovery from the pandemic. Following Recommendation No. 204, the ILO treats high informality as an obstacle to guaranteeing workers' rights, to the development of sustainable enterprises and to the financial sustainability of the State, and it relaunches a regional programme of knowledge generation, technical assistance, training and social dialogue first run by its Regional Office in 2013–2017.
 
 ## Related Terms
 

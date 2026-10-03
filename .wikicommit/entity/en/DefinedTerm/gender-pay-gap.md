@@ -8,6 +8,9 @@ sources:
   - type: url
     url: 'https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Gender_pay_gap_statistics'
     hash: sha256:6cdf4fa15c2049c64ecf3386080503482a9fde0a470762f846905c5122c89a75
+  - type: url
+    url: 'https://www.insee.fr/fr/statistiques/8381248'
+    hash: sha256:14e56b45dfaef3cd20eca75047a89fd9d100a105a71b5417a6d58a4ea571e510
 review_status: pending
 generated_at: "2026-10-03"
 generated_by: "claude-opus-5-5"
@@ -34,7 +37,10 @@ The figures come from the [[Dataset/structure-of-earnings-survey]]: from referen
 
 Because it is unadjusted, the gender pay gap is a broader concept than pay discrimination in the sense of "equal pay for work of equal value". Part of the difference can be explained by differences in the average characteristics of male and female employees, and part by differences in the financial returns to the same characteristics. Reducing the gap is a priority of EU gender-equality policy, and the Pay Transparency Directive (Directive (EU) 2023/970), being transposed into national law, aims to strengthen the principle of equal pay for equal work or work of equal value between men and women.
 
+**France.** Insee measures the gap on annual net pay, distinguishing the effect of working time from that of full-time-equivalent salaries. Its study [[Report/pay-gap-between-women-and-men-in-2023]] found that in France's private sector in 2023 women's average annual salary income was 22.2% below men's, partly because their annual volume of work was 9.3% lower, while at equal working time their average full-time-equivalent net salary was 14.2% lower — and 3.8% lower for the same job in the same establishment. The salary income gap has narrowed by a third since 1995, faster since 2019. Insee links the remaining gap to age (the full-time-equivalent gap rises from 4.3% among under-25s to 24.9% at 60 or over), to [[DefinedTerm/occupational-segregation]], to women's under-representation among the best-paid 1% of employees, without whom the gap falls from 13.5% to 9.7%, and to parenthood: in 2022 mothers' salary income was 29.9% below fathers', and the full-time-equivalent gap rose from 5.8% among employees without children to 28.2% between mothers and fathers of three or more.
+
 ## Related Terms
 
 - [[DefinedTerm/gender-leadership-gap]]
 - [[DefinedTerm/part-time-employment]]
+- [[DefinedTerm/occupational-segregation]]

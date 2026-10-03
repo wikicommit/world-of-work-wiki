@@ -16,6 +16,9 @@ sources:
   - type: url
     url: 'https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Self-reported_work-related_health_problems_and_risk_factors_-_key_statistics'
     hash: sha256:3cbc3f5ff19ff5c04f0d91cd1f7a44ba0acc5d4262c9d8253f0936c59ec70cfe
+  - type: url
+    url: 'https://www.hse.gov.uk/statistics/assets/docs/msd.pdf'
+    hash: sha256:e94862abc0ecc01b35616adcc52b62219e7f16b0fad2a67a1a6a6363d3da9ab3
 review_status: pending
 generated_at: "2026-10-03"
 generated_by: "claude-opus-5-5"
@@ -38,6 +41,8 @@ In the 2020 round of the [[Dataset/eu-lfs-ad-hoc-module-on-accidents-at-work-and
 **Great Britain.** According to [[Report/health-and-safety-at-work-summary-statistics-2025]], 511,000 workers in Great Britain were suffering from a work-related musculoskeletal disorder (new or long-standing) in 2024/25, 27% of all work-related ill health, and 173,000 had a new case that year; 7.1 million working days were lost as a result. By affected area, 43% of cases (221,000) involved the back, 41% (211,000) the upper limbs or neck and 15% (78,000) the lower limbs. Construction, transportation and storage, and administrative and support service activities had higher-than-average rates over 2022/23–2024/25.
 
 Before the coronavirus pandemic, both the rate of self-reported work-related musculoskeletal disorders in Great Britain and the working days lost per worker to them showed a generally downward trend; the rates in each of the latest three years are similar to the 2018/19 pre-pandemic level.
+
+HSE's more detailed annual report, [[Report/work-related-musculoskeletal-disorders-statistics-in-great-britain-2025]], associates these disorders with fixed or constrained body positions, continual repetition of movements, force concentrated on small parts of the body such as the hand or wrist, and a pace of work that does not allow sufficient recovery between movements, adding that psychosocial factors such as organisational culture and the health and safety climate may also create the conditions for them. It puts the 2024/25 prevalence at 1,470 per 100,000 workers, with an average of 14 working days lost per case, and finds significantly higher rates over 2022/23–2024/25 in skilled trades, process, plant and machine operative, elementary, and caring, leisure and other service occupations, among men aged 45 and over and women aged 55 and over, and in small workplaces. Manual handling, awkward or tiring positions and keyboard or repetitive work were the main causes workers cited, a pattern that cases reported by general practitioners to the THOR-GP scheme also showed, with heavy lifting the predominant factor.
 
 ## Related Terms
 
