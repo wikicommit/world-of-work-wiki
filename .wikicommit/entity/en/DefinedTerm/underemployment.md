@@ -8,6 +8,9 @@ sources:
   - type: url
     url: 'https://www.insee.fr/fr/statistiques/8391807'
     hash: sha256:e1a3b018dd697c2cebd2e784c62acd51c5cc3e477d43eaa1ba412bd18a1a3d16
+  - type: url
+    url: 'https://www.insee.fr/fr/statistiques/8901327'
+    hash: sha256:c1de9ed7e3b69796b95de9d64ff4a859a4267326f688d96ee82bb5c9f3e0c868
 review_status: pending
 generated_at: "2026-10-03"
 generated_by: "claude-opus-5-5"
@@ -22,6 +25,8 @@ Underemployment (*sous-emploi*), as Insee defines it, covers people with a part-
 ## Usage
 
 Insee presents underemployment alongside the part-time rate. It consists essentially of part-time workers who would like to work more and are available to do so (compare [[DefinedTerm/involuntary-part-time-work]]), together with people on short-time working, whose number rose sharply during the health crisis. According to [[Report/snapshot-of-the-labour-market-in-2024]], 4.3% of people in employment in France were underemployed in 2024, stable after three years of decline, 1.5 points below the pre-crisis level and the lowest since 1992, even as the share of part-time work began to rise again. It was more common among low-skilled clerical and service employees (12.3%), young people (6.9%) and women (6.1% against 2.6% of men).
+
+In 2025, according to [[Report/snapshot-of-the-labour-market-in-2025]], underemployment was almost stable at 4.4% of people in employment (+0.1 point), still 1.4 points below its pre-crisis level, while part-time work continued to rise moderately; people on short-time working had become a very small minority of the underemployed. It again concerned low-skilled clerical and service employees (12.3%), young people aged 15 to 24 (7.6%) and women (6.1% against 2.8% of men) more than others.
 
 ## Related Terms
 
