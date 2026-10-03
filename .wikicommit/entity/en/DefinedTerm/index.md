@@ -18,6 +18,7 @@ comments: false
 - [[DefinedTerm/casual-employment]]
 - [[DefinedTerm/child-penalty]]
 - [[DefinedTerm/circadian-disruption]]
+- [[DefinedTerm/climate-related-occupational-risks]]
 - [[DefinedTerm/complementary-hours]]
 - [[DefinedTerm/compressed-work-week]]
 - [[DefinedTerm/contractual-hours]]
