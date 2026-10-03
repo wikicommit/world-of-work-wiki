@@ -7,8 +7,11 @@ sources:
   - type: url
     url: 'https://www.av.se/globalassets/filer/publikationer/kunskapssammanstallningar/organisering-av-arbete-och-dess-betydelse-for-halsa-och-valbefinnande-kunskapssammanstallning-2020-7.pdf'
     hash: sha256:527f18f2dbbe32457fc36230d35511f31bef7e1274b4672a7515d4b93987f847
+  - type: url
+    url: 'https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Temporary_and_permanent_employment_-_statistics'
+    hash: sha256:35cac042deaff36a834406204d976682b6aa1a072baa162e04fe43496b560217
 review_status: pending
-generated_at: "2026-10-02"
+generated_at: "2026-10-03"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 
@@ -24,8 +27,11 @@ The Swedish knowledge compilation [[Report/organisation-of-work-and-its-signific
 
 The compilation advises employers that use agency workers to have concrete strategies for including them in competence development and to ensure that social relations function, and calls on employers and other actors to address the use of fixed-term and agency employment, which it describes as generally worse for individuals' health and well-being.
 
+Eurostat treats work through temporary employment agencies as a form of [[DefinedTerm/temporary-employment]]: the workers are employed by an agency and assigned to a company temporarily, with the employment contract typically between the worker and the agency rather than the company, and in the [[Dataset/eu-labour-force-survey]] people hired out by an agency to a third party to perform specific tasks count as temporary employees unless they have a written work contract of unlimited duration. In 2024 temporary employment agency workers made up 2.3% of total employment of people aged 15 to 64 in the EU — 2.6% for men and 1.9% for women. Shares were highest in Latvia (7.3%), Ireland (6.0%), Slovakia (5.9%) and Slovenia (5.8%) and below 1% in Greece, Lithuania, Denmark, Italy, Hungary, Poland and Romania. Men accounted for higher shares than women in most countries, notably the Netherlands, France, Spain and Germany, while Malta, Ireland and Slovenia showed the reverse.
+
 ## Related Terms
 
+- [[DefinedTerm/temporary-employment]]
 - [[DefinedTerm/casual-employment]]
 - [[DefinedTerm/job-insecurity]]
 - [[DefinedTerm/job-quality]]

@@ -32,6 +32,7 @@ comments: false
 - [[Report/healthy-and-safe-telework]]
 - [[Report/how-australians-use-their-time-2024]]
 - [[Report/how-to-tackle-work-related-stress]]
+- [[Report/hybrid-work-new-opportunities-and-challenges-for-occupational-safety-and-health]]
 - [[Report/interpretative-communication-on-the-working-time-directive]]
 - [[Report/involuntary-part-time-work-1997-to-2022]]
 - [[Report/is-hybrid-working-here-to-stay]]
