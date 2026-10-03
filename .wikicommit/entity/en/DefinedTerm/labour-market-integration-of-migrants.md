@@ -2,7 +2,7 @@
 title: "Labour market integration of migrants"
 type: "schema:DefinedTerm"
 lang: en
-tags: [migration, labour-statistics, employment]
+tags: [migration, labour-statistics, employment, norway]
 sources:
   - type: url
     url: 'https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Migrant_integration_statistics_%E2%80%93_labour_market_indicators'
@@ -10,6 +10,9 @@ sources:
   - type: url
     url: 'https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Migrant_integration_statistics_-_employment_conditions'
     hash: sha256:b9f3368ec50e66fc0148d62982c3f4344912c8464c78ae4b1742e69ad1b51fbe
+  - type: url
+    url: 'https://www.ssb.no/arbeid-og-lonn/sysselsetting/artikler/hvor-mye-jobber-innvandrere-i-norge'
+    hash: sha256:2fb0f8d2fb76e3f2af7a18172262564da08bedc1465ef17fcde7a54dd4164ca5
 review_status: pending
 generated_at: "2026-10-03"
 generated_by: "claude-opus-5-5"
@@ -44,6 +47,8 @@ By migration status, native-born people with two foreign-born parents had the lo
 The national picture varies. Gaps between non-EU citizens and nationals were particularly large in Belgium, Germany and the Netherlands, while in a few countries — Greece and Slovakia among them — non-EU citizens recorded higher participation or employment rates than both other groups. Non-EU citizens' unemployment was highest in Sweden, Finland and Spain, and youth unemployment showed the same ordering of groups as for all ages in most countries.
 
 Education shapes the pattern. Participation and employment generally rise with educational attainment for every migration-status group, but the differences across education levels are smaller for foreign-born people and for the native-born with two foreign-born parents. Among people with low education, foreign-born people had higher employment rates than the native-born, whereas among the tertiary-educated the gap reverses in favour of native-born people with two native-born parents. Unemployment falls with education in all citizenship groups, most markedly among nationals.
+
+National statistics can add measures that the EU indicators above do not cover, such as hours worked. Statistics Norway's [[Report/how-much-do-immigrants-in-norway-work]], based on [[Dataset/register-based-employment-statistics-for-immigrants-norway]], looks at how much immigrants work as well as whether they work. In the fourth quarter of 2025, 68% of immigrants aged 20–66 in Norway were employed, against 80% of the rest of the population, and 74% of employed immigrants worked full time, against 79%. Full-time work was most widespread in the groups with the highest employment rates — immigrants from the Nordic countries and from EU/EFTA countries — and least in those with the lowest, from Asia and Africa, partly because these groups more often work in industries where part-time work is common. The gaps between immigrant men and women were larger than in the rest of the population, and the full-time share rose with length of residence.
 
 ## Related Terms
 

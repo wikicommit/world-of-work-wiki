@@ -43,6 +43,7 @@ comments: false
 - [[Dataset/polis-administration]]
 - [[Dataset/public-service-employee-survey]]
 - [[Dataset/quality-of-work-life-survey]]
+- [[Dataset/register-based-employment-statistics-for-immigrants-norway]]
 - [[Dataset/reponse-survey]]
 - [[Dataset/socio-economic-panel]]
 - [[Dataset/structure-of-earnings-survey]]
