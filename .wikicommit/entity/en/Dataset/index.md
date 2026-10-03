@@ -24,6 +24,7 @@ comments: false
 - [[Dataset/eu-lfs-ad-hoc-module-on-reconciliation-between-work-and-family-life]]
 - [[Dataset/eu-lfs-ad-hoc-module-on-self-employment]]
 - [[Dataset/eu-lfs-module-on-pensions-and-labour-market-participation]]
+- [[Dataset/eu-lfs-module-on-the-labour-market-situation-of-migrants-and-their-immediate-descendants]]
 - [[Dataset/european-health-interview-survey]]
 - [[Dataset/european-statistics-on-accidents-at-work]]
 - [[Dataset/european-working-conditions-survey]]
