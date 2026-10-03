@@ -7,6 +7,7 @@ comments: false
 ---
 
 - [[Report/artificial-intelligence-for-worker-management-an-overview]]
+- [[Report/atypical-working-hours-women-less-qualified-and-foreign-born-most-exposed]]
 - [[Report/average-hours-worked-and-economic-growth-uk-1998-to-2022]]
 - [[Report/average-weekly-working-hours-1976-to-2022]]
 - [[Report/being-a-parent-greater-consequences-for-womens-employment]]
@@ -76,7 +77,9 @@ comments: false
 - [[Report/second-phase-consultation-quality-jobs-act]]
 - [[Report/self-employment-among-women-in-canada]]
 - [[Report/sitting-behaviour-on-working-days]]
+- [[Report/smart-working-from-necessity-to-new-lifestyle-2023]]
 - [[Report/snapshot-of-the-labour-market-in-2024]]
+- [[Report/snapshot-of-the-labour-market-in-2025]]
 - [[Report/statistics-for-international-domestic-workers-day-2024]]
 - [[Report/statistics-for-international-youth-day-2024]]
 - [[Report/strategy-for-the-promotion-of-formalization-in-latin-america-and-the-caribbean-2024-2030]]
@@ -97,6 +100,7 @@ comments: false
 - [[Report/who-works-more-or-fewer-hours]]
 - [[Report/women-hold-less-than-a-third-of-top-management-positions]]
 - [[Report/women-work-part-time-more-often-than-men-right-after-graduation]]
+- [[Report/womens-labour-force-participation-in-taiwan-in-recent-years]]
 - [[Report/work-employment-labour-and-social-protection-in-latin-america-and-the-caribbean-1994-2024]]
 - [[Report/work-life-balance-of-fathers-with-young-children]]
 - [[Report/work-life-balance-of-older-workers]]
