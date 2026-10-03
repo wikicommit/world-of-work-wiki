@@ -7,6 +7,7 @@ comments: false
 ---
 
 - [[ScholarlyArticle/effects-of-flexible-working-hours-on-employee-health]]
+- [[ScholarlyArticle/gender-differences-in-work-family-conflict-and-mental-health-of-swedish-workers]]
 - [[ScholarlyArticle/health-and-employment]]
 - [[ScholarlyArticle/how-to-schedule-night-shift-work-to-reduce-health-and-safety-risks]]
 - [[ScholarlyArticle/impact-of-telework-allowance-and-utilization-on-stress]]
