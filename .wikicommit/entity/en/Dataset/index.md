@@ -39,6 +39,7 @@ comments: false
 - [[Dataset/netherlands-working-conditions-survey]]
 - [[Dataset/polis-administration]]
 - [[Dataset/public-service-employee-survey]]
+- [[Dataset/quality-of-work-life-survey]]
 - [[Dataset/reponse-survey]]
 - [[Dataset/socio-economic-panel]]
 - [[Dataset/structure-of-earnings-survey]]
