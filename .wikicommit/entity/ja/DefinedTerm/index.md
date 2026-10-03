@@ -151,5 +151,8 @@ comments: false
 - [[DefinedTerm/worker-eu-law]]
 - [[DefinedTerm/working-from-home]]
 - [[DefinedTerm/working-time-and-rest-period]]
+- [[DefinedTerm/working-time-mismatch]]
 - [[DefinedTerm/working-time-opt-out]]
 - [[DefinedTerm/working-time-recording]]
+- [[DefinedTerm/workplace-discrimination]]
+- [[DefinedTerm/workplace-harassment]]
