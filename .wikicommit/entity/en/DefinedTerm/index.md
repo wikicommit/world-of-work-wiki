@@ -62,6 +62,7 @@ comments: false
 - [[DefinedTerm/micro-entrepreneur]]
 - [[DefinedTerm/migration-status]]
 - [[DefinedTerm/minijob]]
+- [[DefinedTerm/multiple-job-holding]]
 - [[DefinedTerm/national-standard-for-psychological-health-and-safety-in-the-workplace]]
 - [[DefinedTerm/neet]]
 - [[DefinedTerm/night-work]]
