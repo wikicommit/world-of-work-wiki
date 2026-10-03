@@ -19,6 +19,7 @@ comments: false
 - [[ScholarlyArticle/long-working-hours-and-depressive-symptoms]]
 - [[ScholarlyArticle/long-working-hours-safety-and-health-toward-a-national-research-agenda]]
 - [[ScholarlyArticle/long-working-hours-shift-work-and-suicidal-ideation]]
+- [[ScholarlyArticle/measuring-the-gig-economy-in-canada-using-administrative-data]]
 - [[ScholarlyArticle/measuring-workplace-psychosocial-factors-in-the-federal-government]]
 - [[ScholarlyArticle/night-shift-work-and-cardiovascular-diseases-gutenberg-health-study]]
 - [[ScholarlyArticle/niosh-efforts-to-prevent-hazards-in-the-workplace-linked-to-inadequate-sleep]]

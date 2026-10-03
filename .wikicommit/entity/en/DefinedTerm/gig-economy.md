@@ -2,14 +2,17 @@
 title: "Gig economy"
 type: "schema:DefinedTerm"
 lang: en
-tags: [employment-arrangements, labour-market]
+tags: [employment-arrangements, labour-market, self-employment]
 sources:
   - type: url
     url: 'https://documents1.worldbank.org/curated/en/816281518818814423/pdf/2019-WDR-Report.pdf'
     hash: sha256:a8cad71aa9c5eac9125d185308faa094fce88e353290533b1428dd3e50235ec5
     license: 'CC-BY-3.0-IGO'
+  - type: url
+    url: 'https://www150.statcan.gc.ca/n1/pub/11f0019m/11f0019m2019025-eng.htm'
+    hash: sha256:7e8e0cbae2d4ac7cca8d2ef60083db51081226419595af7fe961699a20fad32f
 review_status: pending
-generated_at: "2026-09-28"
+generated_at: "2026-10-03"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 
@@ -25,6 +28,8 @@ The gig economy is the part of the economy in which organizations contract with 
 
 **Benefits and concerns.** Workers set their own hours on most platforms, the additional income may reduce income fluctuations for secondary earners, and the flexibility of platform work enables more women to participate in the labour force. But these features blur the line between formal and casual employment, and raise concerns about income instability and about the protections tied to standard employer-employee relationships, such as pension plans, health insurance and paid leave. The report notes a view, held by people in advanced economies, that rising inequality compounded by the advent of the gig economy is encouraging a race to the bottom in working conditions, and judges that scenario to be, on balance, unfounded; it nonetheless regards regulation as important where platforms do provoke such a race. As examples it cites the large demonstrations by Go-Jek and Grab drivers in Indonesia in early 2018 demanding higher tariffs, after which the government moved to require such firms to register as transport companies, comply with safety requirements and observe a minimum floor price, and a 2018 law in Egypt regulating ride-hailing companies.
 
+**Measurement in Canada.** Statistics Canada's research paper [[ScholarlyArticle/measuring-the-gig-economy-in-canada-using-administrative-data]] notes that there is no widely accepted definition of the gig economy, which broadly refers to less structured, non-traditional work arrangements: gig workers are usually not employed long-term by a single firm, but contract with firms or individuals to complete a specific task or work for a specific period for a negotiated sum, a group that includes independent contractors and freelancers as well as on-demand workers whose jobs are mediated by online platforms. Building on a U.S. typology of work arrangements, the paper defines gig workers through the tax system — unincorporated sole proprietors who report business, professional or commission income without a registered business number — and uses the [[Dataset/canadian-employer-employee-dynamics-database]] to estimate that the share of gig workers among all Canadian workers rose from 5.5% in 2005 to 8.2% in 2016, with women more likely than men to do gig work. On this definition gig workers are not limited to platform workers, and typical gig earnings are small: median net gig income was $4,303 in 2016. The paper distinguishes gig work from precarious work, which usually also covers traditional arrangements such as temporary, part-time and seasonal employment.
+
 **Employment status.** Some new forms of work blur the distinction between being an employee and being "dependent" self-employed — the report asks, for instance, whether a Yandex.Taxi driver in Moscow is a Yandex.Taxi employee. It suggests that labour codes define more clearly what it means to be an employee, based for example on the extent to which workers determine their working conditions, such as when to work, and that benefits and protections converge regardless of how long a worker spends with an employer.
 
 ## Related Terms
@@ -33,3 +38,4 @@ The gig economy is the part of the economy in which organizations contract with 
 - [[DefinedTerm/digital-platform-worker]]
 - [[DefinedTerm/casual-employment]]
 - [[DefinedTerm/informal-employment]]
+- [[DefinedTerm/self-employment]]
