@@ -46,6 +46,7 @@ comments: false
 - [[DefinedTerm/housework]]
 - [[DefinedTerm/hybrid-work]]
 - [[DefinedTerm/informal-employment]]
+- [[DefinedTerm/involuntary-part-time-work]]
 - [[DefinedTerm/job-autonomy]]
 - [[DefinedTerm/job-demands-resources-model]]
 - [[DefinedTerm/job-insecurity]]
@@ -134,4 +135,5 @@ comments: false
 - [[DefinedTerm/working-time-mismatch]]
 - [[DefinedTerm/working-time-opt-out]]
 - [[DefinedTerm/working-time-recording]]
+- [[DefinedTerm/workplace-harassment]]
 - [[DefinedTerm/workplace-napping]]
