@@ -11,6 +11,9 @@ sources:
   - type: url
     url: 'https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Self-employment_statistics'
     hash: sha256:35212c836bd6a0ac381a2e73932bb5a0c168d075c92e3d4dbd05e8b37ca9e084
+  - type: url
+    url: 'https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/trendsinselfemploymentintheuk/2018-02-07'
+    hash: sha256:4c4fe0564f057ef5a7c0c948d1a3db899a91dd9ac46b30f66c44bc9b13f30a10
 review_status: pending
 generated_at: "2026-10-03"
 generated_by: "claude-opus-5-5"
@@ -37,6 +40,10 @@ In the definitions Eurostat uses for the EU Labour Force Survey's 2017 module on
 The [[Dataset/eu-lfs-ad-hoc-module-on-self-employment]] of 2017 looked at the boundary between self-employment and employment. Of the EU-28's 33 million self-employed, 71.8% had no employees. Most were not dependent on a single client: 61.2% had more than nine clients in the previous 12 months, while 18.2% had just one or a dominant client, and 84.2% of those with at least one client decided their own working time. Only about 1 million people (3.4% of the self-employed) met Eurostat's definition of the [[DefinedTerm/economically-dependent-self-employed]]. Most self-employed people (81.4%) could influence both the content and the order of their tasks, and 60.9% worked alone, without a co-owner or a network of other self-employed people.
 
 The most common reasons given for becoming self-employed were a suitable opportunity (22.7%), continuing the family business (15.8%), usual practice in the field (14.8%), flexible working hours (11.2%) and not finding a job as an employee (10.8%). The main difficulties reported were a high administrative burden (13.1%), periods without customers or assignments (12.3%), delayed payments or non-payment (11.7%) and periods of financial hardship (8.8%), while 28.3% reported no difficulties. In 2017, 15.7% of the self-employed wished to work as employees. Self-employed people were generally more satisfied with their job than employees and contributing family workers: 53.3% of the self-employed with employees and 46.1% of the self-employed without employees who were not economically dependent reported being highly satisfied, against 42.1% of employees and 30.0% of contributing family workers (see [[DefinedTerm/job-satisfaction]]).
+
+### In UK statistics
+
+The Office for National Statistics' article [[Report/trends-in-self-employment-in-the-uk]] (2018) describes the rapid growth of self-employment as a pronounced feature of the UK labour market: the number of self-employed rose from 3.3 million (12.0% of the labour force) in 2001 to 4.8 million (15.1%) in 2017. The growth came from people working on their own or with a partner but no employees, while the number of self-employed with employees fell. The article finds that typical weekly earnings of the self-employed were well below those of employees and that the gap between full-time employees and the full-time self-employed widened between 2001 and 2016. It also finds that the self-employed tended to hold more property wealth than employees but were far more likely to have no private pension wealth. It notes that self-employed income is hard to measure, because survey responses are less accurate for people with irregular hours or project-by-project work.
 
 ## Related Terms
 
