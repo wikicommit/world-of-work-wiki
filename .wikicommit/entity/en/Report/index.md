@@ -51,6 +51,7 @@ comments: false
 - [[Report/long-working-hours-2023]]
 - [[Report/managing-psychosocial-risks-at-work]]
 - [[Report/managing-the-risks-of-shift-work]]
+- [[Report/more-people-want-to-work-more-in-hard-times]]
 - [[Report/multiple-job-holders-june-2026]]
 - [[Report/night-work-2022]]
 - [[Report/nine-facts-about-american-families-and-work]]
