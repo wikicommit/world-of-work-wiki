@@ -6,6 +6,7 @@ review_status: reviewed
 comments: false
 ---
 
+- [[Report/artificial-intelligence-for-worker-management-an-overview]]
 - [[Report/average-hours-worked-and-economic-growth-uk-1998-to-2022]]
 - [[Report/average-weekly-working-hours-1976-to-2022]]
 - [[Report/being-a-parent-greater-consequences-for-womens-employment]]
@@ -42,6 +43,7 @@ comments: false
 - [[Report/older-women-and-unpaid-caregiving-in-the-us]]
 - [[Report/organisation-of-work-and-its-significance-for-health-and-well-being]]
 - [[Report/organisation-of-working-time-2025]]
+- [[Report/osh-in-digital-platform-work-lessons-from-regulations-policies-actions-and-initiatives]]
 - [[Report/osh-pulse-2025-occupational-safety-and-health-in-the-era-of-climate-and-digital-change]]
 - [[Report/overtime-in-europe-regulation-and-practice]]
 - [[Report/realizing-decent-work-in-the-platform-economy-2024]]
@@ -60,6 +62,7 @@ comments: false
 - [[Report/time-use-and-teleworkers-2022-time-use-survey]]
 - [[Report/time-use-total-work-burden-unpaid-work-and-leisure]]
 - [[Report/underemployed-part-time-workers-from-wanting-to-work-more-to-working-more]]
+- [[Report/using-total-worker-health-concepts-to-reduce-fatigue-among-retail-workers]]
 - [[Report/white-paper-on-measures-to-prevent-karoshi-2025]]
 - [[Report/who-are-the-hybrid-workers]]
 - [[Report/who-guidelines-on-mental-health-at-work]]
