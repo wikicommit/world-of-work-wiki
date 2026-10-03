@@ -33,3 +33,4 @@ comments: false
 - [[ScholarlyArticle/short-sleep-duration-by-occupation-group-29-states-2013-2014]]
 - [[ScholarlyArticle/work-injuries]]
 - [[ScholarlyArticle/working-hours-and-cardiovascular-disease]]
+- [[ScholarlyArticle/working-hours-and-health-key-research-topics]]
