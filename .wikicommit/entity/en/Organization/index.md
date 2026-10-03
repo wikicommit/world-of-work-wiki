@@ -8,3 +8,4 @@ comments: false
 
 - [[Organization/authority-for-social-relations-of-employment-platforms]]
 - [[Organization/fair-work-agency]]
+- [[Organization/spanish-labour-and-social-security-inspectorate]]

@@ -9,8 +9,11 @@ sources:
     url: 'https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@ed_norm/@relconf/documents/meetingdocument/wcms_909906.pdf'
     hash: sha256:67120e2784c0631a9c709b8e7876bd5a2d1db36a9361000a6174058992b760c3
     license: 'CC-BY-4.0'
+  - type: url
+    url: 'https://osha.europa.eu/sites/default/files/documents/occupational-safety-and-health-digital-platform-work-lessons-regulations-policies-actions-and-initiatives_en.pdf'
+    hash: sha256:07327501ae767a22cb246c77dfc7e8b29576ddc3dea7ae4fbad527336e9d5aad
 review_status: pending
-generated_at: "2026-09-29"
+generated_at: "2026-10-03"
 generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 
@@ -33,6 +36,8 @@ A presumption of an employment relationship is a legal rule under which the rela
 - The **European Union**'s proposed directive on improving working conditions in platform work, in the version agreed by the Council in June 2023, provided for a rebuttable presumption where the platform exerts control and direction over the performance of work and at least three criteria are met, such as determining remuneration, requiring the worker to follow rules, supervising performance, restricting the worker's freedom to choose hours or absences, to accept or refuse tasks or to use substitutes, or restricting the possibility of building a client base or working for third parties.
 
 **Presumptions against employment and other approaches.** Some laws work the other way. In the US State of Washington, legislation on passenger transport provides that drivers are not employees if the platform does not impose rules on when they work, cannot terminate them for not accepting a job and does not prohibit them from working for other platforms or occupations — while still guaranteeing drivers certain rights, such as a minimum amount per trip. In Greece, a platform contract is presumed not to be an employment contract if the worker is entitled to subcontract work or use substitutes, choose their work, work for any independent party including competitors, and determine their working time, although health and safety and trade union rights are extended to such workers. Chile's Labour Code distinguishes a contract for dependent platform workers, who provide services under a relationship of subordination and dependence, from a contract for independent platform workers. China's Guiding Opinions on workers in new forms of employment refer to "a less-than-complete employment relationship" for workers who do not meet the criteria for employment, and extend some rights to this intermediate category.
+
+**From an OSH perspective.** The EU-OSHA policy brief [[Report/osh-in-digital-platform-work-lessons-from-regulations-policies-actions-and-initiatives]] stresses why classification matters for occupational safety and health: the EU legal OSH framework, and that of many Member States, applies only to employees, so platform workers classified as self-employed generally fall outside it. It describes the presumption introduced by the Spanish [[Legislation/riders-law]] as rebuttable, placing on the employer the burden of proving that a delivery worker is self-employed, with the consequence that Spain's law on the prevention of occupational risks applies to these workers and obliges platforms to assess risks, implement prevention measures and consult and inform workers. The brief contrasts this with France's mobility orientation law (LOM), which initially provided that a platform's adoption of a voluntary charter would create a legal presumption that the workers concerned were not in a relationship of subordination with it and so could not be qualified as employees; the brief notes that this provision was subsequently annulled by the French Constitutional Court and that no charters had been established.
 
 The report notes that some common criteria emerge from the case law, and the questionnaire it appends asked governments whether a new standard should require Members to ensure the adequate classification of digital platform workers based on the primacy-of-facts principle of Recommendation No. 198, without interfering with true civil and commercial relationships.
 
