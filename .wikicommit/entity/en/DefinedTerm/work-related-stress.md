@@ -8,9 +8,12 @@ sources:
     url: 'https://www.hse.gov.uk/pubns/indg430.pdf'
     hash: sha256:68a7aa90965ad8493e62d2498b34b100d97134265949926bfea8c0abff90ef85
     license: 'Crown copyright; reproduction permitted except for advertising, endorsement or commercial purposes; acknowledge HSE'
+  - type: url
+    url: 'https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Self-reported_work-related_health_problems_and_risk_factors_-_key_statistics'
+    hash: sha256:3cbc3f5ff19ff5c04f0d91cd1f7a44ba0acc5d4262c9d8253f0936c59ec70cfe
 review_status: pending
-generated_at: "2026-09-27"
-generated_by: "gpt-6"
+generated_at: "2026-10-03"
+generated_by: "claude-opus-5-5"
 generated_with: "0.8.0"
 properties:
   description: "Stress that can result when pressure at work becomes too great and a person feels unable to cope, as described by HSE."
@@ -21,6 +24,8 @@ Work-related stress can result when pressure at work becomes excessive and a per
 ## Usage
 
 HSE's [[DefinedTerm/management-standards-for-work-related-stress]] identify six areas of work that can contribute to stress when poorly managed: demands, control, support, relationships, role and change. The leaflet emphasizes assessing these conditions with workers and their representatives, then acting on the findings. It gives line managers a central role because they often see problems first and may be the first contact for a worker experiencing stress.
+
+**EU statistics.** The [[Dataset/eu-lfs-ad-hoc-module-on-accidents-at-work-and-work-related-health-problems]] counts stress, depression or anxiety as one type of self-reported [[DefinedTerm/work-related-health-problem]]. In its 2020 round it was the second most common type in the EU after musculoskeletal disorders, reported by 1.9 % of employed or previously employed people aged 15-64 (1.5 % of men and 2.2 % of women), at a rate of around 2 % across age groups. Eurostat reports the highest share in Sweden (8.6 %), followed by Luxembourg (3.6 %) and Finland (3.5 %), and rates below 0.5 % in several southern and eastern Member States; in most countries the share was higher for women than for men. The same survey found that 44.6 % of the employed were exposed to risk factors for their mental well-being at work, most often time pressure or work overload (19.5 %), dealing with difficult customers, patients or pupils (10.4 %) and job insecurity (6.1 %).
 
 ## Related Terms
 
