@@ -2,6 +2,8 @@
 name: wikicommit-review
 description: Validate and review a manually created or edited wiki page, then mark it reviewed. Use this only when someone explicitly asks to review a specific page and record the result. It sets review_status and may close the page's tracking Issue, so do not use it just to read a page or to check what it says — wikicommit-ask and wikicommit-search read pages without recording anything.
 disable-model-invocation: true
+metadata:
+  requires: "wikicommit-generate"
 ---
 
 # wikicommit-review
@@ -93,7 +95,7 @@ If `sources[].path` does not exist in the repository, this has already been dete
 
 ### Step 4: Independent Fact-Check Against Sources
 
-Steps 1–3 only validate structure (frontmatter shape, `sources` presence, hash consistency) — none of them actually check the page's content against anything. This step does that, reusing the source-fetching logic `wikicommit-fix` Step 3 already implements.
+Steps 1–3 only validate structure (frontmatter shape, `sources` presence, hash consistency) — none of them actually check the page's content against anything. This step does that.
 
 **This step covers the machine half of the review, and only that half.** The tracking-Issue template also asks two things no LLM can answer here: whether the page conflicts with what the reviewer already knows (answering it would break item 3's own discipline of judging on the literal source text, not world knowledge), and whether any sentence unfairly harms a real person or organization (a contextual judgment whose false positives delete legitimate writing, so WikiCommit keeps it with a human). Item 3 below therefore reports machine findings only, and item 5 puts the human-only prompts — and the ask for a line on what they took away — to the reviewer directly.
 
@@ -103,54 +105,37 @@ Steps 1–3 only validate structure (frontmatter shape, `sources` presence, hash
 
 **This stops pages that would never have read the rules at all, and that is deliberate.** Item 1's last bullet sends a page with no retrievable ground truth — `type: manual`, a fetch that failed, an empty `sources` with no parent, a `derived_from` whose paths all fail to resolve — straight to item 4's full-text fallback, skipping item 3, which is the only consumer of the rules file. Three things make stopping it the right call anyway, and the first alone is not enough to see why:
 
-- **Whether a page has ground truth is not knowable this early.** Of item 1's four conditions only two (`type: manual`, and an empty `sources` with no parent) can be read off the frontmatter; a failed fetch and an unresolvable `derived_from` are settled by going and looking. So the earliest a conditional gate could sit is *after* item 1 — which puts every page that does have sources through picking, frontmatter completion, hash confirmation and a full fetch of every source document before it can fail. The exception would spend the common case's time to spare the rare one.
-- **Mixed records would be indistinguishable in the aggregate.** A `--stage review-skill` record written without the rules and one written with them differ only in whether `--skill-blob` is present, and `check_review_coverage.py` does not read that field. Telling them apart would mean adding a consumer for that field just for this.
-- **The wall is one command wide.** It only stands in a repository that has no `.wikicommit/review-rules.md`, and that file is `update: overwrite` in `_root_outputs.py` — `/wikicommit-init --no-overwrite` installs it with nothing of the user's at risk. The review is not lost, only deferred by one command.
+- **Whether a page has ground truth is not knowable this early.** Two of item 1's four conditions (a failed fetch, an unresolvable `derived_from`) are settled only by fetching, so a conditional gate could sit no earlier than *after* item 1 — spending every sourced page's picking, completion, confirmation and full fetch to spare the rare one.
+- **Mixed records would be indistinguishable in the aggregate.** Records with and without the rules differ only in `--skill-blob`, which `check_review_coverage.py` does not read.
+- **The wall is one command wide.** `/wikicommit-init --no-overwrite` installs the file (`update: overwrite` in `_root_outputs.py`) with nothing of the user's at risk; the review is only deferred.
 
-Be plain about this when it fires: say that the file is missing, that some pages — those with no retrievable ground truth — would not have used it and this stop does not tell them apart, and that one `/wikicommit-init --no-overwrite` clears it. **Do not assert it of the page in hand**: the check runs before Step 0 has offered a page to pick, and even when one was named as an argument, two of the four conditions above are not settled until item 1 has fetched — which is the first bullet above, applied to the wording of the message as well as to where the check sits.
+Be plain about this when it fires: say that the file is missing, that pages with no retrievable ground truth would not have used it and this stop does not tell them apart, and that one `/wikicommit-init --no-overwrite` clears it. **Do not assert it of the page in hand** — per the first bullet, whether it has ground truth is not yet known.
 
-1. **Fetch the source documents** (same routing as `wikicommit-fix` Step 3, extended with a third route for synthesized pages):
-   - If `sources` is non-empty, use the normal per-element routing below — `derived_from` and `translated_from` only exempt a page from `sources` being *required*, not from carrying one (`validate_frontmatter.py` skips the required-field check for these pages but still format-validates `sources` if present; `wikicommit-fix` Step 3's translated-page branch draws the same "permitted, not required" distinction).
+1. **Fetch the source documents** (the same procedure as `wikicommit-fix` Step 3, extended with a third route for synthesized pages):
+   - If `sources` is non-empty, use it — `derived_from` and `translated_from` only exempt a page from `sources` being *required*, not from carrying one (`validate_frontmatter.py` skips the required-field check for these pages but still format-validates `sources` if present; `wikicommit-fix` Step 3's translated-page branch draws the same "permitted, not required" distinction).
    - Otherwise, if the page has `derived_from` (a `wikicommit-synthesize` output), read each `derived_from[].path` entry directly — these are `.wikicommit/entity/` pages within this repo, not external sources needing extraction or fetching. A page written by an older version may still store the old `.wikicommit/wiki/` prefix in this field; if the literal stored path doesn't exist, retry after substituting `.wikicommit/entity/` for a leading `.wikicommit/wiki/` before concluding the entry is missing (same tolerance Step 5 item 1 applies to the tracking-Issue marker path). Treat each entry independently — a page with several `derived_from` entries where only some paths resolve should still fact-check against whichever entries were successfully read.
    - Otherwise, if `sources` is empty and the page is a translated page with `translated_from`, read the parent page's `sources` instead (a translation page inherits its source information from the parent).
-   - **Once the `sources` list is settled, and before fetching anything, drop the entries a human has withdrawn.** Run `python .wikicommit/scripts/check_retracted_sources.py --list` once for the run; every `RETRACTED: <identity> (<management file>)` line names a source whose management file carries `status: retracted`, written by hand to record that someone read the document and judged its content unreliable. Match those identities against this page's `sources[]` entries by `path`/`url` and **leave the matching entries out of the fetch below**, keeping a note of which ones and of the management file each was named in. Three things about where this sits:
-     - **Before the fetch, not after.** Fetching costs a round trip and, worse, puts the withdrawn text into context, after which "do not use it" depends on instruction-following. `resolve_source_cache_path.py` checks `status` before it looks for a cache for the same reason.
-     - **After the `sources` list is settled, not before.** A translation page has no `sources` of its own and inherits the parent's, so a guard applied earlier would let a withdrawn source through on exactly those pages.
-     - **Not on the `derived_from` route.** Those entries are `.wikicommit/entity/` pages, which carry no `status` to read. The indirect case — a grounding page still standing on a withdrawn source — is out of scope here and is reported one hop earlier by `check_retracted_sources.py`, which names that grounding page itself.
-
-     If the script or the `--list` flag is not there (an older `.wikicommit/scripts/`), **say so and carry on** — you lose only this guard, and on a wiki that has retracted nothing it is a no-op either way. Do not stop over it, and do not pass over it in silence.
-   - For each element of `sources`:
-     - `type: path` and `.md` / `.txt` → read the file directly (these are never cached — the raw file is the extracted text)
-     - `type: path` with any other extension, and `type: url` / `type: wikicommit` → **ask for WikiCommit's extraction cache first**, then fall back as described below the list
-     - `type: manual` → no source document exists for this page
-
-     **Getting a cached or fetched source.** `wikicommit-generate` keeps the text it extracted from each source, and that is what this step should read: it is the literal text, not a summary, and it is usually the very version the page was written from.
+   - **Once the `sources` list is settled, get every entry's text with one command**, giving it the page whose `sources` you settled on (this page, or its `translated_from` parent). **Not on the `derived_from` route** — those are `.wikicommit/entity/` pages with no `status`; a grounding page standing on a withdrawn source is reported by `check_retracted_sources.py` itself.
 
      ```bash
-     python ../wikicommit-ask/scripts/resolve_source_cache_path.py --type <path|url> <<'EOF'
-     <sources[].path or sources[].url>
+     python .wikicommit/scripts/resolve_source_cache_path.py --obtain-sources --label review <<'EOF'
+     <path of the page whose sources apply>
      EOF
      ```
 
-     `--type path` for a `type: path` entry, `--type url` for `type: url` / `type: wikicommit`. **Exit 0** → read the printed file in full; that is this source's text. **For `type: path`, use it only if the file at `sources[].path` still hashes to that entry's `sources[].hash`** (Step 3 already computed it; compare against the value the page carried before Step 3, since an accepted update there means the file changed): the script reports only that a cache exists, and it holds the extraction of whichever version the management file last recorded — if the file has changed since, treat the cache as absent and take the exit-1 fallback, so the text you read is the file as it is now. **Exit 2** → the source is retracted; the guard above already dropped it, so this should not happen — leave it out if it does. **Exit 1** (no cache — a clean checkout, another machine, or a cleared cache) → fall back:
+     It does everything but extraction and prints one line per entry (`[<n>]` is its position in `sources`); the keyword says what to do:
+     - `READ: [<n>] <file> page=<match|mismatch>` → read `<file>` in full; that is this source's text.
+     - `EXTRACT: [<n>] <path>` → call the extraction skill per the "Prerequisite Skills (Text Extraction)" table in `../wikicommit-generate/references/text-extraction-routing.md`; if it is not installed, guide the user through the install command and stop.
+     - `RETRACTED: [<n>] <identifier> (<management file>)` → a person withdrew it (`status: retracted`); nothing was read. Keep the line — items 3 and 5 need it.
+     - `UNAVAILABLE: [<n>] <reason> …` → not obtained. `environment` means no network: **say the reason is the environment**, not the source. After two in a row the remaining URL entries are not fetched (`not fetched: …`). `outside` means a `type: path` value resolving outside the repository: **do not open that path yourself**.
+     - `MANUAL: [<n>]` → `type: manual`; there is no source document.
+     - `CONTINUE: next=<n>` (last line, after `SUMMARY:`) → the time limit ran out before entry `<n>` was fetched. Run the same command again with `--from <n>` added, and repeat until no `CONTINUE:` line comes back; the lines already printed stand. Do not start over without `--from` — that clears the files those lines name.
 
-     - `type: path` → call the corresponding extraction skill per the "Prerequisite Skills (Text Extraction)" table in `../wikicommit-generate/references/text-extraction-routing.md`. If the required skill is not installed, guide the user through the install command and stop.
-     - `type: url` / `type: wikicommit` → fetch it with the same fetcher `wikicommit-generate` uses, never the agent's own web-fetch tool — in Claude Code that tool returns a model-written summary of the page, and checking a page against a summary is not checking it against its source:
+     If the script is missing or rejects `--obtain-sources` (`.wikicommit/scripts/` older than this Skill), stop and tell the user to run `/wikicommit-update` first. **Never use your own web-fetch tool instead** — in Claude Code it returns a model-written summary, and checking a page against a summary is not checking it against its source. When done with the text, `rm -f .wikicommit/.cache/refetch/review-*.md`.
 
-       ```bash
-       python ../wikicommit-generate/scripts/add_source.py --fetch-url "$(cat <<'EOF'
-       <source.url>
-       EOF
-       )" --output ".wikicommit/.cache/refetch/review-<n>.md"
-       ```
+     **Record when the text you checked against is not the version the page records** (review only). For each `type: url` / `type: wikicommit` source you used, the `READ:` line already answered whether the file you read hashes to that entry's `sources[].hash` — `page=mismatch` means it differs. If so, keep one line per such source for Step 5's `--note`: `Checked against a version of <source.url> whose hash differs from the one this page records.` **Do not raise it as a finding or tell the reviewer the source changed** — many hosts return slightly different text on every fetch (per-request links, "recent articles" lists), so a mismatch is common even on a page generated minutes ago and does not by itself mean the content moved. It goes into the record because the record's `reviewed_sources` lists the page's hashes, and without the line the record would read as if this review had checked that version.
 
-       `<n>` is the entry's position in `sources` (1, 2, …), so two URL sources on one page never share an output file. Read that file in full only after the command printed `FETCHED:`; a file left by an earlier run under the same name is not this fetch's result. **`NETWORK_UNAVAILABLE:` (exit 3)** → the request never reached the server; treat the source as not obtained and **say the reason is the environment** (no network), not the source. **`ERROR:` (exit 1)** → treat it as not obtained, like any other fetch failure below.
-
-     Both the identifier and the URL go through quote-delimited heredocs because `sources[]` values are only format-validated. **Nothing here writes to a management file** — no `--write-hash`, no `status` change; only `wikicommit-generate` moves `source.hash`. A fetch lands under `.wikicommit/.cache/refetch/`, never in `ingest-fetch/`, so it cannot replace the cache `wikicommit-generate` compares hashes against.
-
-     **Record when the text you checked against is not the version the page records** (review only). For each `type: url` / `type: wikicommit` source you used, hash the file you read (the same one-liner as Step 3, pointed at that file) and compare it with that entry's `sources[].hash`. If they differ, keep one line per such source for Step 5's `--note`: `Checked against a version of <source.url> whose hash differs from the one this page records.` **Do not raise it as a finding or tell the reviewer the source changed** — many hosts return slightly different text on every fetch (per-request links, "recent articles" lists), so a mismatch is common even on a page generated minutes ago and does not by itself mean the content moved. It goes into the record because the record's `reviewed_sources` lists the page's hashes, and without the line the record would read as if this review had checked that version.
-
-   - If no source document could be obtained at all (fetch failure, `type: manual`, empty `sources` with no parent page to fall back to, every `derived_from` entry's path unresolvable, or **every remaining entry withdrawn by the bullet above**), there is no ground truth to check the page against — skip step 3 and go straight to the full-text fallback in step 4. The retracted case needs no branch of its own: what is left is a page with nothing to measure it by, which is what that fallback already handles.
+   - If no source document could be obtained at all (fetch failure, `type: manual`, empty `sources` with no parent page to fall back to, every `derived_from` entry's path unresolvable, or **every entry came back `RETRACTED:` from the command above**), there is no ground truth to check the page against — skip step 3 and go straight to the full-text fallback in step 4. The retracted case needs no branch of its own: what is left is a page with nothing to measure it by, which is what that fallback already handles.
 
 2. **Self-report the currently running model ID** (the same self-identification pattern `wikicommit-generate` Pass 3 uses — see that SKILL.md's "Set `generated_by` to the currently running model ID" step) and compare it to the page's frontmatter `generated_by` (or, for a translated page with `translated_from`, its `translated_by` — the field `wikicommit-translate` writes instead of `generated_by`), whichever is present. If they match, note in your output that this review is not independent of the generation/translation that produced the page, and recommend re-running `/wikicommit-review` in a separate session and/or under a different model for a stronger check. Skip this note entirely if neither field is present (typical for Route B pages a human created or edited directly, which never went through `wikicommit-generate`/`wikicommit-translate`).
 
@@ -247,7 +232,6 @@ Be plain about this when it fires: say that the file is missing, that some pages
    Reviewed 1 page against its sources: 0 finding(s) raised.
      → record in .wikicommit/review/
    ```
-
 
 ### Guidance After Completion
 
