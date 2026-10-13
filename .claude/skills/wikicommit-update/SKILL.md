@@ -2,6 +2,8 @@
 name: wikicommit-update
 description: Bring an initialized wiki repository in step with the installed WikiCommit distribution — refresh WikiCommit's own payload, show what changed in files you may have edited, restamp the synced version, verify, and open a PR for review. Use this only when someone explicitly asks to update or sync the repository with a newer WikiCommit. It overwrites WikiCommit's files and opens a PR, so do not use it to check whether the repository is out of date — wikicommit-status reports that without writing.
 disable-model-invocation: true
+metadata:
+  requires: "wikicommit-init"
 ---
 
 # wikicommit-update
@@ -107,6 +109,10 @@ Each `ORPHAN:` line from Step 2 is a file that exists here with no counterpart i
 
 If the user is unsure about a file, leave it. It can go in the next update.
 
+Known renames, so you can say what an orphan is without guessing:
+
+- **`ORPHAN: .wikicommit/scripts/driver.py`** — the Skill workflow engine, renamed to `skill_workflow.py` (same commands: `start`, `next`, `done`, `status`, `check-merge`, `abandon`). After this update no distributed Skill calls the old name: `wikicommit-generate`, `wikicommit-merge`, `wikicommit-translate` and `wikicommit-synthesize` all call `skill_workflow.py`, and a run started under the old name is resumed by `skill_workflow.py next <run>` (the new engine still reads the old record's `driver:` key). The one thing that can still call it is the user's own configuration: before asking, search the repository outside `.wikicommit/` for `driver.py` (`git grep -n 'driver\.py' -- ':!.wikicommit'`), and also read `.claude/settings.local.json` if it exists — it is not tracked, so `git grep` does not see it — typically a Stop hook running `driver.py status --stop-hook`. If one is found, tell the user that its command should name `skill_workflow.py` instead, and that keeping `driver.py` does not keep the hook working: the old script looks for the `driver:` key only, so it no longer sees any run opened or advanced after this update and silently lets every stop through; once the file is gone the hook fails outright. The edit is theirs to make or approve. With nothing found, deleting it breaks nothing — still ask, as for any orphan.
+
 ### Step 5: Show What Changed in Files You May Have Edited
 
 For each remaining `OUTDATED:` / `MISSING:` line, one file at a time. Never edit any of these without showing the user first and getting an answer.
@@ -208,7 +214,7 @@ The consequence differs by check, and that is the part worth writing down:
 
 - **`check_orphans.py` `DUPLICATE:`** → this is the one that actually blocks. `/wikicommit-merge` runs this check unscoped, so **this wiki cannot merge anything until it is fixed.** Say that plainly, and say it before the user writes their next page.
 - **`check_wikilinks.py`, a wrong Type segment** → `/wikicommit-merge` only looks at changed files, so it does not stop there today. `/wikicommit-status` reports it as `TYPE_MISMATCH:` and will keep doing so.
-- **Everything else** — `validate_frontmatter.py` and `check_raw_html.py` errors, and links to a `status: removed` page → merge passes over them and **no standing check reports them**. Nobody sees them again until that page is next written.
+- **Everything else** — `validate_frontmatter.py` and `check_raw_html.py` errors, and links to a `status: removed` page → merge passes over them until the page is next written, and **`/wikicommit-status` reports them on every run** under `Blocking errors merge does not re-check`.
 
 If this repository publishes with Quartz, build it too:
 
@@ -264,7 +270,7 @@ git push -u origin "wikicommit/update-<installed version>"
 gh pr create --base "<default branch>" --title "..." --body "..."
 ```
 
-<!-- commit-trailers:start (this block is identical in wikicommit-merge, -schema-propose, -update and -init; tests/test_commit_trailer_vendor_table.py holds them together) -->
+<!-- commit-trailers:start (this block is identical in wikicommit-merge, -schema-propose, -update, -init and -organize; tests/test_commit_trailer_vendor_table.py holds them together) -->
 **Commit trailers.** Always write `Generated-By:   <current model ID>`: the ID of the model actually running this Skill, exactly as the runtime reports it — the same self-reported value `wikicommit-generate` writes into a page's `generated_by` (keep any suffix; do not shorten or normalize it; never hardcode one). Then choose `<Co-Authored-By line>` from the start of that same ID, so the two lines can never name different vendors:
 
 | `<current model ID>` starts with | `<Co-Authored-By line>` |
@@ -284,7 +290,7 @@ If the default branch has moved on since this branch was cut, rebase it (`git fe
 
 The body should carry: the version range, what was refreshed, what the user declined and why, orphans deleted and kept, and the regeneration candidates from Step 9.
 
-**Any pre-existing finding from Step 7 goes in too, under its own heading, kept apart from what this update changed.** Quote the finding verbatim and give its consequence — `DUPLICATE:` means this wiki cannot merge anything until it is fixed; a wrong Type segment means `/wikicommit-status` will keep reporting it; the rest means no standing check watches it at all. This is where such a finding gets read: the Skill does not auto-merge, so a person is already looking at this page.
+**Any pre-existing finding from Step 7 goes in too, under its own heading, kept apart from what this update changed.** Quote the finding verbatim and give its consequence — `DUPLICATE:` means this wiki cannot merge anything until it is fixed; a wrong Type segment means `/wikicommit-status` will keep reporting it; the rest means `/wikicommit-status` reports it on every run until it is fixed, and `/wikicommit-merge` will block once that page is next changed. This is where such a finding gets read: the Skill does not auto-merge, so a person is already looking at this page.
 
 ### Step 9: Report
 

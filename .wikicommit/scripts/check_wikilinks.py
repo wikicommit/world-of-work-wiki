@@ -2,13 +2,31 @@
 """Check WikiLinks in wiki pages for broken or removed references.
 
 Usage:
-    python .wikicommit/scripts/check_wikilinks.py [--changed <path>... [--deleted <path>...]]
+    python .wikicommit/scripts/check_wikilinks.py [--changed <path>...] [--deleted <path>...]
+        [--skip-type-mismatch]
 
 With no arguments, every page under .wikicommit/entity/ is checked, matching
 validate_frontmatter.py, check_raw_html.py and check_orphans.py. It used to
 print "OK: 0 files checked" and exit 0 instead — output a reader cannot tell
 from a clean run of a real check (Issue #571). wikicommit-merge always passes
 --changed, so the diff-scoped behaviour it relies on is unaffected.
+
+--changed checks the links a page makes; --deleted checks the links other
+pages still make to a page being marked removed. They are independent: a page
+in both lists gets both checks (Issue #1257 — the backlink check used to be
+skipped for such a page, and since wikicommit-merge lists every removed page
+in --changed as well, the WARNING the removal flow promises never appeared
+when the change fitted one call). wikicommit-merge now calls the two
+separately: --changed per group of changed pages, --deleted per group of
+removed pages, so each page's findings come from exactly one call.
+
+--skip-type-mismatch drops the Type-segment ERROR (a link whose slug exists
+under another Type). wikicommit-status passes it, because
+check_wanted_pages.py already reports the same finding as TYPE_MISMATCH: and
+the status report would otherwise list it twice (Issue #976). The flag is a
+script option rather than a filter in the SKILL.md prose so that the dedup
+does not depend on the wording of the message. wikicommit-merge never passes
+it — there the ERROR still blocks.
 
 Exit code: 0 = no ERROR (WARNINGs OK), 1 = at least one ERROR.
 """
@@ -31,6 +49,7 @@ from _wikilink import (
     load_primary_lang,
     other_types_for_slug,
     page_lang,
+    resolve_wikilink,
     type_slug_from_wiki_path,
 )
 
@@ -68,6 +87,9 @@ def main() -> int:
                              ".wikicommit/entity/)")
     parser.add_argument("--deleted", nargs="+", default=[], metavar="PATH",
                         help="Files being marked as status: removed (optional)")
+    parser.add_argument("--skip-type-mismatch", action="store_true",
+                        help="Do not report links whose slug exists under a different Type "
+                             "(check_wanted_pages.py reports these as TYPE_MISMATCH:)")
     args = parser.parse_args()
 
     repo_root = Path.cwd()
@@ -93,7 +115,7 @@ def main() -> int:
     changed_paths = [Path(p) for p in args.changed]
     deleted_paths = [Path(p) for p in args.deleted]
 
-    # Resolved absolute paths for --changed (same-commit exception + deleted overlap guard).
+    # Resolved absolute paths for --changed (same-commit exception).
     # Empty in whole-wiki mode: the exception below means "the target does not exist yet
     # but this same change adds it", which has no meaning when the set is simply every page
     # already on disk. Leaving it populated made every link resolve through that branch, so
@@ -117,6 +139,13 @@ def main() -> int:
         if not path.exists():
             print(f"WARNING: {path}: file not found (skipped)")
             total_warnings += 1
+            continue
+
+        if whole_wiki and is_removed(path):
+            # A status: removed page is not published, so its own outgoing
+            # links break nothing. Reporting them would leave a finding on a
+            # page nobody will ever edit again — e.g. A removed first, then B
+            # (which A links to) removed later — that no action can clear.
             continue
 
         files_checked += 1
@@ -174,7 +203,23 @@ def main() -> int:
                     slug_index = build_slug_type_index(entity_dir, view_dir)
                 other_types = other_types_for_slug(type_name, slug, slug_index)
 
-                if other_types:
+                exists_elsewhere = other_types and args.skip_type_mismatch and any(
+                    link_target_path(type_name, slug, d.name, entity_dir, view_dir).exists()
+                    for root in (entity_dir, view_dir) if root.is_dir()
+                    for d in root.iterdir() if d.is_dir()
+                )
+                if other_types and args.skip_type_mismatch and not exists_elsewhere:
+                    # Reported by check_wanted_pages.py as TYPE_MISMATCH: — the
+                    # caller asked not to hear it twice (Issue #976). Not a
+                    # WARNING either: that would mislabel an existing page as
+                    # missing, which is exactly what this branch exists to avoid.
+                    # Only when <Type>/<slug> has no page in any language: that is
+                    # the condition check_wanted_pages.py reports under. If it
+                    # exists in some third language (or only as a removed page),
+                    # check_wanted_pages.py stays silent, so the ERROR below is the
+                    # only report left and must not be dropped.
+                    pass
+                elif other_types:
                     # The page exists; only the Type segment is wrong. Issue #340's
                     # reason for not blocking does not reach this case: the author
                     # cannot dodge the report by leaving the mention as plain text,
@@ -235,11 +280,10 @@ def main() -> int:
                     refs.append(ref_str)
 
     # ── Check --deleted files for remaining backlinks ──────────────────────
+    # A page that is also in --changed is checked here too: its own outgoing links
+    # (above) and the links other pages still make to it are different findings
+    # (Issue #1257).
     for del_path in deleted_paths:
-        # If also in --changed (by resolved path), WikiLink check takes priority
-        if del_path.resolve() in changed_abs:
-            continue
-
         try:
             del_rel_str = str(del_path.relative_to(repo_root))
         except ValueError:
@@ -256,7 +300,21 @@ def main() -> int:
         type_name, slug = resolved
         wikilink_key = f"{type_name}/{slug}"
 
+        del_abs = del_path.resolve()
         for ref_str in backlink_index.get(wikilink_key, []):
+            ref_path = repo_root / ref_str
+            # A removed referrer is not published, so its link is left dangling
+            # nowhere: the page's own link to itself, another page removed in the
+            # same change, or one removed earlier that nobody will edit again.
+            if is_removed(ref_path):
+                continue
+            # [[Type/slug]] names a page per language: count the link only when,
+            # from the referrer's language, it resolves to this page — not to the
+            # same slug's translation, which may stay or is reported on its own.
+            target = resolve_wikilink(type_name, slug, page_lang(ref_path, primary_lang),
+                                      primary_lang, entity_dir, view_dir)
+            if target is None or target.resolve() != del_abs:
+                continue
             msg = f"a backlink remains ({ref_str})"
             print(f"WARNING: {del_rel_str} (being changed to status: removed): {msg}")
             _emit_annotation(

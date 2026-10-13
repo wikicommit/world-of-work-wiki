@@ -49,7 +49,7 @@ VARIANTS = ("none", "quartz_only", "quartz_pages")
 # Who puts the path there. Free strings would let a typo (`"Init"`) silently drop an entry
 # from plain_copies() while git_add_paths() keeps listing it — the drift this module exists
 # to remove — so the accepted values are enumerated and checked.
-ORIGINS = ("init", "install", "submodule", "npm")
+ORIGINS = ("init", "install", "submodule", "npm", "skill")
 
 # When the path exists. Each value needs its own answer in git_add_paths(); a new one must be
 # wired up there rather than silently falling through to whatever the last branch tests.
@@ -133,7 +133,8 @@ class RootOutput:
     origin: str
     """Who puts it there; one of ORIGINS: `init` (init.py), `install` (the Skills
     installation step — `install.sh` or `npx skills add`, whichever the user ran),
-    `submodule` (the user's own `git submodule add`), or `npm` (`npm install`)."""
+    `submodule` (the user's own `git submodule add`), `npm` (`npm install`), or `skill` (a
+    WikiCommit Skill run after init, when a person asks for it — `/wikicommit-organize`)."""
 
     template: str | None = None
     """Path under `templates/` for entries init.py produces by a plain copy, so
@@ -316,6 +317,13 @@ ROOT_OUTPUTS: tuple[RootOutput, ...] = (
     # evidence that a review happened at all, and a run whose records were never committed
     # is indistinguishable from one that never reviewed anything.
     RootOutput(".wikicommit/review", ALL, origin="init", update="skip", compare="none"),
+    # Per-Type page groups (Issue #1035). The user's, written by `/wikicommit-organize` and by
+    # hand, never by init — so origin=skill, update=skip, and no template: an empty receiver
+    # would be distributed with no reader (Issue #553). may_be_absent because most wikis never
+    # create it, and the selective `git add` list must not abort on it.
+    RootOutput(
+        ".wikicommit/groups", ALL, origin="skill", update="skip", compare="none", may_be_absent=True
+    ),
     # Quality gate configs: every variant, because wikicommit-merge depends on them
     # regardless of the Quartz choice.
     RootOutput(".lychee.toml", ALL, origin="init", template=".lychee.toml"),
@@ -571,8 +579,8 @@ def _ignore_patterns(path: Path) -> list[str]:
     The same reduction `check_distribution_freshness.py`'s `_meaningful_lines()` applies
     to this file, for the same reason: `.gitignore` is appended to rather than replaced,
     so the question that can be asked of it is containment, not equality. That copy stays
-    where it is — it lives under `.wikicommit/scripts/`, and a Skill-side script importing
-    from there is the cross-tree dependency `add_source.py` deliberately does not have.
+    where it is — it lives under `.wikicommit/scripts/`, which `wikicommit-init` creates and
+    so cannot import from.
     Order is kept here (a set is enough for the other caller) so a report can name what is
     missing in the order the template writes it.
     """
