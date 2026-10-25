@@ -1,4 +1,4 @@
-wikicommit_version: "0.10.0"
+wikicommit_version: "0.12.0"
 
 translation:
   targets: [ja]
@@ -43,7 +43,7 @@ generate:
   max_retries: 2
 
 schema:
-  base_types: [Person, Place, Organization, Event, HowTo, DefinedTerm, ScholarlyArticle, NewsArticle, BlogPosting, ShortStory, Book]
+  base_types: [Person, Place, Organization, Event, HowTo, DefinedTerm, ScholarlyArticle, NewsArticle, BlogPosting, ShortStory, Book, SoftwareApplication, Dataset]
 
 site_description:
   en: "A knowledge base on the world of work — working time, time use, employment arrangements, job quality, telework, fatigue, ergonomics and psychosocial conditions — synthesised from documents published by public bodies worldwide."
