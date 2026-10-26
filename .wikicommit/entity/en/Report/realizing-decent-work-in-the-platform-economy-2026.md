@@ -1,5 +1,5 @@
 ---
-title: "Realizing decent work in the platform economy (ILC.114/Report V(4))"
+title: "Realizing decent work in the platform economy (2026)"
 type: "schema:Report"
 lang: en
 tags: [employment-arrangements, labour-standards, ilo]
@@ -23,7 +23,7 @@ properties:
   abstract: "The fourth and final report of the International Labour Office on the standard-setting item on decent work in the platform economy, summarizing constituents' replies to the draft texts of a Convention and Recommendation and presenting revised, streamlined drafts for the second discussion at the 114th Session (2026) of the International Labour Conference."
 ---
 
-*Realizing decent work in the platform economy* (ILC.114/Report V(4)) is a report of the International Labour Office, published in March 2026 for the fifth item on the agenda of the 114th Session (2026) of the International Labour Conference. Known as the "blue report", it is the fourth and final of the reports the Office prepares under the double-discussion procedure for this standard-setting item: the first two informed the Conference's first discussion in 2025, and the third, [[Report/decent-work-in-the-platform-economy]] (ILC.114/Report V(3)), transmitted the draft texts of a Convention and a Recommendation on which this report collects comments. It does not repeat the explanations given in the earlier reports, which the Office asks constituents to read together with it as a whole.
+*Realizing decent work in the platform economy* (ILC.114/Report V(4)) is a report of the International Labour Office, published in March 2026 for the fifth item on the agenda of the 114th Session (2026) of the International Labour Conference. Known as the "blue report", it is the fourth and final of the reports the Office prepares under the double-discussion procedure for this standard-setting item: the first two informed the Conference's first discussion in 2025, and the third, [[Report/decent-work-in-the-platform-economy-2025]] (ILC.114/Report V(3)), transmitted the draft texts of a Convention and a Recommendation on which this report collects comments. It does not repeat the explanations given in the earlier reports, which the Office asks constituents to read together with it as a whole.
 
 Part I gives an illustrative overview of the replies to the third report, provision by provision, grouped into governments, employers' organizations and workers' organizations, each followed by an Office commentary. Part II contains the revised draft texts of a Convention concerning decent work in the platform economy — which may be cited as the Decent Work in the Platform Economy Convention, 2026 — and a Recommendation supplementing it, which, if the Conference so decides, serve as the basis for the second discussion in June 2026. The report is based on replies received until 12 December 2025 from the governments of 74 Member States, 106 employers' organizations and 131 workers' organizations, international and regional organizations of employers and workers, and the Office of the United Nations High Commissioner for Human Rights.
 

@@ -26,6 +26,10 @@ properties:
     - "[[DefinedTerm/digital-labour-platform]]"
     - "[[DefinedTerm/digital-platform-worker]]"
   abstract: "The International Labour Office's report transmitting to governments the draft texts of a Convention and a Recommendation on decent work in the platform economy, with an Office commentary, for the second discussion of the standard-setting item at the 114th Session (2026) of the International Labour Conference."
+status: removed
+removed_at: "2026-10-26"
+removed_reason: merged
+merged_into: .wikicommit/entity/en/Report/decent-work-in-the-platform-economy-2025.md
 ---
 
 *Decent work in the platform economy* (ILC.114/Report V(3)) is a report of the International Labour Office, first published in 2025, prepared for the fifth item on the agenda of the 114th Session (2026) of the International Labour Conference. Its purpose is to transmit to governments the texts of a draft Convention concerning decent work in the platform economy, supplemented by a draft Recommendation, which the Office drafted on the basis of the Conference's first discussion of the standard-setting item and of Member States' replies to an earlier questionnaire. Governments were asked to send any comments, after consulting the most representative organizations of employers and workers, by 14 November 2025, for reflection in a fourth and final report to the Conference in June 2026.

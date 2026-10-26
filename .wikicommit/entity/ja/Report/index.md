@@ -13,7 +13,7 @@ comments: false
 - [[Report/being-a-parent-greater-consequences-for-womens-employment]]
 - [[Report/can-telework-improve-managers-working-conditions]]
 - [[Report/canadian-survey-on-working-conditions-2024-2025]]
-- [[Report/decent-work-in-the-platform-economy]]
+- [[Report/decent-work-in-the-platform-economy-2025]]
 - [[Report/digital-platform-work-and-occupational-safety-and-health-a-review]]
 - [[Report/digital-technologies-at-work-and-psychosocial-risks]]
 - [[Report/distribution-of-weekly-working-hours-1976-to-2022]]
