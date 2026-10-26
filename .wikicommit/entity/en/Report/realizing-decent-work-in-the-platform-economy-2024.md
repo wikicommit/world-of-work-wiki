@@ -1,5 +1,5 @@
 ---
-title: "Realizing decent work in the platform economy (ILC.113/Report V(1))"
+title: "Realizing decent work in the platform economy (2024)"
 type: "schema:Report"
 lang: en
 tags: [employment-arrangements, labour-standards, ilo]

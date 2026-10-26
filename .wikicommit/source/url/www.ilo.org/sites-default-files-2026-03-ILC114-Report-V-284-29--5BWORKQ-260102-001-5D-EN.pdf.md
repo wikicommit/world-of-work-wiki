@@ -12,7 +12,7 @@ last_generated_at: 2026-09-28T13:01:20+00:00
 extracted_tokens: 90056
 generated_pages:
   - .wikicommit/entity/en/Report/realizing-decent-work-in-the-platform-economy-2026.md
-  - .wikicommit/entity/en/Report/decent-work-in-the-platform-economy.md
+  - .wikicommit/entity/en/Report/decent-work-in-the-platform-economy-2025.md
   - .wikicommit/entity/en/DefinedTerm/digital-labour-platform.md
   - .wikicommit/entity/en/DefinedTerm/digital-platform-worker.md
 failed_pages: []

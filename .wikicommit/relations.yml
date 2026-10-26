@@ -1,0 +1,17 @@
+# Relations a person decided between pages, one list item each.
+# Written by /wikicommit-relate (record_relation.py appends; it never rewrites).
+# Pages are <Type>/<slug>, the same in every language.
+# relation: same | broader | related | distinct | series
+# To revise a decision, edit or delete its item.
+- relation: same
+  pages:
+  - Report/decent-work-in-the-platform-economy
+  - Report/decent-work-in-the-platform-economy-2025
+  merged_into: Report/decent-work-in-the-platform-economy-2025
+  renamed_at: '2026-10-26'
+- relation: series
+  pages:
+  - Report/realizing-decent-work-in-the-platform-economy-2024
+  - Report/decent-work-in-the-platform-economy-2025
+  - Report/realizing-decent-work-in-the-platform-economy-2026
+  decided_at: '2026-10-26'

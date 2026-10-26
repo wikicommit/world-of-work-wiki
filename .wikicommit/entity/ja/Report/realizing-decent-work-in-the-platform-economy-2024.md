@@ -1,5 +1,5 @@
 ---
-title: "プラットフォーム経済におけるディーセント・ワークの実現（ILC.113/Report V(1)）"
+title: "プラットフォーム経済におけるディーセント・ワークの実現（2024）"
 type: "schema:Report"
 lang: ja
 tags: [雇用形態, 労働基準, ILO]
