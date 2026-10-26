@@ -3,7 +3,7 @@ title: "労働者の雇用・労働・健康・安全条件に関する全国調
 type: "schema:Report"
 lang: ja
 tags: [アルゼンチン, 労働条件, 労働安全衛生, 調査, インフォーマル性]
-review_status: pending
+review_status: reviewed
 translated_from: .wikicommit/entity/en/Report/ecetss-2018.md
 source_commit: "f038a0e2a54283a45aba8cfedb3965d1a57ec8a2"
 translated_at: "2026-09-27"
@@ -18,6 +18,7 @@ properties:
     - "[[DefinedTerm/double-presence]]"
     - "[[DefinedTerm/psychosocial-risks]]"
   abstract: "アルゼンチンで2018年に実施された、労働者の雇用・労働・健康・安全条件に関する全国調査の結果報告書。インフォーマル労働者、自営業者、家事労働者を含む都市部の就業人口全体を対象としている。"
+reviewed_by: "joyk0117"
 ---
 
 本書は、2018年の [[Dataset/ecetss]] の結果報告書である。ECETSSは、雇用・労働・健康・安全の条件について労働者自身に尋ねるアルゼンチンの全国調査の第2回にあたる。報告書は2019年10月にブエノスアイレスで刊行され、労働リスク監督庁（Superintendencia de Riesgos del Trabajo、SRT）が編集した。調査はSRTがその労働安全衛生観測所を通じて推進し、生産労働省のマクロ経済研究・労働統計総局（DGEMyEL）と共同で設計・実施され、イベロアメリカ社会保障機構（OISS）の支援を受けた。
